@@ -1,0 +1,291 @@
+@import "/theme/base/main.css";
+@import "/theme/components/buttons.css";
+@import "/theme/components/cards.css";
+@import "/theme/components/tabs.css";
+
+.checkout__carousel--card .checkout__carousel--card-img-wrap {
+  position: relative;
+}
+.checkout__carousel--card .checkout__carousel--card-img-wrap a img {
+    object-fit: cover;
+    width: 100%;
+}
+.checkout__carousel--card .checkout__carousel--card-img-wrap .out-of-stock {
+  background: #121212;
+  height: -webkit-fill-available;
+  opacity: .8;
+  padding: 4px 16px;
+  position: absolute;
+  top: 88%;
+  width: -webkit-fill-available;
+}
+.checkout__carousel--card .checkout__carousel--card-img-wrap .out-of-stock .data {
+  color: #fff;
+  font-size: 10px;
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.checkout__carousel--card .checkout__carousel--card-img-wrap .checkout__carousel--card--fav.active {
+  background: #fff url(/assets/icons/wishlist-filled.svg) no-repeat center;
+  background-size: 14px;
+}
+.checkout__carousel--card .checkout__carousel--card-img-wrap .checkout__carousel--card--fav {
+  background: #fff url(/assets/icons/wishlist-secondary.svg) no-repeat center;
+  background-size: 14px;
+  border-radius: 50%;
+  bottom: -10px;
+  height: 24px;
+  left: 4px;
+  position: absolute;
+  width: 24px;
+}
+.checkout__carousel--card .checkout__carousel--card-brand {
+  line-height: 16px;
+}
+.checkout__carousel--card .checkout__carousel--card-name {
+  color: #5b5b5b;
+  line-height: 16px;
+}
+.checkout__carousel--card .checkout__carousel--card-price {
+  line-height: 20px;
+}
+.checkout__carousel--card .checkout__carousel--card-price .checkout__carousel--card-price-new {
+  display: inline-block;
+  margin-left: 4px;
+}
+.checkout__carousel--card .checkout__carousel--card-price .checkout__carousel--card-price-old {
+  display: inline-block;
+  margin-left: 4px;
+}
+.wishlistContainer .banner {
+  padding-bottom: 18px;
+  text-align: center;
+}
+.btn-shopping button.btn__size--lg {
+  width: 100%;
+}
+.divider {
+  background: #f5f5f5;
+  height: 8px;
+}
+.dotted-line {
+  border: 1px dashed #e0e0e0;
+  height: 0;
+  width: 100%;
+}
+.dotted-line-text {
+  color: #848484;
+  line-height: 20px;
+}
+.img-empty {
+  display: list-item;
+  list-style: none;
+}
+
+.figure.tag {
+  position: relative;
+}
+.figure.tag:before {
+  color: #fff;
+  display: block;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  padding: .5rem 1rem;
+  position: absolute;
+}
+.figure.tag-featured:before {
+  background: orange;
+  content: "Featured";
+}
+.figure.tag-live:before {
+  background: green;
+  content: "Live";
+}
+.imgdisabled {
+  opacity: .5;
+}
+.item-name {
+  color: #5b5b5b;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.manufacturer__name {
+  color: #848484;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.toady-deal {
+  color: #67ad5b;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.pay-price {
+  color: #121212;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.total-price {
+  color: #848484;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-decoration-line: line-through;
+}
+.save-text {
+  color: #848484;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.cashback-text {
+  color: #1979b5;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.express-shipping {
+  color: #848484;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.wishlist-img {
+  padding-right: 8px;
+}
+.card--container .card-body .card-title {
+  font-size: .875rem;
+  font-weight: 700;
+  margin-bottom: .5rem;
+}
+.card--container .card-body .card-subtitle {
+  font-size: .75rem;
+  font-weight: 400;
+  margin-bottom: .5rem;
+}
+.card--container .card-body .card-footer {
+  padding: 1rem 0 0;
+}
+.card--container.card-shadow {
+  border-radius: 2px;
+  box-shadow: 0 2px 1px -1px #000 3, 0 1px 1px #00000024, 0 1px 3px #0000001f;
+}
+.card--container.card-shadow .card-body {
+  overflow: hidden;
+  padding: 1rem;
+}
+.padding-0 {
+  padding-left: 0;
+  padding-right: 0;
+}
+.title-1 {
+  font-size: 32px;
+}
+.title-2 {
+  color: #848484;
+  font-size: 32px;
+  margin-top: 3px;
+  opacity: .8;
+}
+.search-chip {
+  border: 1px solid #e0e0e0;
+  border-radius: 2px;
+  cursor: pointer;
+  height: 36px;
+  justify-content: space-between;
+  margin-right: 10px;
+  margin-top: 10px;
+  padding: 6px;
+  text-align: center;
+  width: max-content;
+}
+@media only screen and (max-width: 767px) {
+
+  .checkout__carousel--card .checkout__carousel--card-img-wrap .out-of-stock .data {
+    font-size: 6px;
+  }
+  .btn-shopping button.btn__size--lg {
+    width: 68%;
+  }
+  .item-name {
+    font-size: 12px;
+  }
+  .manufacturer__name {
+    font-size: 10px;
+  }
+  .toady-deal {
+    font-size: 10px;
+  }
+  .pay-price {
+    font-size: 12px;
+  }
+  .total-price {
+    font-size: 12px;
+  }
+  .save-text {
+    font-size: 10px;
+  }
+  .cashback-text {
+    font-size: 10px;
+  }
+  .express-shipping {
+    font-size: 10px;
+  }
+  .wishlist-img {
+    padding-right: 0 !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .checkout__carousel--card .checkout__carousel--card-img-wrap .out-of-stock .data {
+    font-size: 7px;
+  }
+  .item-name {
+    font-size: 12px;
+  }
+  .manufacturer__name {
+    font-size: 10px;
+  }
+  .toady-deal {
+    font-size: 10px;
+  }
+  .pay-price {
+    font-size: 12px;
+  }
+  .total-price {
+    font-size: 12px;
+  }
+  .save-text {
+    font-size: 10px;
+  }
+  .cashback-text {
+    font-size: 10px;
+  }
+  .express-shipping {
+    font-size: 10px;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+  .checkout__carousel--card .checkout__carousel--card-img-wrap .out-of-stock .data {
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .btn-shopping button.btn__size--lg {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .card--container .card-body .card-title {
+    font-size: 1rem;
+  }
+  .card--container .card-body .card-subtitle {
+    font-size: .875rem;
+  }
+}

@@ -1,0 +1,485 @@
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/theme/collections/account.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="row center-sm pt--32">
+            <div class="column xs-12 sm-3">
+                <div class="tabs tabs__header--off">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="column xs-6 sm-12 pt--30">
+                        <a class="tab__item row tab__item-active border__bottom-active" href="/views/account/profile.html">
+                          <div class="column xs-12 sm-2">
+                            <img src="/assets/icons/profile.svg" />
+                        </div>
+                          <div class="column xs-12 sm-9 tab__text-wrapper">
+                            <span
+                              class="palette--tertiary text--lg medium tab__heading-active"
+                              >پروفایل
+                            </span>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="column xs-6 sm-12 pt--30">
+                        <a
+                          class="tab__item row border__bottom "
+                          href="/views/account/orders.html"
+                        >
+                          <div class="column xs-12 sm-2">
+                            <img src="/assets/icons/order-secondary.svg" />
+                        </div>
+                          <div class="column xs-12 sm-9 tab__text-wrapper">
+                            <span
+                              class="palette--tertiary text--lg medium tab__heading"
+                              >سفارشات
+                              </span
+                            >
+                          </div>
+                        </a>
+                      </div>
+                     
+                    </div>
+                  </div>
+                </div>
+              </div>
+         
+              <div class="column xs-12 sm-7 padding-none">
+                <div class="user-info container-fluid">
+                  <div class="row">
+                    <div class="card">
+                    <section class="card--container">
+                      <div class="card-body">
+                        <div class="card-content">
+                          <div
+                            class="row between-xs row-heading-wrap user-info__wrap-first"
+                          >
+                            <div class="column title--lg xs-6">اطلاعات کاربری</div>
+                            <h3 class="column user-info__edit pointer xs-6 text--left" data-target="edit-user-drawer" data-rule="dialog">ویرایش</h3>
+                          </div>
+                          <div class="row between-xs user-info__wrap">
+                            <h4 class="column xs-6 label-color">نام</h4>
+                            <h4 class="column xs-6 text--left label-color">نام کاربر</h4>
+                          </div>
+                          <div class="row between-xs user-info__wrap">
+                            <h4 class="column xs-6 label-color">شماره همراه</h4>
+                            <h4 class="column xs-6 text--left label-color">۰۹۲۰۲۰۲۲۰۲۲۲</h4>
+                          </div>
+                          <div class="row between-xs user-info__wrap">
+                            <h4 class="column xs-6 label-color">ایمیل</h4>
+                            <h4 class="column  xs-6 text--left label-color">test@mail.com</h4>
+                          </div>
+                          <div
+                            class="row between-xs user-info__wrap user-info__wrap-last"
+                          >
+                            <h4 class="column label-color xs-6">تاریخ تولد</h4>
+                            <h4 class="column label-color xs-6 text--left">-/-/-</h4>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                  </div>
+                </div>
+                <div class="horizontal-line-wrap">
+                  <p class="horizontal-line"></p>
+                </div>
+                <div class="address__default-screen address__action container-fluid">
+                  <div class="row">
+                    <div class="card">
+                    <section class="card--container">
+                      <div class="card-body">
+                        <div class="card-content">
+                          <div class="row between-xs mb--20">
+                            <div class="column title--lg">آدرس</div>
+                          </div>
+                          <div class="row mb--8">
+                            <h4 class="text--md bold">نام آدرس</h4>
+                            <h4 class="text--md bold worktype">نوع</h4>
+                          </div>
+                          <div class="row">
+                            <h4 class="column mb--4">
+                              <div>استان</div>
+                              <div><span> شهر</span></div>
+                              <div class="row">
+                                <div class="column truncate address__line4">
+                                  منطقه <span>,</span> خیابان
+                                </div>
+                                <div>-پلاک</div>
+                              </div>
+                            </h4>
+                          </div>
+                          <div class="row mb--12">
+                            <h4 class="column mobileNumber">۱۲۳۴۵۶۷۸۹</h4>
+                          </div>
+                          <div class="row mb--4 action-btn">
+                            <button type="button" class="btn__container btn__outline">
+                              <div>
+                                <span
+                                  ><img src="https://placehold.co/16x16" alt="ویرایش"
+                                /></span>
+                                <span>ویرایش</span>
+                              </div>
+                            </button>
+                          </div>
+                          <div class="row end-xs address-actions">
+                            <button type="button" class="btn__container btn__primary" data-target="edit-address" data-rule="dialog">
+                              <div>
+                                <span>مشاهده تمام آدرس ها</span>
+                              </div>
+                            </button>
+                            <button
+                              type="button"
+                              class="btn__container btn__outline--teal"
+                              data-target="add-address" data-rule="dialog"
+                            >
+                              <div>
+                                <span>افزودن آدرس</span>
+                              </div>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                    </div>
+                  </div>
+                </div>
+  
+              </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- 
+  This HTML block represents a drawer component for editing user details.
+  It includes input fields for name, mobile number, email, and date of birth, along with a "SAVE" button.
+
+-->
+
+<div class="overlay__container anchor--right" data-toggler="edit-user-drawer">
+    <a href="/" class="overlay__close"  data-target="edit-user-drawer" data-rule="dialog">&nbsp;</a>
+    <div class="header">
+      <div header=""></div>
+    </div>
+    <div class="body">
+      <div body="">
+        <p data-test="address-drawer-header" class="address-drawer-header text--xl bold">ویرایش اطلاعات</p>
+        <p class="horizontal-line"></p>
+        <div class="edit-details-form-container">
+          <div class="edit-details-form-main">
+            <form novalidate="" class="details-form" autocomplete="true">
+              <div class="edit-details-form">
+                <div class="field__wrap-container">
+                  <div class="divstyle">
+                    <div>
+                      <label class="field__box-label">نام</label>
+                    </div>
+                    <div class="blockstyle">
+                      <input type="text" readonly="" class="field__box details-field__readonly" placeholder="نام" maxlength="50">
+                      <div class="field__error-text"></div>
+                    </div>
+                  </div>
+                  <button type="button" class="btn__container btn__text-large">
+                    <div>
+                      <span><img src="https://placehold.co/16x16" alt="ویرایش"></span>
+                    </div>
+                  </button>
+                </div>
+                <div class="field__wrap-container">
+                  <div class="divstyle">
+                    <div>
+                      <label class="field__box-label">شماره همراه</label>
+                    </div>
+                    <div class="blockstyle">
+                      <input type="text" readonly="" class="details-field__readonly field__box" placeholder="شماره همراه" maxlength="10">
+                      <div class="field__error-text"></div>
+                    </div>
+                  </div>
+                  <button type="button" class="btn__container btn__text-large">
+                    <div>
+                      <span><img src="https://placehold.co/16x16" alt="ویرایش"></span>
+                    </div>
+                  </button>
+                </div>
+                <div class="field__wrap-container">
+                  <div class="divstyle">
+                    <div>
+                      <label class="field__box-label">ایمیل</label>
+                    </div>
+                    <div class="blockstyle">
+                      <input type="text" readonly="" class="not-editable field__box" placeholder="ایمیل">
+                      <div class="field__error-text"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="field__wrap-container">
+                  <div class="text--sm dob-label">تاریخ تولد</div>
+                  <div class="datepicker-container">
+                    <div class="dateTime">
+                      <div class="divstyle">
+                        <div>
+                          <label class="field__box-label"></label>
+                        </div>
+                        <div class="blockstyle">
+                          <input class="field__box" placeholder="تاریخ تولد خود را انتخاب کنید">
+                          <div class="field__error-text" style="display: none;"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <button type="button" class="btn__container btn__text-medium date-picker-icon" disabled="">
+                    <div>
+                      <span><img src="https://placehold.co/16x16" alt="تقویم"></span>
+                    </div>
+                  </button>
+                </div>
+              </div>
+              <div data-test="form-submit-btn" class="mb--12">
+                <div class="details-action">
+                  <button type="submit" class="btn__container details-action-btn btn__primary">
+                    <div>
+                      <span>ذخیره</span>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+    </div>      </div>
+      </div>
+
+    <!-- 
+  This HTML block represents a drawer component for adding a new address.
+  It includes input fields for name, mobile number, PIN code, address lines, city, state, country, and address type (Home, Work, Others).
+
+-->
+
+<div class="overlay__container anchor--right" data-toggler="edit-address">
+    <a href="/" class="overlay__close" data-target="edit-address" data-rule="dialog">&nbsp;</a>
+    <div class="header">
+      <div header=""></div>
+    </div>
+    <div class="body address-drawer">
+        <p data-test="address-drawer-header" class="address-drawer-header text--xl bold">افزودن آدرس جدید</p>
+        <p class="horizontal-line"></p>
+        <div class="address-form-container">
+          <div class="address-form-main">
+            <form novalidate="" data-test="form-section" class="address-form" autocomplete="true">
+              <div data-test="form-name-input" class="address-name">
+                <div class="divstyle">
+                  <div>
+                    <label class="field__box-label">نام</label>
+                  </div>
+                  <div class="blockstyle">
+                    <input type="text" maxlength="30" class="address-input field__box" placeholder="نام شما">
+                    <div class="field__error-text"></div>
+                  </div>
+                </div>
+              </div>
+              <div data-test="form-mobile-input" class="address-mobile">
+                <div class="divstyle">
+                  <div>
+                    <label class="field__box-label">شماره همراه</label>
+                  </div>
+                  <div class="blockstyle">
+                    <input type="text" maxlength="10" class="address-input field__box" placeholder="شماره شما">
+                    <div class="field__error-text"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="address-delivery-updates-whatsapp text--md mb--16">
+                <div class="checkbox--container">
+                  <div class="checkbox--main">
+                    <input type="checkbox" class="checkbox-input" id="delivery" value="delivery">
+                    <label class="checkbox-label" for="delivery">دریافت به‌روزرسانی‌ها از طریق</label>
+                  </div>
+                </div>
+                <div>
+                  <img class="delivery-whatsapp-icon" src="/assets/icons/whatsapp.webp" alt="واتس‌اپ">
+                </div>
+              </div>
+         
+              <div data-test="form-location-input" class="address-location">
+                <div class="divstyle">
+                  <div>
+                    <label class="field__box-label">آدرس خط ۱</label>
+                  </div>
+                  <div class="blockstyle">
+                    <input type="text" maxlength="150" class="address-input field__box" placeholder="شماره خانه/واحد/بلوک">
+                    <div class="field__error-text"></div>
+                  </div>
+                </div>
+              </div>
+              <div data-test="form-location-input" class="address-location">
+                <div class="divstyle">
+                  <div>
+                    <label class="field__box-label">آدرس خط ۲</label>
+                  </div>
+                  <div class="blockstyle">
+                    <input type="text" maxlength="150" class="address-input field__box" placeholder="نام آپارتمان/ساختمان/مجتمع">
+                    <div class="field__error-text"></div>
+                  </div>
+                </div>
+              </div>
+              <div data-test="form-city-input" class="address-city">
+                <div class="divstyle">
+                  <div>
+                    <label class="field__box-label">شهر</label>
+                  </div>
+                  <div class="blockstyle">
+                    <input type="text" maxlength="100" class="address-input field__box" placeholder="انتخاب شهر">
+                    <div class="field__error-text"></div>
+                  </div>
+                </div>
+              </div>
+              <div data-test="form-state-input" class="address-state">
+                <div>
+                  <label class="menu__label">استان</label>
+                  <div class="menu__container">
+                    <div class="menu__btn">
+                      <button type="button" class="false select-btn" name="">
+                        <span class="select-quantity-label" hidden="">تعداد</span> انتخاب استان
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-test="form-country-input" class="address-country">
+                <label class="menu__label">کشور</label>
+                <div class="menu__container">
+                  <div class="menu__btn">
+                    <button type="button" class="false select-btn" name="">
+                      <span class="select-quantity-label" hidden="">تعداد</span> ایران
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div data-test="form-addresstype-input" class="address-type mb--28">
+                <p class="address-type-text text--sm">نوع آدرس</p>
+                <div class="address-radio-form">
+                  <label>
+                    <input type="radio" name="type" class="address-type-radio" value="Home">
+                    <div class="address-home cursor-pointer text--md">
+                      <span class="address-type-icon"><img src="https://placehold.co/16x16" alt="خانه"></span>
+                      <span>خانه</span>
+                    </div>
+                  </label>
+                  <label>
+                    <input type="radio" name="type" class="address-type-radio" value="Work">
+                    <div class="address-home cursor-pointer text--md">
+                      <span class="address-type-icon"><img src="https://placehold.co/16x16" alt="کار"></span>
+                      <span>کار</span>
+                    </div>
+                  </label>
+                  <label>
+                    <input type="radio" name="type" class="address-type-radio" value="Others">
+                    <div class="address-home cursor-pointer text--md">
+                      <span class="address-type-icon"><img src="https://placehold.co/16x16" alt="سایر"></span>
+                      <span>سایر</span>
+                    </div>
+                  </label>
+                </div>
+              </div>
+              <div class="address-default text--md">
+                <div class="checkbox--container">
+                  <div class="checkbox--main">
+                    <input type="checkbox" class="checkbox-input" id="default" value="default">
+                    <label class="checkbox-label" for="default">این آدرس را به‌عنوان پیش‌فرض تنظیم کن</label>
+                  </div>
+                </div>
+              </div>
+              <div data-test="form-submit-btn" class="form-address-action mb--12">
+                <!-- <div class="address-action"> -->
+                  <button type="button" class="btn__container btn__outline--teal">
+                    <div>
+                      <span>لغو</span>
+                    </div>
+                  </button>
+                <!-- </div> -->
+                <!-- <div class="address-action"> -->
+                  <button type="submit" class="btn__container btn__primary">
+                    <div>
+                      <span>ذخیره</span>
+                    </div>
+                  </button>
+                <!-- </div> -->
+              </div>
+            </form>
+          </div>
+        </div>
+    </div>
+  </div>
+  <!-- 
+  This HTML block represents a drawer component for viewing all addresses.
+  It includes a default address section with details like name, address lines, city, state, postal code, and mobile number.
+
+-->
+
+<div class="overlay__container anchor--right" data-toggler="full-address">
+    <a href="/" class="overlay__close"  data-target="full-address" data-rule="dialog">&nbsp;</a>
+    <div class="header">
+      <div header=""></div>
+    </div>
+    <div class="body">
+      <div body="">
+        <p data-test="address-drawer-header" class="address-drawer-header text--xl bold">مشاهده تمام آدرس‌ها</p>
+        <p class="horizontal-line"></p>
+        <div class="address-list-container">
+          <div class="address-list-main">
+            <div class="address-list-default">
+              <div class="address-view-container">
+                <p data-test="address-display-title" class="address-deliver-heading text--lg bold">آدرس پیش‌فرض</p>
+                <div class="address-withradio">
+                  <div class="address-information address-display-context">
+                    <div class="address-name">
+                      <span data-test="address-name" class="bold address-name">نام کاربر</span>
+                      <span data-test="address-tag" class="address-type text--md bold">خانه</span>
+                    </div>
+                    <div class="address-place-display text--md mb--12">
+                      <div class="address-line">
+                        <span data-test="address-street">خیابان اصلی <span>,</span></span>
+                      </div>
+                      <div class="address-line">
+                        <span data-test="address-area">منطقه جدید،</span>
+                      </div>
+                      <span data-test="address-city">تهران،</span>
+                      <span data-test="address-state">تهران</span>
+                      <span class="address-postalcode">-123456789،</span>
+                      <span data-test="address-mobile">09123456789</span>
+                    </div>
+                    <div class="address-action mb--20">
+                      <button type="button" class="btn__container btn__size--small action-btn addr-edit-btn btn__outline">
+                        <div>
+                          <span><img src="https://placehold.co/16x16" alt="ویرایش"></span>
+                          <span>ویرایش</span>
+                        </div>
+                      </button>
+                      <button type="button" class="btn__container btn__size--small action-btn btn__outline" disabled="">
+                        <div>
+                          <span><img src="https://placehold.co/16x16" alt="حذف"></span>
+                          <span>حذف</span>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+  </div>
+  <script src="/lib/jquery/jquery.min.js"></script>
+  <script src="/scripts/drawer.js"></script>
+  </body>
+</html>
+

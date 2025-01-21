@@ -1,0 +1,96 @@
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/theme/collections/account.css"
+    />
+  </head>
+  <body>
+    <main>
+      <section class="page__fill">
+        <div class="auth__wrapper">
+          <div class="auth__section">
+            <section class="auth__banner">
+              <div class="mb--24">
+                <img
+                  width="385"
+                  height="88"
+                  alt="banner"
+                  src="https://placehold.co/385x88"
+                />
+              </div>
+            </section>
+            <section class="auth__container">
+              <div class="auth__option-one mb--16">
+                <div class="auth__header title--lg bold mb--12">خوش آمدید!</div>
+                <section class="mail__container">
+                  <form>
+                    <div class="user-field__wrapper mb--16">
+                      <div class="field__wrap-container">
+                        <div class="field__container">
+                          <input
+                            type="text"
+                            class="mail__input medium text--lg palette--primary field__box"
+                            placeholder="شماره همراه یا ایمیل"
+                            maxlength="50"
+                            disabled
+                            value="۰۹۱۲۲۳۳۳۳۹۲"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="palette--teal semibold text--md pointer change-mail__button"
+                      >
+                        تغییر شماره همراه یا ایمیل
+                      </div>
+                    </div>
+                    <div class="user-field__wrapper mb--16">
+                      <div class="field__container">
+                        <input
+                          id="auth--pnavbar__fnt-size"
+                          type="text"
+                          pattern="[0-9]+"
+                          oninput="this.value = this.value.replace(/[^0-9]/g, '').replace(/(\..*)\./g, '');"
+                          class="mail__input auth--pnavbar__fnt-size text--lg palette--primary field__box"
+                          placeholder="کد تایید"
+                          maxlength="4"
+                        />
+                      </div>
+                      <div class="resend-otp-wrapper">
+                        <div
+                          class="semibold text--md resend-button resend-disable-button"
+                        >
+                          ارسال مجدد کد تایید
+                        </div>
+                        <div
+                          class="palette--teal semibold text--md pointer resend-timer"
+                        >
+                          ۰۰:۳۰
+                        </div>
+                      </div>
+                    </div>
+                    <button
+                      class="btn__container btn__size--lg mail__field__button btn__primary"
+                      name="continue"
+                    >
+                      <span>ادامه</span>
+                    </button>
+                  </form>
+                </section>
+              </div>
+              <div class="troubleshoot">
+                  برای ورود مشکل دارید؟
+                  <a class="palette--teal pointer" href=""> از ما کمک بگیرید</a>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

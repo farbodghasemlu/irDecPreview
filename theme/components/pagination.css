@@ -1,0 +1,51 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+.pagination__ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+.pagination__li {
+  cursor: pointer;
+}
+.pagination__prev,
+.pagination__next {
+  height: 24px;
+  width: 24px;
+  border: 1px solid #e0e0e0;
+  border-radius: 2px;
+  margin: 0 12px;
+  background: url(https://ii1.pepperfry.com/assets/w23-myo-arrow-btn.svg)
+    no-repeat center;
+  background-size: 6px;
+}
+.pagination__prev.disabled,
+.pagination__next.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+.pagination__next {
+  transform: rotate(180deg);
+}
+.pagination__link {
+  display: block;
+  margin: 0 4px;
+}
+.pagination__link a {
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  font-size: 14px;
+  color: #121212;
+  line-height: 36px;
+  text-align: center;
+  display: block;
+  font-weight: 700;
+}
+.pagination__link .active {
+  background-image: linear-gradient(180deg, #006b8ffc 0%, #009dc3 100%);
+  color: #fff;
+}

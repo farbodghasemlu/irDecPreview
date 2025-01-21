@@ -1,0 +1,93 @@
+@media only screen and (min-width: 767px) {
+  .shortcuts__xs {
+      display: none;
+    }
+  }
+.shortcuts__container {
+  min-height: 232px;
+  margin-right: -8px;
+}
+.shortcuts__container
+  .card {
+  width: 82px;
+  margin-right: 8px;
+}
+.shortcuts__container
+  .card__img {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.shortcuts__container
+  .card__title {
+  width: 100%;
+  text-align: center;
+}
+.shortcuts__container
+  .card__explore-title {
+  display: block;
+}
+.shortcuts__container
+  .card__explore-more {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  background: linear-gradient(180deg, #009DC3 0%, rgba(244, 80, 29, 0.99) 100%);
+  position: relative;
+}
+.shortcuts__container
+  .card
+  img {
+  width: 100%;
+  height: auto;
+}
+.shortcuts__container
+  .card__explore {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+}
+@media only screen and (max-width: 767px) {
+  .shortcuts__container
+    .row-wrapper {
+    overflow: auto;
+    white-space: nowrap;
+  }
+  .shortcuts__container
+    .row-wrapper
+    .row {
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 12px;
+  }
+  .shortcuts__container
+    .row-wrapper
+    .row
+    .column {
+    display: inline-block;
+    max-width: initial;
+    padding: 0;
+  }
+}
+.shortcuts__container
+  .row-wrapper::-webkit-scrollbar {
+  display: none;
+}
+.shortcuts__container
+  .row-wrapper {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.shortcuts__container
+  .row-wrapper
+  .row:last-child {
+  margin-bottom: 0;
+}

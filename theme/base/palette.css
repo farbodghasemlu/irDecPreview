@@ -1,0 +1,52 @@
+.low--stock {
+	background-color: #4b70a5;
+  }
+  .best--seller {
+	background-color: #a080bc;
+  }
+  .clearance--sale {
+	background-color: #67ad5b;
+  }
+  .anti--bacterial {
+	background-color: #67ad5b;
+  }
+  .new {
+	background-color: #67ad5b;
+  }
+  .palette--blue {
+	color: #1979b5;
+  }
+  .palette--disabled {
+	color: #e0e0e0;
+  }
+  .palette--error {
+	color: #d8232a;
+  }
+  .palette--green {
+	color: #67ad5b;
+  }
+  .palette--heading {
+	color: #9d6a37;
+  }
+  .palette--teal {
+	color: #009DC3;
+  }
+  .palette--primary {
+	color: #323232;
+  }
+  .palette--secondary {
+	color: #848484;
+  }
+  .palette--tertiary {
+	color: #5b5b5b;
+  }
+  .hot--priced {
+	background-color: #ed6a65;
+  }
+  .free--delivery {
+	background-color: #ed6a65;
+  }
+  .deep--discount {
+	background-color: #ff7f41;
+  }
+  

@@ -1,0 +1,63 @@
+@import "/theme/components/form.css";
+
+.pincode-field__container .pincode-field__main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .pincode-field__container .pincode-field__main .pincode-field__wrapper {
+    display: flex;
+    /* width: 74%; */
+    /* margin-left: 5px; */
+    gap: 4px;
+    align-items: center;
+  }
+  @media only screen and (min-width: 1601px) {
+    .pincode-field__container .pincode-field__main .pincode-field__wrapper {
+      /* width: 78%; */
+    }
+  }
+  .pincode-field__container
+    .pincode-field__main
+    .pincode-field__wrapper
+    .pincode-input {
+    padding: 12px 77px 12px 16px;
+    border-radius: 2px;
+    border: solid 1px #e0e0e0;
+    color: #5b5b5b;
+  }
+  /* .pincode-field__container
+    .pincode-field__main
+    .pincode-field__wrapper
+    .pincode-apply-action {
+    position: absolute;
+    left: 20px;
+    top: 44px;
+    transform: translateY(-50%);
+  }*/
+
+    .pincode-btn-action {
+    /* margin-top: 22px; */
+    display: flex;
+  }
+
+    .pincode-locate-icon {
+    width: 16px;
+    margin: 2px 0px 0px 2px;
+  }
+    .pincode-field__container
+    .pincode-field__main
+    .pincode-btn-action
+    .pincode-locate-txt {
+    white-space: nowrap !important;
+  }  
+  .pincode-field__container .pincode-validation-wrapper {
+    margin-top: 4px;
+  }
+.field__box {
+    margin-bottom: 0;
+  }
+  .pincode-field__container div.divstyle {
+    gap: 4px;
+  }

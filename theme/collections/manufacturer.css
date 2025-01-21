@@ -1,0 +1,42 @@
+@import "/theme/base/main.css";
+@import "/theme/components/cards.css";
+@import "/theme/components/pagination.css";
+
+.discover-manufacturer__search {
+  width: 40%;
+}
+.discover-manufacturer__search-wrap {
+  width: 100%;
+}
+.pagination-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.discover-manufacturer__header
+  .discover-manufacturer__header-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4px;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 8px;
+  cursor: pointer;
+}
+
+.discover-manufacturer__header
+  .discover-manufacturer__header-col
+  .discover-manufacturer__icon {
+  width: 24px;
+  height: 24px;
+}
+.discover-manufacturer__header
+  .discover-manufacturer__header-col-active {
+  border-bottom: 2px solid #009DC3;
+}
+.static-brand img{
+  width: 100%;
+  object-fit: cover;
+  height: auto;
+}

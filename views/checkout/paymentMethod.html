@@ -1,0 +1,487 @@
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/theme/collections/cart.css" />
+  </head>
+  <body>
+    <section class="checkout-container">
+      <!-- Header Section -->
+      <header class="checkout__header-container">
+        <div class="checkout__header-row1">
+          <div class="container">
+            <div class="row center-xs">
+              <div class="column xs-12 sm-12 md-10">
+                <div class="checkout__navbar__logo-wrap">
+                  <div class="checkout__navbar__logo">
+                    <img
+                      alt="لوگو"
+                      width="179"
+                      height="38"
+                      src="/assets/images/logo.svg"
+                      draggable="false"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="checkout__header-row2">
+          <div class="container">
+            <div class="row center-xs">
+              <div class="column xs-12 sm-12 md-10">
+                <div class="checkout__mobile-hd middle-xs">
+                  <div>
+                    <a href="/">
+                      <div class="checkout__navbar__back">
+                        <svg
+                          width="9"
+                          height="16"
+                          viewBox="0 0 9 16"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M8.70711 0.292893C9.09763 0.683418 9.09763 1.31658 8.70711 1.70711L2.41421 8L8.70711 14.2929C9.09763 14.6834 9.09763 15.3166 8.70711 15.7071C8.31658 16.0976 7.68342 16.0976 7.29289 15.7071L0.292894 8.70711C-0.0976312 8.31658 -0.0976312 7.68342 0.292894 7.29289L7.29289 0.292893C7.68342 -0.0976311 8.31658 -0.0976311 8.70711 0.292893Z"
+                            fill="#121212"
+                          ></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="cart-pg-ttl bold title--lg">
+                    انتخاب روش پرداخت
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- Main Content Section -->
+      <main>
+        <div class="container">
+          <div class="row center-xs paymentContainer">
+            <!-- Left Column: Delivery Address and Cart Summary -->
+            <div class="column xs-12 sm-5 md-4">
+              <section id="deliveryAddress">
+                <div class="payment-address-display-container">
+                  <div class="address-display-title">
+                    <span class="address-to text--sm">ارسال به</span>
+                  </div>
+                  <div
+                    class="address-information address-display-context-outer"
+                  >
+                    <div class="address-name">
+                      <span class="bold address-name text--md">نام کاربر</span>
+                      <span class="address-type text--md outer-context"
+                        >خانه</span
+                      >
+                    </div>
+                    <div class="address-place text--xs">
+                      <div class="address-block">
+                        <span>آدرس نمونه، تهران، ایران</span>
+                      </div>
+                      <div class="address-postalcode">1234567890</div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <section class="cart-summary-desk">
+                <div class="mb--16">
+                  <div class="cart-summary-container mb--4">
+                    <div class="cart-summary-title text--center title--lg mb--16">
+                      پیش‌فاکتور
+                    </div>
+                    <div class="cart-price cart-row-space-between mb--4">
+                      <h4>نام محصول (۱ عدد)</h4>
+                      <h4>۵۰,۰۰۰,۰۰۰ ریال</h4>
+                    </div>
+                    <div class="cart-price palette--green cart-row-space-between mb--4">
+                      <h4>کوپن تخفیف</h4>
+                      <h4>- ۵۰,۰۰۰,۰۰۰ ریال</h4>
+                    </div>
+                    <div class="cs-hr-bottom-dashed mb--4"></div>
+                    <div class="cart-you-pay cart-row-space-between mb--4">
+                      <span class="title--lg">مجموع سبد خرید</span>
+                      <span class="title--lg">۵۰,۰۰۰,۰۰۰ ریال</span>
+                    </div>
+                    <div class="cart-you-saved palette--green cart-row-space-between bold text--lg mb--4">
+                      <span>سود شما</span>
+                      <span>۵۰,۰۰۰,۰۰۰ ریال</span>
+                    </div>
+                    <div class="cs-hr-bottom-dashed cs-hr-mb"></div>
+                  </div>
+                
+                </div>
+              </section>
+              <!-- Pay Now Button -->
+              <section id="paynowButton">
+                <div class="row">
+                  <div class="column xs-12 sm-12">
+                    <button
+                      type="button"
+                      class="btn__container btn__size--large btn__primary btn__block"
+                    >
+                      <div>
+                        <span>پرداخت</span>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </section>
+            </div>
+
+            <!-- Right Column: Payment Options -->
+            <div class="column xs-12 sm-7 md-6">
+              <section>
+                <div class="paymentSuggestedContainer mb--20">
+                  <div class="text--lg bold mb--12">پیشنهادات برای شما</div>
+                  <div class="feature-code card paymentOption">
+                    <div class="paymentSuggestedBody">
+                      <div class="accordion-container">
+
+                        <div
+                        class="list-options-holder stores__radio-selection"
+                      >
+                        <div class="panel panel-default">
+                          <div role="tab" class="panel-heading">
+                            <h4 class="panel-title">
+                              <div class="text--xl medium option-heading">
+                                <img
+                                  width="32"
+                                  height="32"
+                                  src="https://placehold.co/32x32?text=کارت+اعتباری"
+                                />
+                                <span>کارت اعتباری</span>
+                              </div>
+                              <div class="caret"></div>
+                            </h4>
+                          </div>
+                          <!-- 
+This HTML block represents a payment card form.
+
+-->
+
+
+                            <div class="panel-body">
+                              <div class="card-contanier">
+                                <div
+                                  class="payment-card-details-container"
+                                >
+                                  <div class="payment-card-form-wrapper">
+                                    <div class="mb--8">
+                                      <div class="field__box">
+                                        <input
+                                          id="acc"
+                                          type="text"
+                                          maxlength="16"
+                                          autocomplete="cc-number"
+                                          placeholder="شماره کارت"
+                                          class="text--lg"
+                                        />
+                                      </div>
+                                    </div>
+                                    <div class="pyt-expiry-cvv-wrapper">
+                                      <div
+                                        class="field__box mb--8"
+                                      >
+                                        <input
+                                          type="text"
+                                          maxlength="5"
+                                          inputmode="numeric"
+                                          autocomplete="cc-exp"
+                                          placeholder="تاریخ انقضا (MM/YY)"
+                                          class="text--lg"
+                                        />
+                                      </div>
+                                      <div
+                                        class="field__box mb--8"
+                                      >
+                                        <input
+                                          type="password"
+                                          maxlength="4"
+                                          inputmode="numeric"
+                                          autocomplete="off"
+                                          placeholder="CVV"
+                                          class="text--lg"
+                                        />
+                                        <span
+                                          placement="bottom"
+                                          class="tooltip-icon pyt-cvv-tooltip"
+                                        ></span>
+                                      </div>
+                                    </div>
+                   
+                                  </div>
+                        
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                      </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <!-- More Payment Options -->
+              <section id="paymentOption">
+                <div class="paymentOptionContainer">
+                  <div class="text--lg bold mb--12">گزینه‌های پرداخت بیشتر</div>
+                  <div class="feature-code card paymentOption">
+                    <div class="paymentOptionBody">
+                      <div class="accordion-container">
+                  
+                          
+                            <div class="list-options-holder">
+                              <div class="panel panel-default">
+                                <div role="tab" class="panel-heading">
+                                  <h4 class="panel-title">
+                                    <div class="text--xl medium option-heading">
+                                      <img
+                                        width="32"
+                                        height="32"
+                                        src="https://placehold.co/32x32?text=بانک+اینترنتی"
+                                      />
+                                      <span>بانک اینترنتی</span>
+                                    </div>
+                                    <div class="caret"></div>
+                                  </h4>
+                                </div>
+                                <!-- 
+  This HTML block represents an internet banking selection interface.
+  It includes a list of top banks displayed as clickable items with images and names.
+
+-->
+<div class="panel-body">
+  <div class="card-contanier">
+                                <div class="pyt-internet-banking-container">
+                                  <div class="int-bnk-top-banks-container">
+                                    <a
+                                      href="/"
+                                      class="top-bank-wrapper text--center cursor-pointer int-bnk-top-selected-bank-wrapper"
+                                    >
+                                      <div
+                                        class="top-selected-bank-img-wrapper mb--4"
+                                      >
+                                        <img
+                                          src="https://placehold.co/100x50"
+                                          alt="بانک نمونه"
+                                        />
+                                      </div>
+                                      <span
+                                        class="text--md medium text--center palette--secondary int-bnk-top-selected-bank"
+                                        >بانک نمونه</span
+                                      >
+                                    </a>
+                                    <a
+                                      href="/"
+                                      class="top-bank-wrapper text--center cursor-pointer int-bnk-top-selected-bank-wrapper"
+                                    >
+                                      <div
+                                        class="top-selected-bank-img-wrapper mb--4"
+                                      >
+                                        <img
+                                          src="https://placehold.co/100x50"
+                                          alt="بانک نمونه"
+                                        />
+                                      </div>
+                                      <span
+                                        class="text--md medium text--center palette--secondary int-bnk-top-selected-bank"
+                                        >بانک نمونه</span
+                                      >
+                                    </a>
+                                    <a
+                                      href="/"
+                                      class="top-bank-wrapper text--center cursor-pointer int-bnk-top-selected-bank-wrapper"
+                                    >
+                                      <div
+                                        class="top-selected-bank-img-wrapper mb--4"
+                                      >
+                                        <img
+                                          src="https://placehold.co/100x50"
+                                          alt="بانک نمونه"
+                                        />
+                                      </div>
+                                      <span
+                                        class="text--md medium text--center palette--secondary int-bnk-top-selected-bank"
+                                        >بانک نمونه</span
+                                      >
+                                    </a>
+                                    <a
+                                      href="/"
+                                      class="top-bank-wrapper text--center cursor-pointer int-bnk-top-selected-bank-wrapper"
+                                    >
+                                      <div
+                                        class="top-selected-bank-img-wrapper mb--4"
+                                      >
+                                        <img
+                                          src="https://placehold.co/100x50"
+                                          alt="بانک نمونه"
+                                        />
+                                      </div>
+                                      <span
+                                        class="text--md medium text--center palette--secondary int-bnk-top-selected-bank"
+                                        >بانک نمونه</span
+                                      >
+                                    </a>
+                                  </div>
+                                  <div class="int-bnk-other-bank-container">
+                                    <div class="menu__container">
+                                      <div class="menu__holder">
+                                        <div class="menu__btn">
+                                          <button
+                                            type="button"
+                                            class="false select-btn"
+                                            name=""
+                                          >
+                                            <span
+                                              class="select-quantity-label"
+                                              hidden=""
+                                              >تعداد</span
+                                            >
+                                            انتخاب بانک دیگر
+                                          </button>
+                                        </div>
+                                        <div class="menu__main">
+                                          <input
+                                            type="text"
+                                            class="filter-dropdown text--sm medium palette--secondary"
+                                            placeholder="جستجوی بانک شما"
+                                          />
+                                          <ul class="menu__list">
+                                            <li class="value-list">
+                                              بانک نمونه
+                                            </li>
+                                            <li class="value-list">
+                                              بانک نمونه
+                                            </li>
+                                            <li class="value-list">
+                                              بانک نمونه
+                                            </li>
+                                            <li class="value-list">
+                                              بانک نمونه
+                                            </li>
+                                            <li class="value-list">
+                                              بانک نمونه
+                                            </li>
+                                            <li class="value-list">
+                                              بانک نمونه
+                                            </li>
+                                            <li class="value-list">
+                                              بانک نمونه
+                                            </li>
+                                            <li class="value-list">
+                                              بانک نمونه
+                                            </li>
+                                            <li class="value-list">
+                                              بانک نمونه
+                                            </li>
+                                          </ul>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                </div></div>
+                              </div>
+                            </div>
+                
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </main>
+<!-- Sticky footer wrapper for the cart -->
+<div class="cart-sticky-footer-wrapper">
+  <!-- Left section of the sticky footer -->
+  <div class="cart-sticky-footer-left">
+      <!-- Total price section -->
+      <div class="cart-total-price heading-lg bold mb--4">
+          <span class="cart-grand-total">۵۰,۰۰۰,۰۰۰ ریال</span>
+
+      </div>
+      <!-- Link to view price summary -->
+      <a href="/" class="cart-details-link">
+          <div class="text--sm bold palette--teal">جزئیات قیمت</div>
+      </a>
+  </div>
+  
+  <!-- Right section of the sticky footer -->
+  <div class="cart-sticky-footer-right">
+      <!-- Pay Now button -->
+      <button type="button" class="btn__container btn__block btn__primary">
+          <span>پرداخت</span>
+      </button>
+  </div>
+</div>
+      <!-- Footer Section -->
+      <footer class="cart-footer-container">
+        <div class="cart-footer-wrapper">
+          <div class="footer-wrapper">
+            <!-- Payment Methods -->
+            <div>
+              <p class="footer-subtitle text--lg">ما پذیرای</p>
+              <div class="footer-left-wrapper">
+                <div class="cart-pay-accept-img-wrp">
+                  <img src="https://placehold.co/50x30" alt="ویزا" />
+                </div>
+                <div class="cart-pay-accept-img-wrp">
+                  <img src="https://placehold.co/50x30" alt="مسترکارت" />
+                </div>
+                <div class="cart-pay-accept-img-wrp">
+                  <img src="https://placehold.co/50x30" alt="مائسترو" />
+                </div>
+                <div class="cart-pay-accept-img-wrp">
+                  <img src="https://placehold.co/50x30" alt="امریکن اکسپرس" />
+                </div>
+                <div class="cart-pay-accept-img-wrp">
+                  <img src="https://placehold.co/50x30" alt="روپِی" />
+                </div>
+                <div class="cart-pay-accept-img-wrp">
+                  <img src="https://placehold.co/50x30" alt="داینرز کلاب" />
+                </div>
+                <div class="cart-pay-accept-img-wrp">
+                  <img src="https://placehold.co/50x30" alt="کیف پول" />
+                </div>
+                <div class="cart-pay-accept-img-wrp">
+                  <img
+                    src="https://placehold.co/50x30"
+                    alt="بانک‌داری اینترنتی"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <!-- Security Section -->
+            <div>
+              <p class="footer-subtitle medium text--lg">۱۰۰٪ امن و مطمئن</p>
+              <div class="footer-right-wrapper row">
+                <div class="cart-pay-secure-img-wrp">
+                  <img src="https://placehold.co/50x30" alt="ورای‌ساین" />
+                </div>
+                <div class="cart-pay-secure-img-wrp">
+                  <img src="https://placehold.co/50x30" alt="PCI" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <script src="/lib/jquery/jquery.min.js"></script>
+
+    <script src="/scripts/drawer.js"></script>
+  </body>
+</html>

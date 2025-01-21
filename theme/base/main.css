@@ -1,0 +1,97 @@
+@import "/theme/base/spacing.css";
+@import "/theme/base/typography.css";
+@import "/theme/base/gridsystem.css";
+@import "/theme/base/palette.css";
+html {
+  text-size-adjust: 100%;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: visible; /* Allow vertical scrolling */
+  /* box-sizing: border-box; */
+}
+
+body {
+  min-height: 100vh; /* Ensure the body takes at least the full viewport height */
+  /* font-size: 1.4rem; */
+}
+*{
+  box-sizing: border-box !important;
+}
+main {
+  display: block;
+}
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+a {
+  text-decoration: none;
+  color: unset;
+  background: transparent;
+}
+p{
+  margin:0
+}
+img {
+  border-style: none;
+  max-width: 100%;
+  vertical-align: middle;
+}
+[hidden] {
+  display: none;
+}
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
+}
+.container-fluid {
+  margin: 0 auto;
+  width: 100%;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+@media only screen and (max-width: 1023px) {
+  html body {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .container {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 94%;
+    min-width: 728px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .container {
+    width: 90%;
+    min-width: 944px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .container {
+    width: 88%;
+    min-width: 1200px;
+  }
+}
+@media only screen and (min-width: 1601px) {
+  .container {
+    min-width: 1440px;
+  }
+}

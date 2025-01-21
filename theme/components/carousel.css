@@ -1,0 +1,29 @@
+
+  @media only screen and (max-width : 767px) {
+    .carousel {
+        overflow:hidden;
+        white-space: nowrap;
+        position: relative
+    }
+
+    .carousel .row {
+        overflow: auto;
+        display: block;
+        padding-bottom: 24px;
+        margin-bottom: -24px;
+        margin-left: 0;
+        margin-right: 0
+    }
+
+    .carousel .row .column {
+        display: inline-block;
+        max-width: initial;
+        flex-basis: initial;
+        padding: 0;
+        vertical-align: top
+    }
+
+    .carousel .row .card-content {
+        white-space: normal
+    }
+}

@@ -1,0 +1,166 @@
+.menu__container .menu__wrapper {
+    position: relative;
+  }
+  .menu__container .menu__wrapper.QTY--menu .select-btn {
+    background-image: url(https://ii1.pepperfry.com/assets/w22-payment-down-chevron.svg);
+    background-position-x: right 75px;
+    background-size: 18px;
+    border: 1px solid #E0E0E0;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 12px;
+    width: 100px;
+  }
+  .menu__container .menu__wrapper.QTY--menu .select-btn:hover {
+    box-shadow: none;
+  }
+  .menu__container .menu__wrapper.QTY--menu .select-btn:focus {
+    box-shadow: none;
+  }
+  .menu__container .menu__wrapper.QTY--menu .menu__main {
+    top: 40px;
+    width: 100px;
+  }
+  .menu__container .menu__wrapper.QTY--menu .menu__main .select-qty-icon {
+    padding-right: 10px;
+  }
+  .menu__container .menu__btn {
+    margin-bottom: 8px;
+  }
+  .menu__container .menu__btn .select-btn {
+    background: url(https://ii1.pepperfry.com/assets/w22-payment-down-chevron.svg) no-repeat  5% 50% #fff;
+    background-size: 20px;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 0 1px #12121233, 0 1px 2px #12121214;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 16px 16px 16px 10px;
+    text-align: right;
+    width: 100%;
+  }
+  .menu__container .menu__btn .select-btn .select-quantity-label {
+    padding-left: 5px;
+  }
+  .menu__container .menu__btn .select-btn:hover {
+    box-shadow: 0 0 1px #009DC366, 0 1px 2px #009DC30f;
+  }
+  .menu__container .menu__btn .select-btn:focus {
+    box-shadow: 0 0 1px #009DC366, 0 1px 2px #009DC30f;
+  }
+  .menu__container .menu__btn .select-input {
+    background: url(https://ii1.pepperfry.com/assets/w22-payment-down-chevron.svg) no-repeat  5% 50% #fff;
+    background-size: 20px;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 0 1px #12121233, 0 1px 2px #12121214;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 16px 16px 16px 10px;
+    text-align: right;
+    width: 100%;
+    cursor: text;
+  }
+  .menu__container .menu__btn .select-input .select-quantity-label {
+    padding-left: 5px;
+  }
+  .menu__container .menu__btn .select-input:hover {
+    box-shadow: 0 0 1px #009DC366, 0 1px 2px #009DC30f;
+  }
+  .menu__container .menu__btn .select-input:focus {
+    box-shadow: 0 0 1px #009DC366, 0 1px 2px #009DC30f;
+  }
+  .menu__container .menu__btn .select-btn[disabled] {
+    background-color: #e0e0e0;
+    pointer-events: none;
+  }
+  .menu__container .menu__btn .select-input[disabled] {
+    background-color: #e0e0e0;
+    pointer-events: none;
+  }
+  .menu__container .menu__btn.arrow-up .select-btn {
+    background-image: url(https://ii1.pepperfry.com/assets/w22-payment-up-chevron.svg);
+  }
+  .menu__container .menu__label {
+    color: #5b5b5b;
+    display: block;
+    font-size: .75rem;
+    font-weight: 500;
+    line-height: 1.3125rem;
+    margin-bottom: 8px;
+  }
+  .menu__container .menu__main {
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 0 1px #12121233, 0 1px 2px #12121214;
+    position: absolute;
+    top: 51px;
+    width: 100%;
+    z-index: 10;
+    display: none;
+  }
+  .menu__container .menu__main .menu__list {
+    list-style-type: none;
+    margin: 0;
+    overflow: auto;
+    padding-inline-start: 0;
+  }
+  .menu__container .menu__main .menu__list .value-list {
+    border-radius: 2px;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 12px;
+  }
+  .menu__container .menu__main .menu__list .value-list .menu__icon {
+    margin: 0 0 3px 5px;
+    width: 20px;
+  }
+  .menu__container .menu__main .menu__list .value-list:hover {
+    background: #F5F5F5;
+  }
+  .menu__container .menu__main .menu__list .value-list.list-active {
+    background-color: #ffe2d7;
+  }
+  .menu__container .menu__main .menu__list .value-list.value--group {
+    pointer-events: none;
+  }
+  .menu__container .menu__main .menu__list .value-list.value--group li {
+    cursor: pointer;
+    pointer-events: initial;
+  }
+  .menu__container .menu__main .menu__list .value-list.value--group:hover {
+    background: none;
+  }
+  .menu__container .menu__main .filter-dropdown {
+    background-image: url(https://ii1.pepperfry.com/assets/w22-payment-search-icon.svg);
+    background-position-x: right 8px;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    border: 1px solid #F5F5F5;
+    border-radius: 2px;
+    display: block;
+    height: 36px;
+    margin: 0;
+    padding: 4px 36px 4px 10px;
+    position: relative;
+    width: 100%;
+  }
+  @media only screen and (max-width: 767px) {
+    .menu__container .menu__wrapper.QTY--menu .select-btn {
+      background-position-x: right 58px;
+      padding: 4px;
+      width: 80px;
+    }
+    .menu__container .menu__wrapper.QTY--menu .menu__main {
+      padding: 4px 2px;
+      top: 38px;
+      width: 80px;
+    }
+    .menu__container .menu__wrapper.QTY--menu .menu__main .menu__list {
+      margin: 0;
+    }
+    .menu__container .menu__wrapper.QTY--menu .menu__main .menu__list .value-list {
+      padding: 5px;
+    }
+  }
+  

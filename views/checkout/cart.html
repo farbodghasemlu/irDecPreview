@@ -1,0 +1,501 @@
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/theme/collections/cart.css" />
+  </head>
+  <body>
+    <section class="checkout-container">
+      <!-- Cart Header -->
+      <header class="checkout__header-container">
+        <div class="checkout__header-row1">
+          <div class="container">
+            <div class="row center-xs">
+              <div class="column xs-12 sm-12 md-10">
+                <div class="checkout__navbar__logo-wrap">
+                  <div class="checkout__navbar__logo">
+                    <img
+                      alt="لوگو ایران دکور"
+                      width="179"
+                      height="38"
+                      src="/assets/images/logo.svg"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="checkout__header-row2">
+          <div class="container">
+           
+            <div class="row center-xs">
+              <div class="column xs-12 sm-12 md-10">
+                <div class="checkout__mobile-hd middle-xs">
+                  <div>
+                    <a href="/">
+                      <div class="checkout__navbar__back">
+                        <svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M8.70711 0.292893C9.09763 0.683418 9.09763 1.31658 8.70711 1.70711L2.41421 8L8.70711 14.2929C9.09763 14.6834 9.09763 15.3166 8.70711 15.7071C8.31658 16.0976 7.68342 16.0976 7.29289 15.7071L0.292894 8.70711C-0.0976312 8.31658 -0.0976312 7.68342 0.292894 7.29289L7.29289 0.292893C7.68342 -0.0976311 8.31658 -0.0976311 8.70711 0.292893Z" fill="#121212"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="cart-pg-ttl bold title--lg">
+                    سبد خرید شما (۱ محصول)
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- Cart Main Section -->
+      <main>
+        <section class="checkout__cart-container">
+          <div class="container">
+            <div class="row center-xs">
+              <!-- Product List Section -->
+              <div class="column xs-12 sm-7 md-6">
+                <section class="cart-saved-amount"></section>
+                <section class="checkout__prod__list mb--12">
+                  <!-- Product Card -->
+                  <section class="checkout__prod__card">
+                    <div class="checkout__prod__card-wrapper">
+                      <div class="checkout__card-lhs">
+                        <div class="checkout__card-img-wrap">
+                          <div class="checkout__card-img">
+                            <a href="/" target="_blank">
+                              <img
+                                loading="eager"
+                                src="https://placehold.co/200x220"
+                                alt="تصویر محصول"
+                                width="200"
+                                height="220"
+                              />
+                            </a>
+                          </div>
+                        </div>
+                        <div class="mb--8">
+                          <button
+                            class="btn__container btn__size--small checkout__card-actions btn__outline"
+                          >
+                            <span>علاقه‌مندی</span>
+                          </button>
+                        </div>
+                        <div>
+                          <button
+                            class="btn__container btn__size--small checkout__card-actions btn__outline"
+                          >
+                            <span>حذف</span>
+                          </button>
+                        </div>
+                      </div>
+                      <div class="checkout__card-rhs">
+                        <div>
+                          <div
+                            class="checkout__card-name-row checkout__line-ht-adjuster"
+                          >
+                            <a href="/" target="_blank">
+                              <h3 class="checkout__card-name text--md truncate">
+                                نام محصول نسبتا طولانی
+                              </h3>
+                            </a>
+                          </div>
+                          <div
+                            class="checkout__card-manufacturer__row checkout__line-ht-adjuster"
+                          >
+                            <span
+                              class="checkout__card-brand palette--secondary text--xs medium truncate"
+                            >
+                              سازنده محصول
+                            </span>
+                          </div>
+                          <div class="checkout__card-qty-dropdwn-row">
+                            <span class="checkout__card-qty-dropdwn">
+                              <div class="menu__container">
+                                <div class="menu__wrapper QTY--menu">
+                                  <div class="menu__btn">
+                                    <button
+                                      type="button"
+                                      class="select-btn text--sm"
+                                    >
+                                      ۱
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                            </span>
+                          </div>
+                          <div class="checkout__card-price-row">
+                            <section class="checkout__card-price">
+                              <div class="checkout__card-disp-price">
+                                <span class="bold checkout__item-price"
+                                  >۵۰,۰۰۰,۰۰۰ ریال</span
+                                >
+                                <span
+                                  class="normal checkout__mrp-price palette--tertiary line-through"
+                                >
+                                  <h4
+                                    class="checkout__mrp-price__value text--md"
+                                  >
+                                    ۱۰۰,۰۰۰,۰۰۰ ریال
+                                  </h4>
+                                </span>
+                                <span
+                                  class="checkout__cpn-per-disc bold palette--green"
+                                >
+                                  (تخفیف ۵۰٪)
+                                </span>
+                              </div>
+                              <div class="row">
+                                <div class="column xs-12 sm-12 md-10 lg-7">
+                                  <div class="checkout__card-disc-section">
+                                    <div
+                                      class="checkout__card-rtldisc palette--green"
+                                    >
+                                      <h4 class="bold">تخفیف کوپن</h4>
+                                      <h4 class="bold">- ۵۰,۰۰۰,۰۰۰ ریال</h4>
+                                    </div>
+                                  </div>
+                                  <div
+                                    class="checkout__prod__final-price is-underline"
+                                  >
+                                    <h4 class="bold">قیمت محصول</h4>
+                                    <h4 class="bold">۵۰,۰۰۰,۰۰۰ ریال</h4>
+                                  </div>
+                                </div>
+                              </div>
+                            </section>
+                          </div>
+                        </div>
+                        <div
+                          class="checkout__card-pincode-not-applied text--md mb--8"
+                        >
+                          <span
+                            class="checkout__pincode-not-applied-text medium"
+                          >
+                            برای مشاهده جزیات کد پستی وارد کنید
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="checkout__xs-divider"></div>
+                  </section>
+                </section>
+              </div>
+
+              <!-- Right Panel (Summary, Coupons, etc.) -->
+              <div class="column xs-12 sm-5 md-4 first-xs last-sm">
+                <section class="checkout__right-pannel">
+                  <!-- Pincode Section -->
+                  <section>
+                    <div class="pincode-field__container mb--16">
+                      <form>
+                        <div class="pincode-field__main">
+                          <div class="pincode-field__wrapper">
+                            <!-- <div class="field__container"> -->
+                              <div>
+                                <label class="field__box-label">ارسال به</label>
+                              </div>
+                              <div class="blockstyle">
+                                <input
+                                  type="text"
+                                  maxlength="6"
+                                  class="pincode-input truncate field__box"
+                                  placeholder="کد پستی وارد کنید"
+                                  style="width: 100%"
+                                />
+                              </div>
+                            <!-- </div> -->
+                          </div>
+                          <div class="pincode-locate-wrapper">
+                            <span class="pincode-btn-action pointer text--md">
+                              <div class="pincode-locate-icon">
+                                <img
+                                  alt="pincode-locate"
+                                  src="/assets/icons/locate.svg"
+                                />
+                              </div>
+                              <span
+                                class="pincode-locate-txt palette--teal bold"
+                                >یافتن</span
+                              >
+                            </span>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </section>
+
+                  <!-- Address Section -->
+                  <section>
+                    <div class="address-main-container">
+                      <div class="address-main not-loggedin mb--16">
+                        <div class="add-address-text">
+                          <span class="text--sm medium palette--tertiary">
+                            برای افزودن آدرس
+                          </span>
+                          <span
+                            class="text--lg pointer login bold palette--teal underline"
+                          >
+                            وارد شوید
+                          </span>
+                          <span class="text--lg bold palette--tertiary">
+                            (الزامی)
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+
+                  <!-- Coupons Section -->
+                  <div class="checkout__xs-divider"></div>
+                  <section>
+                    <div class="cart-coupons-container">
+                      <div class="cart-coupon-applied-container mb--16">
+                        <div>
+                          <div class="cart-coupon-applied-upper mb--8">
+                            <div class="cart-coupon-applied-wrapper">
+                              <div class="cart-coupon-applied">
+                                <div class="cart-coupon-applied-icon">
+                                  <img
+                                    loading="eager"
+                                    src="/assets/icons/applied.webp"
+                                    alt="کوپن اعمال شده"
+                                  />
+                                </div>
+                                <div class="palette--green">
+                                  <div class="text--md bold">
+                                    نام کوپن تخفیف
+                                    <span
+                                      class="palette--secondary text--xs medium"
+                                    >
+                                      (کوپن اعمال شده)
+                                    </span>
+                                  </div>
+                                </div>
+                              </div>
+                              <span class="btn__text--sm pointer" data-rule="dialog" data-target="coupons-drawer"
+                                >مشاهده کوپن ها</span
+                              >
+                            </div>
+                          </div>
+                        </div>
+                        <div class="checkout__xs-divider"></div>
+                      </div>
+                    </div>
+                  </section>
+<!-- Main container for the drawer, positioned to the right and open -->
+<div class="overlay__container anchor--right" data-toggler="coupons-drawer">
+  <!-- Close button for the drawer -->
+  <a class="overlay__close" href="/"  data-rule="dialog" data-target="coupons-drawer">&nbsp;</a>
+  
+  <!-- Header section of the drawer -->
+  <div class="header"></div>
+  
+  <!-- Body section of the drawer -->
+  <div class="body">
+      <!-- Container for coupons details -->
+      <section class="coupons-details-container">
+          <!-- Heading for the coupons section -->
+          <p class="heading-lg coupons-details-header">اعمال کوپن‌ها</p>
+          
+          <!-- Input section for entering coupon codes -->
+          <div class="coupons-input field__wrap-container">
+              <div class="field__wrap field__btn__-text">
+                  <label class="field__label-text"></label>
+                  <input type="text" placeholder="کد کوپن را وارد کنید" class="field__block text--lg field__full-width">
+              </div>
+              <!-- Error message for invalid coupon codes -->
+              <div class="error-msg">لطفاً یک کد کوپن معتبر وارد کنید</div>
+              
+              <!-- Apply button for the coupon -->
+              <!-- <button type="button" class="btn__container btn__text--large" disabled>
+                  <span>اعمال</span>
+              </button> -->
+          </div>
+          
+          <!-- Section for available coupons -->
+          <section class="coupons-available-section">
+              <div class="coupons-available-heading mb--16">
+                  <div class="text--lg bold palette--tertiary">کوپن‌های موجود</div>
+                  <div class="text--xs counter">
+                      <div>زمان باقی‌مانده: <span id="hours">16 ساعت</span></div>
+                      <!-- <div>زمان باقی‌مانده: <span id="hours">16 ساعت</span>: <span id="minutes">15 دقیقه</span>: <span id="seconds">43 ثانیه</span></div> -->
+                      <div class="ck-counter-img-wrapper">
+                          <!-- Placeholder for timer image -->
+                          <img alt="زمان‌سنج" src="/assets/icons/timer.webp">
+                      </div>
+                  </div>
+              </div>
+              
+              <!-- Example coupon card -->
+              <section class="coupons-card-section">
+                  <div class="coupons-card-container">
+                      <!-- Placeholder for coupon background image -->
+                      <img src="/assets/icons/coupons.svg" alt="پس‌زمینه کوپن" class="coupon-wrapper-bg">
+                      <div class="coupons-card">
+                          <div class="coupons-card-lhs">
+                              <!-- Placeholder for coupon image -->
+                              <img src="https://placehold.co/37x117" alt="تصویر کوپن">
+                          </div>
+                          <div class="coupons-card-rhs">
+                              <div class="coupon-heading middle-xs">
+                                  <div class="heading-lg bold">نام کوپن</div>
+                                  <div class="text--lg bold cursor-pointer palette--teal middle-xs coupons-button">اعمال</div>
+                              </div>
+                              <ul class="coupons-desc">
+                                  <li class="text--xs palette--tertiary">توضیحات کوپن</li>
+                                  <li class="text--xs underline coupon-detail-cta">جزئیات</li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+              </section>
+          </section>
+          
+      </section>
+  </div>
+</div>
+                  <!-- Cart Summary Section -->
+                  <div class="cart-summary-desk">
+                    <div class="mb--16">
+                      <div class="cart-summary-container mb--4">
+                        <div
+                          class="cart-summary-title text--center title--lg mb--16"
+                        >
+                          پیش‌فاکتور
+                        </div>
+                        <div class="cart-price cart-row-space-between mb--4">
+                          <h4>نام محصول (۱ عدد)</h4>
+                          <h4>۵۰,۰۰۰,۰۰۰ ریال</h4>
+                        </div>
+                        <div
+                          class="cart-price palette--green cart-row-space-between mb--4"
+                        >
+                          <h4>کوپن تخفیف</h4>
+                          <h4>- ۵۰,۰۰۰,۰۰۰ ریال</h4>
+                        </div>
+                        <div class="cs-hr-bottom-dashed mb--4"></div>
+                        <div class="cart-you-pay cart-row-space-between mb--4">
+                          <span class="title--lg">مجموع سبد خرید</span>
+                          <span class="title--lg">۵۰,۰۰۰,۰۰۰ ریال</span>
+                        </div>
+                        <div
+                          class="cart-you-saved palette--green cart-row-space-between bold text--lg mb--4"
+                        >
+                          <span>سود شما</span>
+                          <span>۵۰,۰۰۰,۰۰۰ ریال</span>
+                        </div>
+                        <div class="cs-hr-bottom-dashed cs-hr-mb"></div>
+                      </div>
+      
+                    </div>
+                  </div>
+
+                  <!-- Call to Action Section -->
+                  <section class="checkout__action-cta-row mb--48" id="payNowButton">
+                    <div>
+                      <button
+                        class="btn__container btn__size--lg checkout__action-cta btn__primary"
+                      >
+                        <span>برای ادامه وارد شوید</span>
+                      </button>
+                    </div>
+                  </section>
+                </section>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- 
+  This HTML block represents a drawer component for adding GST (Goods and Services Tax) details.
+  It includes input fields for GST registration number and registered company name, along with a note and a "Save" button.
+
+-->
+
+<div class="cart-sticky-footer-wrapper">
+  <!-- Left section of the sticky footer -->
+  <div class="cart-sticky-footer-left">
+      <!-- Total price section -->
+      <div class="cart-total-price heading-lg bold mb--4">
+          <span class="cart-grand-total">۵۰,۰۰۰,۰۰۰ ریال</span>
+
+      </div>
+      <!-- Link to view price summary -->
+      <a href="/" class="cart-details-link">
+          <div class="text--sm bold palette--teal">جزئیات قیمت</div>
+      </a>
+  </div>
+  
+  <!-- Right section of the sticky footer -->
+  <div class="cart-sticky-footer-right">
+      <!-- Pay Now button -->
+      <button type="button" class="btn__container btn__block btn__primary">
+          <span>پرداخت</span>
+      </button>
+  </div>
+</div>
+      <!-- Cart Footer -->
+      <footer class="cart-footer-container">
+        <div class="cart-footer-wrapper">
+          <div class="footer-wrapper">
+            <!-- Payment Methods -->
+            <div>
+              <p class="footer-subtitle text--lg">ما پذیرای</p>
+              <div class="footer-left-wrapper">
+                <div class="cart-pay-accept-img-wrp">
+                  <img src="https://placehold.co/50x30" alt="ویزا" />
+                </div>
+                <div class="cart-pay-accept-img-wrp">
+                  <img src="https://placehold.co/50x30" alt="مسترکارت" />
+                </div>
+                <div class="cart-pay-accept-img-wrp">
+                  <img src="https://placehold.co/50x30" alt="مائسترو" />
+                </div>
+                <div class="cart-pay-accept-img-wrp">
+                  <img src="https://placehold.co/50x30" alt="امریکن اکسپرس" />
+                </div>
+                <div class="cart-pay-accept-img-wrp">
+                  <img src="https://placehold.co/50x30" alt="روپِی" />
+                </div>
+                <div class="cart-pay-accept-img-wrp">
+                  <img src="https://placehold.co/50x30" alt="داینرز کلاب" />
+                </div>
+                <div class="cart-pay-accept-img-wrp">
+                  <img src="https://placehold.co/50x30" alt="کیف پول" />
+                </div>
+                <div class="cart-pay-accept-img-wrp">
+                  <img
+                    src="https://placehold.co/50x30"
+                    alt="بانک‌داری اینترنتی"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <!-- Security Section -->
+            <div>
+              <p class="footer-subtitle medium text--lg">۱۰۰٪ امن و مطمئن</p>
+              <div class="footer-right-wrapper row">
+                <div class="cart-pay-secure-img-wrp">
+                  <img src="https://placehold.co/50x30" alt="ورای‌ساین" />
+                </div>
+                <div class="cart-pay-secure-img-wrp">
+                  <img src="https://placehold.co/50x30" alt="PCI" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <script src="/lib/jquery/jquery.min.js"></script>
+    <script src="/scripts/drawer.js"></script>
+  </body>
+</html>

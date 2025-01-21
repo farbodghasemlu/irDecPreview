@@ -1,0 +1,81 @@
+.panel {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #e0e0e0;
+  cursor: pointer;
+  margin: 0;
+}
+.panel .panel-heading .panel-title {
+  padding: 12px 0;
+}
+.panel .panel-heading .panel-title:after {
+  background-image: url(/assets/icons/chevron-down.svg);
+  height: 24px;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+}
+.panel .panel-body {
+  display: none;
+  padding: 0 0 12px;
+}
+.panel .panel-body .accordian-body-wrap {
+  color: #5b5b5b;
+  word-wrap: break-word;
+}
+.panel .panel-body .accordian-body-wrap p {
+  font-size: 12px;
+  margin: 0 0 8px;
+}
+.panel .panel-body .accordian-body-wrap p:last-child {
+  margin: 0;
+}
+.panel .panel-body .accordian-body-wrap ul li {
+  margin-bottom: 8px;
+}
+.panel .panel-body .accordian-body-wrap ul li:last-child {
+  margin-bottom: 0;
+}
+.panel .panel-body .accordian-body-wrap .accordian-body-scroll {
+  max-height: 417px;
+}
+.panel .panel-body .accordian-body-wrap .accordian-body-scroll .accordian-body-int-scroll-wrap {
+  padding-bottom: 20px;
+}
+.panel .panel-body .accordian-body-wrap .accordian-body-scroll .accordian-body-int-scroll-wrap ul {
+  padding-bottom: 20px;
+}
+.panel .panel-body .accordian-body-wrap .accordian-body-scroll:after {
+  background: linear-gradient(180deg,#fafafa00 0%,#fafafa 100%);
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 48px;
+  position: absolute;
+  right: 0;
+  width: 100%;
+}
+.panel.active .panel-body {
+  display: block;
+}
+.panel.active .panel-heading .panel-title:after {
+  transform: translateY(-50%), rotate(180deg);
+}
+@media only screen and (min-width: 768px) {
+  .panel {
+    border-bottom: 1px solid #e0e0e0;
+  }
+  .panel .panel-heading .panel-title {
+    padding: 16px 0;
+  }
+  .panel .panel-body .accordian-body-wrap p {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .panel .panel-heading .panel-title:after {
+    height: 16px;
+    width: 16px;
+  }
+}

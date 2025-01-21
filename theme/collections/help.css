@@ -1,0 +1,411 @@
+@import "/theme/base/main.css";
+
+@import "/theme/components/tabs.css";
+
+@import "/theme/components/form.css";
+
+@import "/theme/components/accordion.css";
+
+
+.body {
+height:calc(20vh);
+overflow-y:auto
+}
+
+.checkout-container {
+display:flex;
+min-height:101vh
+}
+
+.contact__body {
+border:1px solid #e0e0e0;
+cursor:pointer;
+margin:12px;
+padding:12px
+}
+
+.contact__body .contact .palette--teal {
+color:#009DC3
+}
+
+.contact__body .contact p,.para {
+margin-bottom:0;
+margin-top:0
+}
+
+.contact__body .contact,.contact__body a .contact {
+align-items:center;
+display:flex;
+justify-content:space-between
+}
+
+.contact__header {
+padding-left:8px;
+padding-right:8px
+}
+
+.contact__wrapper {
+padding-left:0;
+padding-right:0
+}
+
+.content__container .faq__body {
+color:#121212;
+cursor:pointer;
+display:flex;
+justify-content:space-between;
+padding:1rem
+}
+
+.content__container .faq__body:not(:last-child) {
+border-bottom:1px solid #e0e0e0
+}
+
+.content__container .faq__header {
+align-items:center;
+display:flex;
+justify-content:space-between;
+padding:10px 10px 24px
+}
+
+.content__container .faq__header.active {
+display:block;
+width:100%
+}
+
+.content__container .search {
+border-bottom:.5rem solid #f5f5f5;
+padding-bottom:20px;
+padding-left:20px;
+padding-right:10px;
+position:relative
+}
+
+.content__container .search-subbar {
+display:flex;
+justify-content:space-between;
+margin-top:12px
+}
+
+.faq__body img {
+transform:scale(-1,-1)
+}
+
+.faq__disclaimer .faq__order-redirect {
+text-decoration:none!important
+}
+
+.faq__disclaimer,.content__container .search span {
+padding-right:10px
+}
+
+
+
+.faq__search-acc-container {
+padding:0 10px
+}
+
+.faq__search-icon {
+cursor:pointer;
+display:inline-block;
+height:24px;
+width:24px
+}
+
+.faq__search-result-for {
+max-width:calc(-25%);
+overflow:hidden;
+text-overflow:ellipsis;
+white-space:nowrap
+}
+
+.field__box.active {
+width:100%
+}
+
+.field__clear-text {
+background:url(/assets/icons/close.svg) no-repeat left
+}
+
+.field__icon-right {
+background:url(/assets/icons/search.svg) no-repeat left
+}
+
+.field__wrap .field__block:focus {
+border:unset;
+border-bottom:1px solid #848484;
+box-shadow:unset
+}
+
+.fnt-palette--secondary {
+color:#848484
+}
+
+.header-container {
+background-color:#fff;
+z-index:991
+}
+
+.max-width {
+width:calc(80%)
+}
+
+.container {
+background-color:#fff;
+padding-top:8px
+}
+
+.container .content p {
+margin-bottom:0;
+padding-bottom:1rem;
+padding-left:10px;
+padding-right:10px
+}
+
+.container .row .border {
+border-bottom:2px solid #eee
+}
+
+.container .row .border div,.container .row .border img {
+padding-bottom:10px;
+padding-left:10px
+}
+
+.container .row .border.active {
+border-bottom:2px solid #009DC3;
+color:#009DC3
+}
+
+.container .row .container {
+padding-left:10px;
+padding-right:10px
+}
+
+.need-help-wrp {
+margin-left:0;
+margin-right:0
+}
+
+.order-text-size {
+font-size:.9rem!important
+}
+
+/* .p--20 {
+padding-left:12px
+}
+
+.palette--black,.palette--primary {
+color:#121212
+} */
+
+.panel-heading {
+background-color:#fff
+}
+
+.search-field__wrapper {
+border-bottom:1px solid #848484;
+position:relative
+}
+
+.search-field__wrapper .faq__search-icon {
+position:absolute;
+right:4px;
+top:8px
+}
+
+.seperator {
+background:#f5f5f5;
+height:8px;
+width:100%
+}
+
+a {
+color:#009DC3;
+text-decoration:underline
+}
+
+input.faq__search-box {
+background:#fff;
+border:none;
+border-radius:2px;
+margin:0;
+padding:12px 8px;
+transition:all .2s ease-in-out;
+width:100%
+}
+
+input.faq__search-box::placeholder {
+font-weight:500
+}
+
+main {
+flex:1;
+min-height:300px
+}
+
+@media only screen and (min-width: 768px) {
+.body {
+padding-left:24px;
+padding-right:24px;
+padding-top:16px
+}
+
+.contact__header p {
+margin-bottom:12px;
+margin-top:12px
+}
+
+.content__container .search-bar.search-fixed-width {
+width:360px
+}
+
+.header {
+padding:24px
+}
+
+.container {
+padding-left:15px;
+padding-right:15px;
+padding-top:42px
+}
+
+.container .box {
+border:1px solid #f5f5f5;
+border-radius:2px;
+padding:20px
+}
+
+.container .row .column {
+cursor:pointer
+}
+
+.container .row .display-block {
+display:inline-block
+}
+
+.container .row .padding-li {
+padding-bottom:24px;
+padding-right:40px;
+padding-top:24px
+}
+
+.seperator {
+border-bottom:1px solid #e0e0e0;
+height:1px
+}
+
+input.faq__search-box,input.faq__search-box::placeholder {
+font-size:14px
+}
+
+main {
+margin-bottom:120px
+}
+}
+
+@media only screen and (min-width: 1601px) {
+.container {
+padding-left:135px;
+padding-right:130px
+}
+
+.container .row .border {
+padding-right:90px
+}
+
+input.faq__search-box,input.faq__search-box::placeholder {
+font-size:18px
+}
+}
+
+@media only screen and (max-width: 767px) {
+.body {
+padding-left:12px;
+padding-right:12px;
+padding-top:8px
+}
+
+.contact__body {
+margin:8px;
+padding:8px
+}
+
+.contact__header p {
+margin-bottom:16px;
+margin-top:16px
+}
+
+.content__container .faq__heading {
+margin-left:4px
+}
+
+.content__container .search-bar {
+flex:1
+}
+
+.content__container .search-subbar {
+margin-top:16px
+}
+
+.faq__disclaimer {
+padding-top:16px
+}
+
+.header {
+padding:12px
+}
+
+.container {
+max-width:100%;
+padding-left:0;
+padding-right:0
+}
+
+.container .row .border {
+text-align:center
+}
+
+.container .row .border div,.container .row .border img {
+padding-bottom:0;
+padding-left:0
+}
+
+.container .row .padding-li {
+padding:0
+}
+
+.para,input.faq__search-box,input.faq__search-box::placeholder,.accordion-container .panel .panel-body {
+font-size:12px
+}
+
+.search-bar .field__wrap,.search-bar .field__icon-right {
+margin-bottom:0
+}
+
+main {
+margin-bottom:0;
+padding-top:0
+}
+}
+
+@media only screen and (min-width: 1280px) {
+.container .row .padding-li {
+padding-bottom:24px;
+padding-right:80px;
+padding-top:24px
+}
+}
+
+@media mediaquery-navbar__and-up {
+.container .row .padding-li {
+padding-bottom:24px;
+padding-right:90px;
+padding-top:24px
+}
+}
+
+@media only screen and (min-width: 1024px) {
+.para,.accordion-container .panel .panel-body {
+font-size:14px
+}
+}

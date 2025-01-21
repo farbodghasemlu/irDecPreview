@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none"><div xmlns="" id="in-page-channel-node-id" data-channel-name="in_page_channel_X9Ujih"/><link xmlns="" type="text/css" rel="stylesheet" id="dark-mode-custom-link"/><link xmlns="" type="text/css" rel="stylesheet" id="dark-mode-general-link"/><style xmlns="" lang="en" type="text/css" id="dark-mode-custom-style"/><style xmlns="" lang="en" type="text/css" id="dark-mode-native-style"/><style xmlns="" lang="en" type="text/css" id="dark-mode-native-sheet"/>
+    <circle cx="12.5" cy="12" r="11.5" stroke="#E0E0E0"/>
+    <g clip-path="url(#56f0qu5yca)">
+        <path d="M4.347 14.65a8.59 8.59 0 0 0 3.115 4.284L12.5 12l-8.153 2.65z" fill="#5877BA"/>
+        <path d="M7.462 18.934a8.531 8.531 0 0 0 5.038 1.637V12l-5.038 6.934z" fill="#9085BF"/>
+        <path d="M7.462 5.065a8.59 8.59 0 0 0-3.115 4.286L12.5 12 7.462 5.065z" fill="#53C2BE"/>
+        <path d="M4.347 9.351a8.566 8.566 0 0 0-.418 2.65c0 .924.147 1.814.418 2.649L12.5 12 4.347 9.351z" fill="#00A0E3"/>
+        <path d="M12.5 20.571a8.532 8.532 0 0 0 5.038-1.637L12.5 12v8.572z" fill="#DB8ABA"/>
+        <path d="M12.5 12V3.43a8.533 8.533 0 0 0-5.038 1.637L12.5 12z" fill="#99CC74"/>
+        <path d="M20.654 9.351a8.589 8.589 0 0 0-3.116-4.285L12.5 12l8.154-2.649z" fill="#FFC30C"/>
+        <path d="M17.538 5.066A8.532 8.532 0 0 0 12.5 3.429V12l5.038-6.934z" fill="#FDDA44"/>
+        <path d="M17.538 18.934a8.59 8.59 0 0 0 3.116-4.285L12.5 12l5.038 6.934z" fill="#EA2F48"/>
+        <path d="M20.654 14.65a8.56 8.56 0 0 0 .418-2.65c0-.925-.148-1.815-.418-2.65L12.5 12l8.154 2.65z" fill="#F6921E"/>
+    </g>
+    <defs>
+        <clipPath id="56f0qu5yca">
+            <path fill="#fff" transform="translate(3.929 3.429)" d="M0 0h17.143v17.143H0z"/>
+        </clipPath>
+    </defs>
+</svg>

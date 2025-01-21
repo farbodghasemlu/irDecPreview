@@ -1,0 +1,98 @@
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="/theme/collections/account.css"
+    />
+  </head>
+  <body>
+    <main>
+      <section class="page__fill">
+        <div class="auth__wrapper">
+          <div class="auth__section">
+            <section class="auth__banner">
+              <div class="mb--24">
+                <img
+                  width="385"
+                  height="88"
+                  alt="banner"
+                  src="https://placehold.co/385x88"
+                />
+              </div>
+            </section>
+
+            <div class="mb--48">
+              <div class="auth__header title--lg bold text--center mb--12">
+                تکمیل ثبت نام
+              </div>
+              <section class="mail__container">
+                <form>
+                  <div class="user-field__wrapper mb--16">
+                    <div class="field__container">
+                      <input
+                        type="text"
+                        class="mail__input text--lg palette--primary field__box"
+                        placeholder="test@mail.com"
+                        disabled
+                      />
+                    </div>
+                    <div
+                      class="palette--teal semibold text--md pointer change-mail__button"
+                    >
+                      تغییر ایمیل
+                    </div>
+                  </div>
+                  <div class="user-field__wrapper mb--16">
+                    <div class="field__container">
+                      <input
+                        type="text"
+                        maxlength="100"
+                        minlength="1"
+                        oninput="this.value = this.value.replace(/[^a-zA-Z ]/g, '').replace(/(\..*)\./g, '');"
+                        class="mail__input text--lg palette--primary field__box"
+                        placeholder="نام خود را وارد کنید"
+                      />
+                    </div>
+                  </div>
+                  <div class="user-field__wrapper mb--16">
+                    <div class="field__wrap-container">
+                      <div class="field__container">
+                        <input
+                          type="text"
+                          maxlength="10"
+                          minlength="10"
+                          oninput="this.value = this.value.replace(/[^0-9]/g, '').replace(/(\..*)\./g, '');"
+                          class="mail__input text--lg palette--primary prefix field__box"
+                          placeholder="شماره همراه خود را وارد کنید"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <button
+                    class="btn__container btn__size--lg mail__field__button mb--12 btn__primary"
+                    name="continue"
+                  >
+                    <span>ادامه</span>
+                  </button>
+                </form>
+              </section>
+            </div>
+            <div class="troubleshoot">
+              برای ورود مشکل دارید؟
+              <a
+                class="palette--teal pointer"
+                href="https://www.pepperfry.com/customer/needhelp/faq"
+              >
+                از ما کمک بگیرید</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

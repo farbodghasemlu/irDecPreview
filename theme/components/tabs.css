@@ -1,0 +1,85 @@
+.tabs {
+  position: sticky;
+}
+.tabs .tab__item {
+  cursor: pointer;
+  height: 100%;
+  min-height: 74px;
+  padding-right: 65px;
+}
+.tabs .tab__item .tab__text-wrapper .tab__heading {
+  display: block;
+}
+.tabs .tab__item .tab__text-wrapper .tab__heading-active {
+  color: #009dc3;
+  display: block;
+}
+.border__bottom {
+  border-bottom: 1px solid #e0e0e0 !important;
+}
+.border__bottom-active {
+  border-bottom: 2px solid #009dc3;
+}
+.tab__icon-wrapper {
+  height: 36px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 36px;
+}
+.tab__info {
+  color: #848484;
+}
+.tab__info-active {
+  color: #1979b5;
+}
+.tab__item-active {
+  border-bottom: 2px solid #009dc3 !important;
+  cursor: pointer;
+  min-height: 82px;
+}
+.tabs__header--off {
+  top: 0;
+}
+.tabs__header--on {
+  top: 40px;
+}
+
+@media only screen and (max-width: 767px) {
+  .tabs .container-fluid .row {
+    border-bottom: 1px solid #e0e0e0;
+  }
+  .tabs .tab__item {
+    min-height: 84px;
+    padding-right: 0;
+    padding-top: 10px;
+    text-align: center;
+  }
+  .tab__icon-wrapper {
+    height: 24px;
+    margin-bottom: 4px;
+    width: 24px;
+  }
+}
+@media only screen and (max-width: 767px) and (max-width: 600px) {
+  .tabs .container-fluid .row .column .column {
+    display: block;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .tabs .tab__item .tab__icon-wrapper {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+  }
+  .tabs .tab__item .tab__text-wrapper {
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+  .tabs .tab__item {
+    min-height: 66px;
+    padding-right: 24px;
+  }
+}
