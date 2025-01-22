@@ -1,6 +1,6 @@
-@import "/theme/components/widget.css";
-@import "/theme/components/form.css";
-@import "/theme/components/accordion.css";
+@import "/irDecPreview/theme/components/widget.css";
+@import "/irDecPreview/theme/components/form.css";
+@import "/irDecPreview/theme/components/accordion.css";
 
 @keyframes fadeIn {
   0% {
@@ -698,7 +698,7 @@ footer .footer-show-less-btn {
 }
 
 .navbar__search-bar .navbar__search-close {
-  background: url(https://ii1.pepperfry.com/assets/w22-navbar__arrow.svg)
+  background: url(https://ii1.pepperfry.com/irDecPreview/assets/w22-navbar__arrow.svg)
     no-repeat left center;
   background-size: 24px;
   height: 24px;
@@ -1199,7 +1199,7 @@ footer .footer-show-less-btn {
     z-index: 2;
   }
   .navbar__main-category-container .navbar__menu-wrapper .prev .left-icon {
-    background: url(https://ii1.pepperfry.com/assets/left-arrow-icon.svg)
+    background: url(https://ii1.pepperfry.com/irDecPreview/assets/left-arrow-icon.svg)
       no-repeat left center;
     height: 44px;
     left: 0;
@@ -1217,7 +1217,7 @@ footer .footer-show-less-btn {
     z-index: 2;
   }
   .navbar__main-category-container .navbar__menu-wrapper .next .left-icon {
-    background: url(https://ii1.pepperfry.com/assets/left-arrow-icon.svg)
+    background: url(https://ii1.pepperfry.com/irDecPreview/assets/left-arrow-icon.svg)
       no-repeat left center;
     height: 44px;
     left: 0;
@@ -1589,7 +1589,7 @@ footer .footer-show-less-btn {
 .mobile-nav__content-nav .mobile-nav__content-list.mobile-nav__content-category:after {
   content: "";
   position: absolute;
-  background-image: url(/assets/icons/chevron-right.svg);
+  background-image: url(/irDecPreview/assets/icons/chevron-right.svg);
   background-size: contain;
   transform: rotate(180deg);
   background-repeat: no-repeat;
@@ -1807,7 +1807,7 @@ ul li.mobile-nav__partner-link {
   position: absolute;
   display: inline-block;
   right: -8px;
-  background: url(https://ii1.pepperfry.com/assets/w22-payment-down-chevron.svg)
+  background: url(https://ii1.pepperfry.com/irDecPreview/assets/w22-payment-down-chevron.svg)
     no-repeat 0 0;
 }
 .ctg-drawer-container
@@ -1821,7 +1821,7 @@ ul li.mobile-nav__partner-link {
   position: absolute;
   display: inline-block;
   right: -8px;
-  background: url(https://ii1.pepperfry.com/assets/w22-payment-up-chevron.svg)
+  background: url(https://ii1.pepperfry.com/irDecPreview/assets/w22-payment-up-chevron.svg)
     no-repeat 0 0;
 }
 .ctg-drawer-container
@@ -1837,7 +1837,7 @@ ul li.mobile-nav__partner-link {
   width: 11px;
   height: 12px;
   top: 8px;
-  background: url(https://ii1.pepperfry.com/assets/w23-plus.svg) no-repeat 0
+  background: url(https://ii1.pepperfry.com/irDecPreview/assets/w23-plus.svg) no-repeat 0
     0;
 }
 .ctg-drawer-container
@@ -1853,7 +1853,7 @@ ul li.mobile-nav__partner-link {
   width: 11px;
   height: 12px;
   top: 12px;
-  background: url(https://ii1.pepperfry.com/assets/w23-minus.svg) no-repeat 0
+  background: url(https://ii1.pepperfry.com/irDecPreview/assets/w23-minus.svg) no-repeat 0
     0;
 }
 .ctg-drawer-container .categories-container .categories-wrapper .sub-heading {

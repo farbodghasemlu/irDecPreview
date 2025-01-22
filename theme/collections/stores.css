@@ -1,13 +1,13 @@
-@import "/theme/base/main.css";
-@import "/theme/components/buttons.css";
-@import "/theme/components/cards.css";
-@import "/theme/components/form.css";
-@import "/theme/components/dropdown.css";
-/* @import "/theme/components/dropdown.css"; */
-@import "/theme/components/carousel.css";
-@import "/theme/components/accordion.css";
-@import "/theme/components/pincode.css";
-@import "/theme/components/review.css";
+@import "/irDecPreview/theme/base/main.css";
+@import "/irDecPreview/theme/components/buttons.css";
+@import "/irDecPreview/theme/components/cards.css";
+@import "/irDecPreview/theme/components/form.css";
+@import "/irDecPreview/theme/components/dropdown.css";
+/* @import "/irDecPreview/theme/components/dropdown.css"; */
+@import "/irDecPreview/theme/components/carousel.css";
+@import "/irDecPreview/theme/components/accordion.css";
+@import "/irDecPreview/theme/components/pincode.css";
+@import "/irDecPreview/theme/components/review.css";
 .card-image .stores__name,
 .card-image .stores__count {
   position: absolute;

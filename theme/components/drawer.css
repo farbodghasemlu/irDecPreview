@@ -6,7 +6,7 @@
   z-index: 991;
 }
 .overlay__container .overlay__close {
-  background: url(/assets/icons/close.svg) no-repeat left;
+  background: url(/irDecPreview/assets/icons/close.svg) no-repeat left;
   cursor: pointer;
   width: 32px;
   height: 32px;
