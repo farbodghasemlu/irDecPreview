@@ -352,7 +352,7 @@ display: block;
 }
 .navbar__main-category-container .navbar__menu-menu__panel {
   box-sizing: border-box;
-  overflow: hidden;
+  overflow: visible;
   position: absolute;
   width: 100%;
 }
