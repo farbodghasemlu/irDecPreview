@@ -1463,7 +1463,57 @@
                     </div>
                   </div>
                 </div>
+                <div class="text--lg bold mb--12">انتخاب آپشن</div>
+                <div class="radio-container">
+                  <div>
+                    <div class="radio-btn">
+                      <input
+                        type="radio"
+                        class="radio-input"
+                        name="discount_percentage"
+                        id="opt1"
+                        value="opt1"
+                      />
+                      <label class="radio-label" for="opt1">آپشن یک</label>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="radio-btn">
+                      <input
+                        type="radio"
+                        class="radio-input"
+                        name="discount_percentage"
+                        id="opt2"
+                        value="opt2"
+                      />
+                      <label class="radio-label" for="opt2">آپشن دو</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="text--lg bold mb--12">انتخاب اقلام همراه</div>
 
+                <div class="checkbox--container">
+                  <div class="checkbox--main attr_select_color_swatch">
+                    <input
+                      type="checkbox"
+                      class="checkbox-input"
+                      id="copt1"
+                      value="copt1"
+                    />
+                    <label class="checkbox-label" for="copt1">آپشن یک</label>
+                  </div>
+                </div>
+                <div class="checkbox--container">
+                  <div class="checkbox--main attr_select_color_swatch">
+                    <input
+                      type="checkbox"
+                      class="checkbox-input"
+                      id="copt2"
+                      value="copt2"
+                    />
+                    <label class="checkbox-label" for="copt2">آپشن دو</label>
+                  </div>
+                </div>
                 <!-- Call to Action Buttons -->
                 <div class="details-cta mb--16">
                   <div class="details-cta-section-container">
@@ -1493,113 +1543,194 @@
                 </div>
 
                 <!-- Product Details Accordion -->
-                <div class="accordion-container">
-                  <div accordion="">
-                    <div class="panel-group">
-                      <!-- Stores Near You -->
-                      <div class="panel panel-default dropup">
-                        <div role="tab" class="panel-heading">
-                          <h4 class="panel-title">
-                            <h2 class="details-accordian-ttl bold text--lg">
-                              فروشگاه‌های نزدیک شما
-                            </h2>
-                            <div class="caret"></div>
-                          </h4>
-                        </div>
-                        <div role="tabpanel" class="panel-collapse collapse in">
-                          <div class="panel-body">
-                            <div class="details-stores__nearby-container">
-                              <div
-                                class="details-stores__pncd-nt-avbl text--md"
-                              >
-                                <div class="palette--teal pointer">
-                                  کد پستی را وارد کنید
-                                </div>
-                                <div class="bold palette--tertiary">
-                                  برای جزئیات بیشتر
-                                </div>
-                              </div>
+                <div class="panel-group">
+                  <!-- 
+  This is a product details panel. It contains a collapsible section with product attributes.
+
+-->
+                  <div class="panel">
+                    <div class="panel-heading">
+                      <div class="panel-title">
+                        <h2 class="bold text--lg">جزئیات محصول</h2>
+                        <div class="caret"></div>
+                      </div>
+                    </div>
+                    <div class="panel-body">
+                      <div class="prod__details-container text--md mb--24">
+                        <div class="row">
+                          <!-- Product attribute: Brand -->
+                          <div class="column xs-6 sm-6 mb--12">
+                            <div class="prod__details-label bold">برند</div>
+                            <div class="prod__details-value medium">
+                              نام برند
+                            </div>
+                          </div>
+                          <!-- Product attribute: Colour -->
+                          <div class="column xs-6 sm-6 mb--12">
+                            <div class="prod__details-label bold">رنگ</div>
+                            <div class="prod__details-value medium">
+                              نام رنگ
+                            </div>
+                          </div>
+                          <!-- Product attribute: Dimensions -->
+                          <div class="column xs-6 sm-6 mb--12">
+                            <div class="prod__details-label bold">ابعاد</div>
+                            <div class="prod__details-value medium">
+                              ابعاد محصول
+                            </div>
+                          </div>
+                          <!-- Product attribute: Dimensions (In Centimeters) -->
+                          <div class="column xs-6 sm-6 mb--12">
+                            <div class="prod__details-label bold">
+                              ابعاد (سانتی‌متر)
+                            </div>
+                            <div class="prod__details-value medium">
+                              ابعاد محصول
+                            </div>
+                          </div>
+                          <!-- Product attribute: Dimensions (in Inches) -->
+                          <div class="column xs-6 sm-6 mb--12">
+                            <div class="prod__details-label bold">
+                              ابعاد (اینچ)
+                            </div>
+                            <div class="prod__details-value medium">
+                              ابعاد محصول
+                            </div>
+                          </div>
+                          <!-- Product attribute: Fabric -->
+                          <div class="column xs-6 sm-6 mb--12">
+                            <div class="prod__details-label bold">جنس</div>
+                            <div class="prod__details-value medium">
+                              جنس محصول
+                            </div>
+                          </div>
+                          <!-- Product attribute: Filler -->
+                          <div class="column xs-6 sm-6 mb--12">
+                            <div class="prod__details-label bold">پرکننده</div>
+                            <div class="prod__details-value medium">
+                              نوع پرکننده
+                            </div>
+                          </div>
+                          <!-- Product attribute: Product Rating -->
+                          <div class="column xs-6 sm-6 mb--12">
+                            <div class="prod__details-label bold">
+                              امتیاز محصول
+                            </div>
+                            <div class="prod__details-value medium">امتیاز</div>
+                          </div>
+                          <!-- Product attribute: Set Content -->
+                          <div class="column xs-6 sm-6 mb--12">
+                            <div class="prod__details-label bold">
+                              محتوای مجموعه
+                            </div>
+                            <div class="prod__details-value medium">
+                              محتوای مجموعه
+                            </div>
+                          </div>
+                          <!-- Product attribute: Sku -->
+                          <div class="column xs-6 sm-6 mb--12">
+                            <div class="prod__details-label bold">
+                              شناسه محصول
+                            </div>
+                            <div class="prod__details-value medium">
+                              شناسه محصول
                             </div>
                           </div>
                         </div>
                       </div>
-
-                      <!-- Product Details -->
-                      <div class="panel panel-default dropup">
-                        <div role="tab" class="panel-heading">
-                          <h4 class="panel-title">
-                            <h2 class="details-accordian-ttl bold text--lg">
-                              جزئیات محصول
-                            </h2>
-                            <div class="caret"></div>
-                          </h4>
-                        </div>
-                        <div role="tabpanel" class="panel-collapse collapse in">
-                          <div class="panel-body">
-                            <div
-                              class="details-prod__details-container text--md mb--24"
-                            >
-                              <div class="row">
-                                <!-- Brand -->
-                                <div class="column xs-6 sm-6 mb--12">
-                                  <div class="details-prod__details-label bold">
-                                    برند
-                                  </div>
-                                  <div
-                                    class="details-prod__details-value medium"
-                                  >
-                                    نام برند
-                                  </div>
-                                </div>
-
-                                <!-- Assembly -->
-                                <div class="column xs-6 sm-6 mb--12">
-                                  <div class="details-prod__details-label bold">
-                                    مونتاژ
-                                  </div>
-                                  <div
-                                    class="details-prod__details-value medium"
-                                  >
-                                    مونتاژ توسط نجار
-                                  </div>
-                                </div>
-
-                                <!-- Dimensions (CM) -->
-                                <div class="column xs-6 sm-6 mb--12">
-                                  <div class="details-prod__details-label bold">
-                                    ابعاد (سانتی‌متر)
-                                  </div>
-                                  <div
-                                    class="details-prod__details-value medium"
-                                  >
-                                    H 86 x W 80 x D 80
-                                  </div>
-                                </div>
-
-                                <!-- Dimensions (Inches) -->
-                                <div class="column xs-6 sm-6 mb--12">
-                                  <div class="details-prod__details-label bold">
-                                    ابعاد (اینچ)
-                                  </div>
-                                  <div
-                                    class="details-prod__details-value medium"
-                                  >
-                                    H 33.5 x W 31.5 x D 31.5
-                                  </div>
-                                </div>
-
-                                <!-- Warranty -->
-                                <div class="column xs-6 sm-6 mb--12">
-                                  <div class="details-prod__details-label bold">
-                                    گارانتی
-                                  </div>
-                                  <div
-                                    class="details-prod__details-value medium"
-                                  >
-                                    ۳۶ ماه
-                                  </div>
-                                </div>
+                    </div>
+                  </div>
+                  <!-- 
+  This is a specifications panel. It contains a collapsible section with product specifications.
+-->
+                  <div class="panel">
+                    <div class="panel-heading">
+                      <div class="panel-title">
+                        <h2 class="bold text--lg">مشخصات فنی</h2>
+                        <div class="caret"></div>
+                      </div>
+                    </div>
+                    <div class="panel-body">
+                      <!-- Specifications content -->
+                      <div class="medium text--md">
+                        <p>
+                          لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                          چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون
+                          بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و
+                          برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع
+                          با هدف بهبود ابزارهای کاربردی می باشد کتابهای زیادی در
+                          شصت و سه درصد گذشته حال و آینده شناخت فراوان جامعه و
+                          متخصصان را می طلبد
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- 
+  This is a Q&A panel. It contains a collapsible section where users can ask questions and view existing questions and answers.
+-->
+                  <div class="panel">
+                    <div class="panel-heading">
+                      <div class="panel-title">
+                        <h2 class="bold text--lg">پرسش و پاسخ</h2>
+                        <div class="caret"></div>
+                      </div>
+                    </div>
+                    <div class="panel-body">
+                      <div class="prod__question--main-container">
+                        <div class="prod__question--wrapper ask-question-mb">
+                          <!-- Question prompt -->
+                          <div
+                            class="prod__question--wrap-text-present medium palette--heading pt--12 text--md"
+                          >
+                            آیا به کمک خاصی نیاز دارید؟
+                          </div>
+                          <!-- Input box for asking a question -->
+                          <div class="prod__question--field__box">
+                            <form novalidate>
+                              <div class="field__wrap">
+                                <input
+                                  type="text"
+                                  placeholder="سوال خود را اینجا تایپ کنید"
+                                  class="prod__question--inpt-field text--md field__block text--lg"
+                                  maxlength="300"
+                                />
                               </div>
+                            </form>
+                            <span
+                              class="question__post-btn text--md bold pointer"
+                              >ارسال</span
+                            >
+                          </div>
+                          <!-- Character limit indicator -->
+                          <div class="inpt-txt-limit text--md mb--12">
+                            حداکثر تعداد کاراکتر: ۰/۳۰۰
+                          </div>
+                          <!-- Placeholder for question posted response -->
+                          <div class="question--response mb--12"></div>
+                        </div>
+                        <!-- List of existing questions and answers -->
+                        <div class="list-of-question mb--12">
+                          <div class="answer__wrapper">
+                            <div class="question__username text--sm">
+                              کاربر نمونه
+                            </div>
+                            <div class="user__question text--sm bold">
+                              پرسش: سیاست بازگشت کالا
+                            </div>
+                            <div class="user__answer text--sm">
+                              پاسخ: شما می‌توانید درخواست بازگشت کالا را حداکثر
+                              تا هفت (۷) روز پس از تحویل ثبت کنید. لطفاً توجه
+                              داشته باشید که درخواست‌های بازگشت پس از این مدت
+                              قابل پذیرش نیستند. برای اطلاعات بیشتر به لینک زیر
+                              مراجعه کنید: <a href="/">سیاست بازگشت کالا</a>.
+                            </div>
+                            <!-- Upvote section -->
+                            <div class="vote__section">
+                              <span class="text--sm helpful"
+                                > پاسخ مفید بود؟</span
+                              >
+                              <span class="pointer vote-icon downvoted"></span>
+                              <span class="text--sm like-count"></span>
                             </div>
                           </div>
                         </div>
@@ -1613,11 +1744,6 @@
         </div>
         <!-- 
   This HTML block represents a section for seeking expert advice.
-  - The outer container has been cleaned up, and custom elements like <details-need-help-section> have been removed.
-  - Classes from removed elements have been transferred to their children.
-  - Angular-specific classes (e.g., ng-star-inserted) and attributes (e.g., _ngcontent-serverapp-c205) have been removed.
-  - Links have been simplified to "/", and placeholder text in Persian has been added.
-  - Images (if any) would have been replaced with placehold.co placeholders, but none were found in this block.
 -->
 
 <div class="details-page-section details-need-expert-wrapper">

@@ -1637,3 +1637,116 @@ margin-top: 0 !important;
 .owl-carousel .next-slide:hover {
   background-position: -24px -53px;
 }
+
+.prod__details-container .prod__details-bottom-text {
+  cursor: pointer;
+}
+.prod__details-container .prod__details-label {
+  color: #5b5b5b;
+}
+.prod__details-container .prod__details-value {
+  color: #848484;
+}
+@media only screen and (max-width: 767px) {
+  .prod__details-container {
+    padding: 20px 8px;
+    margin: 0 -8px;
+  }
+}
+.prod__details-container .row .column {
+  overflow-wrap: break-word;
+}
+
+.prod__question--wrapper {
+  border-top: 1px solid #e0e0e0;
+}
+.ask-question-mb {
+  border-bottom: 1px solid #e0e0e0;
+}
+.prod__question--wrap-text {
+  padding-left: 8px;
+  color: #5b5b5b;
+}
+.prod__question--field__box {
+  padding-left: 8px;
+  position: relative;
+}
+.prod__question--field__box .prod__question--inpt-field {
+  width: 100%;
+  height: 40px;
+  padding: 10px 8px 10px 50px;
+  color: #848484;
+}
+.prod__question--field__box .question__post-btn {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  color: #009DC3;
+}
+.inpt-txt-limit,
+.more-question__option,
+.prod__question--wrap-text-present {
+  padding-left: 8px;
+}
+.answer__wrapper {
+  padding: 12px 0 0 8px;
+  border-bottom: 1px dashed #eeeeee;
+}
+.more-question__option {
+  padding-top: 12px;
+}
+.question--response .question--nonLoggedIn {
+  margin-left: 8px;
+  margin-bottom: 2px;
+  color: #848484;
+}
+.question--response .question-Welcome-success {
+  padding-left: 8px;
+}
+.question--response .question-Welcome-success .-message-title {
+  margin-bottom: 2px;
+  color: #67ad5b;
+}
+.question--response .question-Welcome-success .message-description {
+  margin-top: 0;
+  color: #5b5b5b;
+}
+.question__username,
+.user__answer {
+  color: #848484;
+  padding-bottom: 4px;
+}
+.user__question {
+  color: #5b5b5b;
+}
+.upvoted span {
+  width: 24px;
+  height: 32px;
+  display: inline-block;
+  background: url(https://ii1.pepperfry.com/assets/w23-vote__icon.svg)
+    no-repeat left center;
+}
+.downvoted span {
+  width: 24px;
+  height: 32px;
+  display: inline-block;
+  background: url(https://ii1.pepperfry.com/assets/w23_empty_like_icon.svg)
+    no-repeat left center;
+}
+.vote__section {
+  display: flex;
+  align-items: center;
+  width: 121px;
+}
+.vote__section .helpful,
+.vote__section
+  .like-count {
+  color: #848484;
+}
+.vote__section .helpful {
+  margin-right: 12px;
+}
+.vote__section
+  .vote-icon {
+  display: flex;
+}

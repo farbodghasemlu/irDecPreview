@@ -7,14 +7,17 @@
 }
 .panel .panel-heading .panel-title {
   padding: 12px 0;
+  position: relative;
 }
 .panel .panel-heading .panel-title:after {
-  background-image: url(/irDecPreview/assets/icons/chevron-down.svg);
+  background-image: url(/assets/icons/chevron-down.svg);
   height: 24px;
   left: 0;
   top: 50%;
   transform: translateY(-50%);
   width: 24px;
+  content: '';
+  position: absolute;
 }
 .panel .panel-body {
   display: none;
@@ -59,8 +62,8 @@
 .panel.active .panel-body {
   display: block;
 }
-.panel.active .panel-heading .panel-title:after {
-  transform: translateY(-50%), rotate(180deg);
+.panel .panel-heading.active .panel-title:after {
+  transform: translateY(-50%) rotate(180deg) !important;
 }
 @media only screen and (min-width: 768px) {
   .panel {
