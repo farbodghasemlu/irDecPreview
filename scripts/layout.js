@@ -72,27 +72,16 @@ $(document).ready(function () {
         });
       });
   });
-  $(document).ready(function() {
-    const $menuItems = $('.navbar__menu-list-item');
-    const $megaMenu = $('#megamenu');
-  
-    // Show mega menu on hover
-    $menuItems.hover(
-      function() {
-        $megaMenu.stop(true, true).fadeIn(200); // Fade in the mega menu
-      },
-      function() {
-        $megaMenu.stop(true, true).fadeOut(200); // Fade out the mega menu
+  const $footerToggle = $('.footer-content-toggle');
+  const $footerContent = $('.footer-content-mobile');
+
+  $footerToggle.click(function() {
+      $footerContent.toggle(); // Toggle visibility of the footer content
+
+      // Update button text or icon
+      if ($footerContent.is(':visible')) {
+          $footerToggle.text('نمایش کمتر'); // Example text change
+      } else {
+          $footerToggle.text('نمایش بیشتر'); // Example text change
       }
-    );
-  
-    // Optional: Keep mega menu visible when hovering over it
-    $megaMenu.hover(
-      function() {
-        $(this).stop(true, true).fadeIn(200); // Keep it visible
-      },
-      function() {
-        $(this).stop(true, true).fadeOut(200); // Hide it when leaving
-      }
-    );
   });

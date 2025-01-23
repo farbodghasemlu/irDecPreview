@@ -2,7 +2,7 @@
     position: relative;
   }
   .menu__container .menu__wrapper.QTY--menu .select-btn {
-    background-image: url(https://ii1.pepperfry.com/irDecPreview/assets/w22-payment-down-chevron.svg);
+    background-image: url(https://ii1.pepperfry.com/assets/w22-payment-down-chevron.svg);
     background-position-x: right 75px;
     background-size: 18px;
     border: 1px solid #E0E0E0;
@@ -28,7 +28,7 @@
     margin-bottom: 8px;
   }
   .menu__container .menu__btn .select-btn {
-    background: url(https://ii1.pepperfry.com/irDecPreview/assets/w22-payment-down-chevron.svg) no-repeat  5% 50% #fff;
+    background: url(https://ii1.pepperfry.com/assets/w22-payment-down-chevron.svg) no-repeat  5% 50% #fff;
     background-size: 20px;
     border: none;
     border-radius: 2px;
@@ -49,7 +49,7 @@
     box-shadow: 0 0 1px #009DC366, 0 1px 2px #009DC30f;
   }
   .menu__container .menu__btn .select-input {
-    background: url(https://ii1.pepperfry.com/irDecPreview/assets/w22-payment-down-chevron.svg) no-repeat  5% 50% #fff;
+    background: url(https://ii1.pepperfry.com/assets/w22-payment-down-chevron.svg) no-repeat  5% 50% #fff;
     background-size: 20px;
     border: none;
     border-radius: 2px;
@@ -79,7 +79,7 @@
     pointer-events: none;
   }
   .menu__container .menu__btn.arrow-up .select-btn {
-    background-image: url(https://ii1.pepperfry.com/irDecPreview/assets/w22-payment-up-chevron.svg);
+    background-image: url(https://ii1.pepperfry.com/assets/w22-payment-up-chevron.svg);
   }
   .menu__container .menu__label {
     color: #5b5b5b;
@@ -132,7 +132,7 @@
     background: none;
   }
   .menu__container .menu__main .filter-dropdown {
-    background-image: url(https://ii1.pepperfry.com/irDecPreview/assets/w22-payment-search-icon.svg);
+    background-image: url(https://ii1.pepperfry.com/assets/w22-payment-search-icon.svg);
     background-position-x: right 8px;
     background-position-y: center;
     background-repeat: no-repeat;

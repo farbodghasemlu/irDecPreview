@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="/irDecPreview/theme/collections/cart.css" />
   </head>
   <body>
-    <section class="checkout-container">
+    <section class="checkout__container">
       <!-- Header Section -->
       <header class="checkout__header-container">
         <div class="checkout__header-row1">
@@ -143,7 +143,6 @@
                   <div class="text--lg bold mb--12">پیشنهادات برای شما</div>
                   <div class="feature-code card paymentOption">
                     <div class="paymentSuggestedBody">
-                      <div class="accordion-container">
 
                         <div
                         class="list-options-holder stores__radio-selection"
@@ -157,7 +156,7 @@
                                   height="32"
                                   src="https://placehold.co/32x32?text=کارت+اعتباری"
                                 />
-                                <span>کارت اعتباری</span>
+                                <span>واریز به حساب </span>
                               </div>
                               <div class="caret"></div>
                             </h4>
@@ -181,42 +180,48 @@ This HTML block represents a payment card form.
                                           type="text"
                                           maxlength="16"
                                           autocomplete="cc-number"
-                                          placeholder="شماره کارت"
+                                          placeholder="شماره حساب"
                                           class="text--lg"
                                         />
                                       </div>
                                     </div>
-                                    <div class="pyt-expiry-cvv-wrapper">
+                                    <div class="mb--8">
                                       <div
-                                        class="field__box mb--8"
+                                        class="field__box"
                                       >
                                         <input
                                           type="text"
-                                          maxlength="5"
-                                          inputmode="numeric"
-                                          autocomplete="cc-exp"
-                                          placeholder="تاریخ انقضا (MM/YY)"
+                                          inputmode="text"
+                                          autocomplete="off"
+                                          placeholder="نام"
                                           class="text--lg"
                                         />
                                       </div>
-                                      <div
-                                        class="field__box mb--8"
-                                      >
+                                     
+                                    </div>
+                                    <div class="mb--8">
+                                      <div class="field__box">
                                         <input
-                                          type="password"
-                                          maxlength="4"
-                                          inputmode="numeric"
+                                          id="date"
+                                          type="text"
                                           autocomplete="off"
-                                          placeholder="CVV"
+                                          placeholder="تاریخ واریز"
                                           class="text--lg"
                                         />
-                                        <span
-                                          placement="bottom"
-                                          class="tooltip-icon pyt-cvv-tooltip"
-                                        ></span>
+                                        <span id="date-formatted" class="text--md"></span>
                                       </div>
                                     </div>
-                   
+                                    <div class="mb--8">
+                                      <div class="field__box">
+                                        <input
+                                          id="trackingCode"
+                                          type="text"
+                                          autocomplete="off"
+                                          placeholder="شماره پیگیری"
+                                          class="text--lg"
+                                        />
+                                      </div>
+                                    </div>
                                   </div>
                         
                                 </div>
@@ -225,7 +230,6 @@ This HTML block represents a payment card form.
                         </div>
                       </div>
 
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -250,7 +254,7 @@ This HTML block represents a payment card form.
                                         height="32"
                                         src="https://placehold.co/32x32?text=بانک+اینترنتی"
                                       />
-                                      <span>بانک اینترنتی</span>
+                                      <span>درگاه پرداخت</span>
                                     </div>
                                     <div class="caret"></div>
                                   </h4>
@@ -393,7 +397,128 @@ This HTML block represents a payment card form.
                                 </div></div>
                               </div>
                             </div>
-                
+                            <div
+                            class="list-options-holder stores__radio-selection"
+                          >
+                            <div class="panel panel-default">
+                              <div role="tab" class="panel-heading">
+                                <h4 class="panel-title">
+                                  <div class="text--xl medium option-heading">
+                                    <img
+                                      width="32"
+                                      height="32"
+                                      src="https://placehold.co/32x32?text=کارت+اعتباری"
+                                    />
+                                    <span>واریز به حساب </span>
+                                  </div>
+                                  <div class="caret"></div>
+                                </h4>
+                              </div>
+                              <!-- 
+    This HTML block represents a payment card form.
+    
+    -->
+    
+    
+                                <div class="panel-body">
+                                  <div class="card-contanier">
+                                    <div
+                                      class="payment-card-details-container"
+                                    >
+                                      <div class="payment-card-form-wrapper">
+                                        <div class="mb--8">
+                                          <div class="field__box">
+                                            <input
+                                              id="acc"
+                                              type="text"
+                                              maxlength="16"
+                                              autocomplete="cc-number"
+                                              placeholder="شماره حساب"
+                                              class="text--lg"
+                                            />
+                                          </div>
+                                        </div>
+                                        <div class="mb--8">
+                                          <div
+                                            class="field__box"
+                                          >
+                                            <input
+                                              type="text"
+                                              inputmode="text"
+                                              autocomplete="off"
+                                              placeholder="نام"
+                                              class="text--lg"
+                                            />
+                                          </div>
+                                         
+                                        </div>
+                                        <div class="mb--8">
+                                          <div class="field__box">
+                                            <input
+                                              id="date"
+                                              type="text"
+                                              autocomplete="off"
+                                              placeholder="تاریخ واریز"
+                                              class="text--lg"
+                                            />
+                                            <span id="date-formatted" class="text--md"></span>
+                                          </div>
+                                        </div>
+                                        <div class="mb--8">
+                                          <div class="field__box">
+                                            <input
+                                              id="trackingCode"
+                                              type="text"
+                                              autocomplete="off"
+                                              placeholder="شماره پیگیری"
+                                              class="text--lg"
+                                            />
+                                          </div>
+                                        </div>
+                                      </div>
+                            
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                          </div>
+                          <div
+                        class="list-options-holder stores__radio-selection"
+                      >
+                        <div class="panel panel-default">
+                          <div role="tab" class="panel-heading">
+                            <h4 class="panel-title">
+                              <div class="text--xl medium option-heading">
+                                <img
+                                  width="32"
+                                  height="32"
+                                  src="https://placehold.co/32x32?text=کارت+اعتباری"
+                                />
+                                <span>دیگر شیوه های پرداخت</span>
+                              </div>
+                              <div class="caret"></div>
+                            </h4>
+                          </div>
+                          <!-- 
+This HTML block represents a payment card form.
+
+-->
+
+
+                            <div class="panel-body">
+                              <div class="card-contanier">
+                                <div
+                                  class="payment-card-details-container"
+                                >
+                                  <p class="text--sm">
+                                    جهت آسودگی و اطمینان خاطر بیشتر، کاربران می توانند هزینه سفارشاتی که محل تحویل آن داخل محدوده شهر تهران است را هنگام تحویل گرفتن سفارش پرداخت کنند. بدین منظور تمامی ماموران تحویل سفارش ایران دکور، دستگاه کارت خوان سیار (POS) همراه در اختیار داشته و کاربر می‌تواند هنگام تحویل سفارش در محل، با استفاده از کارت‌های عضو شبکه شتاب پرداخت خود را انجام دهد.
+                                  </p>
+                        
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                      </div>
                       </div>
                     </div>
                   </div>
@@ -483,5 +608,12 @@ This HTML block represents a payment card form.
     <script src="/irDecPreview/lib/jquery/jquery.min.js"></script>
 
     <script src="/irDecPreview/scripts/drawer.js"></script>
+    <script src="/irDecPreview/scripts/datepicker.js"></script>
+    <script>
+            $(document).ready(function() {
+
+      $("#date, #date-formatted").persianDatepicker();
+            })
+    </script>
   </body>
 </html>

@@ -366,7 +366,7 @@
   .category-list__fixed-filter
   .category-list__filter-li
   .filters_applied:before {
-  background: url(https://ii2.pepperfry.com/irDecPreview/assets/w23-filter-mob-icon.png)
+  background: url(https://ii2.pepperfry.com/assets/w23-filter-mob-icon.png)
     no-repeat 0 right 0;
   background-size: cover !important;
   content: "";
@@ -382,14 +382,14 @@
   .category-list__fixed-filter
   .category-list__filter-li
   .isCategoryOpen:after {
-  background: url(https://ii2.pepperfry.com/irDecPreview/assets/w23-menu__arrow-up.png)
+  background: url(https://ii2.pepperfry.com/assets/w23-menu__arrow-up.png)
     no-repeat 0 right 0;
 }
 .category-list__filter-mobile-view
   .category-list__fixed-filter
   .category-list__filter-li
   .categories:after {
-  background: url(https://ii2.pepperfry.com/irDecPreview/assets/w23-menu__arrow-down.png)
+  background: url(https://ii2.pepperfry.com/assets/w23-menu__arrow-down.png)
     no-repeat 0 right 0;
   content: "";
   height: 12px;
@@ -410,7 +410,7 @@
   .category-list__fixed-filter
   .category-list__filter-li
   .sort_by:before {
-  background: url(https://ii2.pepperfry.com/irDecPreview/assets/w23-category-list__filter-icon.svg)
+  background: url(https://ii2.pepperfry.com/assets/w23-category-list__filter-icon.svg)
     no-repeat 0 right 0;
   background-size: cover !important;
   content: "";

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="fa">
   <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <link rel="stylesheet" href="/irDecPreview/theme/collections/layout.css" />
     <link
       rel="stylesheet"
@@ -11,12 +12,12 @@
       href="/irDecPreview/lib/owlcarousel/assets/owl.theme.default.min.css"
     />
     <link rel="stylesheet" href="/irDecPreview/theme/collections/home.css" />
-
+    <!-- 
     <title>ایران دکور - فروشگاه مبلمان و دکوراسیون</title>
     <meta
       name="description"
       content="ایران دکور، فروشگاه اینترنتی مبلمان و دکوراسیون و مجموعه ی کاملی از محصولاتِ معتبرترین تولیدکنندگان حوزه مبل راحتی، کلاسیک، استیل و تمامی لوازم دکوراسیون با بهترین قیمت و کیفیت"
-    />
+    /> -->
   </head>
   <body>
     <div
@@ -294,7 +295,25 @@
                 <img alt="hamburger icon" src="/irDecPreview/assets/icons/menu.svg" />
               </a>
             </div>
-
+            <div class="pointer category-open-icon">
+              <a
+                role="link"
+                data-rule="dialog"
+                data-target="category__overlay"
+                class="category__overlay-toggler"
+              >
+                <!-- SVG icon for hamburger menu -->
+                <img
+                  alt="back icon"
+                  src="/irDecPreview/assets/icons/chevron-right.svg"
+                  width="16"
+                  height="16"
+                />
+              </a>
+            </div>
+            <div class="text--xl bold truncate category-open-title">
+              <span> دسته بندی ها</span>
+            </div>
             <!-- Search bar section -->
             <div class="header-search">
               <div class="navbar__search-wrap">
@@ -579,7 +598,10 @@
                       height="32"
                     />
                   </a>
-                  <a class="stores__text pointer" href="/irDecPreview/views/studio/discover.html">
+                  <a
+                    class="stores__text pointer"
+                    href="/irDecPreview/views/studio/discover.html"
+                  >
                     <div
                       class="stores__first-text text--xs semibold text--right"
                     >
@@ -593,7 +615,11 @@
 
                 <!-- Wishlist icon -->
                 <div class="navbar__wishlist-wrap navbar__icon-cta">
-                  <a role="link" class="pointer" href="/irDecPreview/views/account/wishlist.html">
+                  <a
+                    role="link"
+                    class="pointer"
+                    href="/irDecPreview/views/account/wishlist.html"
+                  >
                     <!-- Placeholder wishlist icon -->
                     <img
                       alt="wishlist icon"
@@ -637,9 +663,7 @@
                     </a>
                   </li>
                   <!-- Menu item: Sofas & Seating -->
-                  <li
-                    class="navbar__menu-list-item pointer"
-                  >
+                  <li class="navbar__menu-list-item pointer">
                     <a
                       class="navbar__menu-level-top text--md medium"
                       href="/irDecPreview/views/products/category.html"
@@ -666,7 +690,7 @@
                     </a>
                   </li>
                   <!-- Menu item: Furnishings -->
-                  <li class="navbar__menu-list-item pointer" >
+                  <li class="navbar__menu-list-item pointer">
                     <a
                       class="navbar__menu-level-top text--md medium"
                       href="/irDecPreview/views/products/category.html"
@@ -675,9 +699,7 @@
                     </a>
                   </li>
                   <!-- Menu item: Lamps & Lighting -->
-                  <li
-                    class="navbar__menu-list-item pointer"
-                  >
+                  <li class="navbar__menu-list-item pointer">
                     <a
                       class="navbar__menu-level-top text--md medium"
                       href="/irDecPreview/views/products/category.html"
@@ -686,9 +708,7 @@
                     </a>
                   </li>
                   <!-- Menu item: Kitchen & Dining -->
-                  <li
-                    class="navbar__menu-list-item pointer"
-                  >
+                  <li class="navbar__menu-list-item pointer">
                     <a
                       class="navbar__menu-level-top text--md medium"
                       href="/irDecPreview/views/products/category.html"
@@ -715,7 +735,6 @@
                     </a>
                   </li>
                   <!-- Menu item: Modular -->
-               
                 </ul>
                 <div></div>
               </div>
@@ -851,237 +870,235 @@
         </div>
       </div>
     </header>
+    <!-- Categories drawer section -->
+    <div
+      class="category-title__section anchor--full"
+      data-toggler="category__overlay"
+    >
+      <div
+        class="category-title__overlay__container category-title__anchor--right"
+      >
+        <div class="categories-container">
+          <ul class="categories-wrapper">
+            <!-- Furniture category -->
+            <li class="categories-l0-listing p--12 cursor-pointer">
+              <div class="categories-content text--sm categories-listing-l0">
+                <div class="categories-icon p--4">
+                  <img
+                    src="https://placehold.co/24x24"
+                    height="24"
+                    width="24"
+                    alt=" مبلمان"
+                    class="cat-ico-img"
+                  />
+                </div>
+                <div class="categories-desc">
+                  <div class="bold text--sm truncate">مبلمان</div>
+                  <div class="sub-heading text--xs medium truncate">
+                    مبل، مبل بخشی، مبل تختخواب شو، صندلی راحتی، صندلی اداری،
+                    صندلی بازی، صندلی ناهارخوری، صندلی بار، نیمکت، عثمانی، میز
+                    قهوه، میز کناری، واحد تلویزیون، کمد و بوفه، قفسه کتاب، ست
+                    ناهارخوری، تخت، میز کنار تخت، کشو، میز آرایش، گنجه، مبلمان
+                    کودکان و نوجوانان، میز مطالعه، مبلمان اداری، مراقبت از
+                    مبلمان، فضای باز، ماساژورها
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- Sofas & Seating category -->
+            <li class="categories-l0-listing p--12 cursor-pointer">
+              <div class="categories-content text--sm categories-listing-l0">
+                <div class="categories-icon p--4">
+                  <img
+                    src="https://placehold.co/24x24"
+                    height="24"
+                    width="24"
+                    alt=" مبل و صندلی"
+                    class="cat-ico-img"
+                  />
+                </div>
+                <div class="categories-desc">
+                  <div class="bold text--sm truncate">مبل و صندلی</div>
+                  <div class="sub-heading text--xs medium truncate">
+                    مبل، ست مبل، مبل بخشی، مبل تختخواب شو، صندلی راحتی، ست صندلی
+                    راحتی، صندلی اداری، صندلی بازی، صندلی ناهارخوری، صندلی بار،
+                    نیمکت، عثمانی، صندلی فضای باز، مراقبت از مبلمان، برترین
+                    مجموعه‌ها، برترین برندها
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- Mattresses category -->
+            <li class="categories-l0-listing p--12 cursor-pointer">
+              <div class="categories-content text--sm categories-listing-l0">
+                <div class="categories-icon p--4">
+                  <img
+                    src="https://placehold.co/24x24"
+                    height="24"
+                    width="24"
+                    alt=" تشک"
+                    class="cat-ico-img"
+                  />
+                </div>
+                <div class="categories-desc">
+                  <div class="bold text--sm truncate">تشک</div>
+                  <div class="sub-heading text--xs medium truncate">
+                    تشک بزرگ، تشک دو نفره، تشک تک نفره، تشک تاشو، تشک نوزاد،
+                    محافظ تشک، روکش تشک، بالش، مراقبت از تشک، برترین برندها
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- Home Decor category -->
+            <li class="categories-l0-listing p--12 cursor-pointer">
+              <div class="categories-content text--sm categories-listing-l0">
+                <div class="categories-icon p--4">
+                  <img
+                    src="https://placehold.co/24x24"
+                    height="24"
+                    width="24"
+                    alt=" دکوراسیون خانه"
+                    class="cat-ico-img"
+                  />
+                </div>
+                <div class="categories-desc">
+                  <div class="bold text--sm truncate">دکوراسیون خانه</div>
+                  <div class="sub-heading text--xs medium truncate">
+                    گلدان، مجسمه، کلکسیون، اشیاء تزئینی، ابزار خانه، دکور میز،
+                    دکور کودکان، قاب عکس، شمع، پایه شمع، معنوی، عطر خانه، ست
+                    دکور، لوازم نماز، گیاهان مصنوعی، دکور جشن، باغبانی، گلدان،
+                    دکور فضای باز، آویز دیواری، قفسه دیواری، کابینت دیواری،
+                    نگهدارنده تلویزیون، نگهدارنده کلید، جارخانی، پارتیشن، دکور
+                    دیواری، هنر دیواری، کاغذ دیواری، ساعت، آینه، هدیه
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- Furnishings category -->
+            <li class="categories-l0-listing p--12 cursor-pointer">
+              <div class="categories-content text--sm categories-listing-l0">
+                <div class="categories-icon p--4">
+                  <img
+                    src="https://placehold.co/24x24"
+                    height="24"
+                    width="24"
+                    alt=" لوازم خانه"
+                    class="cat-ico-img"
+                  />
+                </div>
+                <div class="categories-desc">
+                  <div class="bold text--sm truncate">لوازم خانه</div>
+                  <div class="sub-heading text--xs medium truncate">
+                    ملحفه تخت، پتو و لحاف، لوازم حمام، لوازم تخت، پرده، لوازم
+                    پرده، سبد لباس، توری پنجره، ست لوازم خانه، کوسن و روکش، روکش
+                    مبل، روکش صندلی، فرش، زیرانداز، رومیزی، لوازم کودکان، لوازم
+                    حیوانات، زیرانداز یوگا، برترین برندها
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- Lamps & Lighting category -->
+            <li class="categories-l0-listing p--12 cursor-pointer">
+              <div class="categories-content text--sm categories-listing-l0">
+                <div class="categories-icon p--4">
+                  <img
+                    src="https://placehold.co/24x24"
+                    height="24"
+                    width="24"
+                    alt=" چراغ و روشنایی"
+                    class="cat-ico-img"
+                  />
+                </div>
+                <div class="categories-desc">
+                  <div class="bold text--sm truncate">چراغ و روشنایی</div>
+                  <div class="sub-heading text--xs medium truncate">
+                    چراغ پایه‌دار، چراغ قفسه، چراغ میز، چراغ خواب، چراغ مطالعه،
+                    آباژور، چراغ کودکان، چراغ سقفی، چراغ دیواری، چراغ هوشمند،
+                    چراغ فضای باز، چراغ تزئینی، چراغ اضطراری، لامپ، برترین
+                    برندها
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- Kitchen & Dining category -->
+            <li class="categories-l0-listing p--12 cursor-pointer">
+              <div class="categories-content text--sm categories-listing-l0">
+                <div class="categories-icon p--4">
+                  <img
+                    src="https://placehold.co/24x24"
+                    height="24"
+                    width="24"
+                    alt=" آشپزخانه و ناهارخوری"
+                    class="cat-ico-img"
+                  />
+                </div>
+                <div class="categories-desc">
+                  <div class="bold text--sm truncate">آشپزخانه و ناهارخوری</div>
+                  <div class="sub-heading text--xs medium truncate">
+                    ظروف سرو، پارچ، ظروف پخت، ظروف غذاخوری، ظروف پخت و پز، ابزار
+                    آشپزی، ظروف نوشیدنی، بطری، فلاسک، نی، لوازم بار، لوازم چای،
+                    چاقو و قاشق و چنگال، لوازم میز، ظروف نگهداری،
+                    سازمان‌دهنده‌های آشپزخانه، جعبه ناهار، لوازم آشپزخانه
+                    کودکان، ست هدیه، لوازم آشپزخانه، رومیزی، برترین برندها
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- Luxury category -->
+            <li class="categories-l0-listing p--12 cursor-pointer">
+              <div class="categories-content text--sm categories-listing-l0">
+                <div class="categories-icon p--4">
+                  <img
+                    src="https://placehold.co/24x24"
+                    height="24"
+                    width="24"
+                    alt=" لوکس"
+                    class="cat-ico-img"
+                  />
+                </div>
+                <div class="categories-desc">
+                  <div class="bold text--sm truncate">لوکس</div>
+                  <div class="sub-heading text--xs medium truncate">
+                    اتاق نشیمن، اتاق خواب، اتاق ناهارخوری، دفتر کار
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- Modular category -->
+            <li class="categories-l0-listing p--12 cursor-pointer">
+              <div class="categories-content text--sm">
+                <div class="categories-icon p--4">
+                  <img
+                    src="https://placehold.co/24x24"
+                    height="24"
+                    width="24"
+                    alt=" مدولار"
+                    class="cat-ico-img"
+                  />
+                </div>
+                <div class="categories-desc">
+                  <div class="bold text--sm truncate">مدولار</div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
     <main class="main-body">
       <!-- 
   This HTML block represents a mobile showcase section with category chips and product cards.
 
 -->
-      <!-- Categories drawer section -->
-      <div class="category-title__section overlay__container anchor--full">
-        <div
-          class="category-title__overlay__container category-title__anchor--right"
-        >
-          <div class="categories-container">
-            <ul class="categories-wrapper">
-              <!-- Furniture category -->
-              <li class="categories-l0-listing padding-12 cursor-pointer">
-                <div class="categories-content text--sm categories-listing-l0">
-                  <div class="categories-icon padding-4">
-                    <img
-                      src="https://placehold.co/24x24"
-                      height="24"
-                      width="24"
-                      alt=" مبلمان"
-                      class="cat-ico-img"
-                    />
-                  </div>
-                  <div class="categories-desc">
-                    <div class="bold text--sm truncate">مبلمان</div>
-                    <div class="sub-heading text--xs medium truncate">
-                      مبل، مبل بخشی، مبل تختخواب شو، صندلی راحتی، صندلی اداری،
-                      صندلی بازی، صندلی ناهارخوری، صندلی بار، نیمکت، عثمانی، میز
-                      قهوه، میز کناری، واحد تلویزیون، کمد و بوفه، قفسه کتاب، ست
-                      ناهارخوری، تخت، میز کنار تخت، کشو، میز آرایش، گنجه، مبلمان
-                      کودکان و نوجوانان، میز مطالعه، مبلمان اداری، مراقبت از
-                      مبلمان، فضای باز، ماساژورها
-                    </div>
-                  </div>
-                </div>
-              </li>
 
-              <!-- Sofas & Seating category -->
-              <li class="categories-l0-listing padding-12 cursor-pointer">
-                <div class="categories-content text--sm categories-listing-l0">
-                  <div class="categories-icon padding-4">
-                    <img
-                      src="https://placehold.co/24x24"
-                      height="24"
-                      width="24"
-                      alt=" مبل و صندلی"
-                      class="cat-ico-img"
-                    />
-                  </div>
-                  <div class="categories-desc">
-                    <div class="bold text--sm truncate">مبل و صندلی</div>
-                    <div class="sub-heading text--xs medium truncate">
-                      مبل، ست مبل، مبل بخشی، مبل تختخواب شو، صندلی راحتی، ست
-                      صندلی راحتی، صندلی اداری، صندلی بازی، صندلی ناهارخوری،
-                      صندلی بار، نیمکت، عثمانی، صندلی فضای باز، مراقبت از
-                      مبلمان، برترین مجموعه‌ها، برترین برندها
-                    </div>
-                  </div>
-                </div>
-              </li>
-
-              <!-- Mattresses category -->
-              <li class="categories-l0-listing padding-12 cursor-pointer">
-                <div class="categories-content text--sm categories-listing-l0">
-                  <div class="categories-icon padding-4">
-                    <img
-                      src="https://placehold.co/24x24"
-                      height="24"
-                      width="24"
-                      alt=" تشک"
-                      class="cat-ico-img"
-                    />
-                  </div>
-                  <div class="categories-desc">
-                    <div class="bold text--sm truncate">تشک</div>
-                    <div class="sub-heading text--xs medium truncate">
-                      تشک بزرگ، تشک دو نفره، تشک تک نفره، تشک تاشو، تشک نوزاد،
-                      محافظ تشک، روکش تشک، بالش، مراقبت از تشک، برترین برندها
-                    </div>
-                  </div>
-                </div>
-              </li>
-
-              <!-- Home Decor category -->
-              <li class="categories-l0-listing padding-12 cursor-pointer">
-                <div class="categories-content text--sm categories-listing-l0">
-                  <div class="categories-icon padding-4">
-                    <img
-                      src="https://placehold.co/24x24"
-                      height="24"
-                      width="24"
-                      alt=" دکوراسیون خانه"
-                      class="cat-ico-img"
-                    />
-                  </div>
-                  <div class="categories-desc">
-                    <div class="bold text--sm truncate">
-                      دکوراسیون خانه
-                    </div>
-                    <div class="sub-heading text--xs medium truncate">
-                      گلدان، مجسمه، کلکسیون، اشیاء تزئینی، ابزار خانه، دکور میز،
-                      دکور کودکان، قاب عکس، شمع، پایه شمع، معنوی، عطر خانه، ست
-                      دکور، لوازم نماز، گیاهان مصنوعی، دکور جشن، باغبانی، گلدان،
-                      دکور فضای باز، آویز دیواری، قفسه دیواری، کابینت دیواری،
-                      نگهدارنده تلویزیون، نگهدارنده کلید، جارخانی، پارتیشن، دکور
-                      دیواری، هنر دیواری، کاغذ دیواری، ساعت، آینه، هدیه
-                    </div>
-                  </div>
-                </div>
-              </li>
-
-              <!-- Furnishings category -->
-              <li class="categories-l0-listing padding-12 cursor-pointer">
-                <div class="categories-content text--sm categories-listing-l0">
-                  <div class="categories-icon padding-4">
-                    <img
-                      src="https://placehold.co/24x24"
-                      height="24"
-                      width="24"
-                      alt=" لوازم خانه"
-                      class="cat-ico-img"
-                    />
-                  </div>
-                  <div class="categories-desc">
-                    <div class="bold text--sm truncate">لوازم خانه</div>
-                    <div class="sub-heading text--xs medium truncate">
-                      ملحفه تخت، پتو و لحاف، لوازم حمام، لوازم تخت، پرده، لوازم
-                      پرده، سبد لباس، توری پنجره، ست لوازم خانه، کوسن و روکش،
-                      روکش مبل، روکش صندلی، فرش، زیرانداز، رومیزی، لوازم کودکان،
-                      لوازم حیوانات، زیرانداز یوگا، برترین برندها
-                    </div>
-                  </div>
-                </div>
-              </li>
-
-              <!-- Lamps & Lighting category -->
-              <li class="categories-l0-listing padding-12 cursor-pointer">
-                <div class="categories-content text--sm categories-listing-l0">
-                  <div class="categories-icon padding-4">
-                    <img
-                      src="https://placehold.co/24x24"
-                      height="24"
-                      width="24"
-                      alt=" چراغ و روشنایی"
-                      class="cat-ico-img"
-                    />
-                  </div>
-                  <div class="categories-desc">
-                    <div class="bold text--sm truncate">
-                      چراغ و روشنایی
-                    </div>
-                    <div class="sub-heading text--xs medium truncate">
-                      چراغ پایه‌دار، چراغ قفسه، چراغ میز، چراغ خواب، چراغ
-                      مطالعه، آباژور، چراغ کودکان، چراغ سقفی، چراغ دیواری، چراغ
-                      هوشمند، چراغ فضای باز، چراغ تزئینی، چراغ اضطراری، لامپ،
-                      برترین برندها
-                    </div>
-                  </div>
-                </div>
-              </li>
-
-              <!-- Kitchen & Dining category -->
-              <li class="categories-l0-listing padding-12 cursor-pointer">
-                <div class="categories-content text--sm categories-listing-l0">
-                  <div class="categories-icon padding-4">
-                    <img
-                      src="https://placehold.co/24x24"
-                      height="24"
-                      width="24"
-                      alt=" آشپزخانه و ناهارخوری"
-                      class="cat-ico-img"
-                    />
-                  </div>
-                  <div class="categories-desc">
-                    <div class="bold text--sm truncate">
-                      آشپزخانه و ناهارخوری
-                    </div>
-                    <div class="sub-heading text--xs medium truncate">
-                      ظروف سرو، پارچ، ظروف پخت، ظروف غذاخوری، ظروف پخت و پز،
-                      ابزار آشپزی، ظروف نوشیدنی، بطری، فلاسک، نی، لوازم بار،
-                      لوازم چای، چاقو و قاشق و چنگال، لوازم میز، ظروف نگهداری،
-                      سازمان‌دهنده‌های آشپزخانه، جعبه ناهار، لوازم آشپزخانه
-                      کودکان، ست هدیه، لوازم آشپزخانه، رومیزی، برترین برندها
-                    </div>
-                  </div>
-                </div>
-              </li>
-
-              <!-- Luxury category -->
-              <li class="categories-l0-listing padding-12 cursor-pointer">
-                <div class="categories-content text--sm categories-listing-l0">
-                  <div class="categories-icon padding-4">
-                    <img
-                      src="https://placehold.co/24x24"
-                      height="24"
-                      width="24"
-                      alt=" لوکس"
-                      class="cat-ico-img"
-                    />
-                  </div>
-                  <div class="categories-desc">
-                    <div class="bold text--sm truncate">لوکس</div>
-                    <div class="sub-heading text--xs medium truncate">
-                      اتاق نشیمن، اتاق خواب، اتاق ناهارخوری، دفتر کار
-                    </div>
-                  </div>
-                </div>
-              </li>
-
-              <!-- Modular category -->
-              <li class="categories-l0-listing padding-12 cursor-pointer">
-                <div class="categories-content text--sm">
-                  <div class="categories-icon padding-4">
-                    <img
-                      src="https://placehold.co/24x24"
-                      height="24"
-                      width="24"
-                      alt=" مدولار"
-                      class="cat-ico-img"
-                    />
-                  </div>
-                  <div class="categories-desc">
-                    <div class="bold text--sm truncate">مدولار</div>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
       <section class="shortcuts__xs container">
         <div class="metas">
           <div class="text--center">
@@ -1148,9 +1165,7 @@
                     />
                   </div>
                 </div>
-                <div
-                  class="card__title text--xs color-tertiary truncate bold"
-                >
+                <div class="card__title text--xs color-tertiary truncate bold">
                   مبلمان
                 </div>
               </a>
@@ -1164,9 +1179,7 @@
                     />
                   </div>
                 </div>
-                <div
-                  class="card__title text--xs color-tertiary truncate bold"
-                >
+                <div class="card__title text--xs color-tertiary truncate bold">
                   تشک
                 </div>
               </a>
@@ -1180,9 +1193,7 @@
                     />
                   </div>
                 </div>
-                <div
-                  class="card__title text--xs color-tertiary truncate bold"
-                >
+                <div class="card__title text--xs color-tertiary truncate bold">
                   لوازم خانگی
                 </div>
               </a>
@@ -1196,9 +1207,7 @@
                     />
                   </div>
                 </div>
-                <div
-                  class="card__title text--xs color-tertiary truncate bold"
-                >
+                <div class="card__title text--xs color-tertiary truncate bold">
                   آشپزخانه و غذاخوری
                 </div>
               </a>
@@ -1212,9 +1221,7 @@
                     />
                   </div>
                 </div>
-                <div
-                  class="card__title text--xs color-tertiary truncate bold"
-                >
+                <div class="card__title text--xs color-tertiary truncate bold">
                   مبلمان مدولار
                 </div>
               </a>
@@ -1230,9 +1237,7 @@
                     />
                   </div>
                 </div>
-                <div
-                  class="card__title text--xs color-tertiary truncate bold"
-                >
+                <div class="card__title text--xs color-tertiary truncate bold">
                   مبلمان و صندلی
                 </div>
               </a>
@@ -1246,9 +1251,7 @@
                     />
                   </div>
                 </div>
-                <div
-                  class="card__title text--xs color-tertiary truncate bold"
-                >
+                <div class="card__title text--xs color-tertiary truncate bold">
                   دکوراسیون خانه
                 </div>
               </a>
@@ -1262,9 +1265,7 @@
                     />
                   </div>
                 </div>
-                <div
-                  class="card__title text--xs color-tertiary truncate bold"
-                >
+                <div class="card__title text--xs color-tertiary truncate bold">
                   لامپ و روشنایی
                 </div>
               </a>
@@ -1278,9 +1279,7 @@
                     />
                   </div>
                 </div>
-                <div
-                  class="card__title text--xs color-tertiary truncate bold"
-                >
+                <div class="card__title text--xs color-tertiary truncate bold">
                   لوکس
                 </div>
               </a>
@@ -1318,18 +1317,33 @@
                 <div class="banner-carousel owl-carousel">
                   <!-- Slide 1 -->
                   <div class="carousel-item">
-                    <img src="https://placehold.co/400x450?text=Slide+1" height="100%" width="auto" alt="Slide 1" />
+                    <img
+                      src="https://placehold.co/400x450?text=Slide+1"
+                      height="100%"
+                      width="auto"
+                      alt="Slide 1"
+                    />
                   </div>
                   <!-- Slide 2 -->
                   <div class="carousel-item">
-                    <img src="https://placehold.co/400x450?text=Slide+2" height="100%" width="auto" alt="Slide 2" />
+                    <img
+                      src="https://placehold.co/400x450?text=Slide+2"
+                      height="100%"
+                      width="auto"
+                      alt="Slide 2"
+                    />
                   </div>
                   <!-- Slide 3 -->
                   <div class="carousel-item">
-                    <img src="https://placehold.co/400x450?text=Slide+3" height="100%" width="auto" alt="Slide 3" />
+                    <img
+                      src="https://placehold.co/400x450?text=Slide+3"
+                      height="100%"
+                      width="auto"
+                      alt="Slide 3"
+                    />
                   </div>
                 </div>
-                
+
                 <!-- Custom Dots Container -->
               </div>
             </div>
@@ -3613,8 +3627,8 @@
         <!-- Home navigation item -->
         <li class="sticky-navigation-element text--center color-orange active">
           <img
-          src="/irDecPreview/assets/icons/home.svg"
-          height="24"
+            src="/irDecPreview/assets/icons/home.svg"
+            height="24"
             width="24"
             alt=" خانه"
             class="cursor-pointer nav-img-dim-tag"
@@ -3647,7 +3661,11 @@
         </li>
 
         <!-- Categories navigation item -->
-        <li class="sticky-navigation-element text--center" data-target="mobile-categories" data-rule="dialog">
+        <li
+          class="category__overlay-toggler sticky-navigation-element text--center"
+          data-target="category__overlay"
+          data-rule="dialog"
+        >
           <img
             src="/irDecPreview/assets/icons/categories.svg"
             height="24"
@@ -3658,426 +3676,694 @@
           <div class="medium cursor-pointer">دسته‌بندی‌ها</div>
         </li>
       </ul>
-
-
     </div>
     <!-- Footer section -->
     <footer class="footer-container">
       <div class="footer-wrapper">
         <div class="container">
-          <!-- First row of footer columns -->
-          <div class="first-row-section">
-            <div class="row pt--42">
-              <!-- Corporate section -->
-              <div class="footer-col">
-                <p class="text--lg extrabold">شرکت</p>
-                <ul class="ul-flex">
-                  <li class="text--md palette--secondary mb--8 pointer">
-                    <div>درباره ما</div>
-                  </li>
-                  <li class="text--md palette--secondary mb--8 pointer">
-                    <div>حاکمیت شرکتی</div>
-                  </li>
-                  <li class="text--md palette--secondary mb--8 pointer">
-                    <div>اخبار شرکت</div>
-                  </li>
-                  <li class="text--md palette--secondary mb--8 pointer">
-                    <div>فرصت‌های شغلی</div>
-                  </li>
-                </ul>
-              </div>
-
-              <!-- Useful links section -->
-              <div class="footer-col">
-                <p class="text--lg extrabold">لینک‌های مفید</p>
-                <ul class="ul-flex">
-                  <li class="text--md palette--secondary mb--8 pointer">
-                    <div>کارت‌های هدیه</div>
-                  </li>
-                  <li class="text--md palette--secondary mb--8 pointer">
-                    <div>خرید عمده</div>
-                  </li>
-                  <li class="text--md palette--secondary mb--8 pointer">
-                    <div>برندهای ما</div>
-                  </li>
-                  <li class="text--md palette--secondary mb--8 pointer">
-                    <div>وبلاگ ما</div>
-                  </li>
-                  <li class="text--md palette--secondary mb--8 pointer">
-                    <div>فروشگاه‌ها</div>
-                  </li>
-                </ul>
-              </div>
-
-              <!-- Partner with us section -->
-              <div class="footer-col">
-                <p class="text--lg extrabold">همکاری با ما</p>
-                <ul class="ul-flex">
-                  <li class="text--md palette--secondary mb--8 pointer">
-                    <div>فروش در سایت</div>
-                  </li>
-                  <li class="text--md palette--secondary mb--8 pointer">
-                    <div>فرانشیز شوید</div>
-                  </li>
-                  <li class="text--md palette--secondary mb--8 pointer">
-                    <div>همکاری با ما</div>
-                  </li>
-                  <li class="text--md palette--secondary mb--8 pointer">
-                    <div>سیاست‌های بازار</div>
-                  </li>
-                  <li class="text--md palette--secondary mb--8 pointer">
-                    <div>ورود به پنل فروشندگان</div>
-                  </li>
-                </ul>
-              </div>
-
-              <!-- Need help section -->
-              <div class="footer-col">
-                <p class="text--lg extrabold">نیاز به کمک دارید؟</p>
-                <ul class="ul-flex">
-                  <li class="text--md palette--secondary mb--8 pointer">
-                    <div>سوالات متداول</div>
-                  </li>
-                  <li class="text--md palette--secondary mb--8 pointer">
-                    <div>سیاست‌ها</div>
-                  </li>
-                  <li class="text--md palette--secondary mb--8 pointer">
-                    <div>تماس با ما</div>
-                  </li>
-                </ul>
-              </div>
-
-              <!-- Brand proposition section -->
-              <div class="footer-col">
-                <p class="text--lg extrabold">محصولات ایمن</p>
-                <ul class="ul-flex mb--4">
-                  <li class="text--md palette--secondary mb--8">
-                    <div>مناسب کودکان و حیوانات</div>
-                  </li>
-                  <li class="text--md palette--secondary mb--8">
-                    <div>غیر سمی و تایید شده</div>
-                  </li>
-                  <li class="text--md palette--secondary mb--8">
-                    <div>ساخته شده با چسب گیاهی</div>
-                  </li>
-                  <li class="text--md palette--secondary mb--8">
-                    <div>مقاوم در برابر خراش</div>
-                  </li>
-                </ul>
-                <p class="text--lg extrabold">دانلود اپلیکیشن</p>
-                <div class="row store-images-wrapper">
-                  <a class="column sm-6 no-underline" href="/">
-                    <img
-                      height="36"
-                      width="110"
-                      src="https://placehold.co/110x36"
-                      alt="اپ استور"
-                      class="store-images"
-                    />
-                  </a>
-                  <a class="column sm-6 no-underline" href="/">
-                    <img
-                      height="36"
-                      width="110"
-                      src="https://placehold.co/110x36"
-                      alt="گوگل پلی"
-                      class="store-images"
-                    />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Second row of footer columns -->
-          <div class="row second-row-section">
-            <!-- Popular categories section -->
-            <div class="column footer-second-col">
-              <p class="text--lg extrabold">دسته‌بندی‌های محبوب</p>
-              <ul>
-                <li class="text--md palette--secondary footer-brands pointer">
-                  <a href="/">مبلمان،</a>
-                </li>
-                <li class="text--md palette--secondary footer-brands pointer">
-                  <a href="/">مبل بخشی،</a>
-                </li>
-                <li class="text--md palette--secondary footer-brands pointer">
-                  <a href="/">ست مبلمان،</a>
-                </li>
-                <li class="text--md palette--secondary footer-brands pointer">
-                  <a href="/">تخت‌های دو نفره،</a>
-                </li>
-                <li class="text--md palette--secondary footer-brands pointer">
-                  <a href="/">تخت‌های بزرگ،</a>
-                </li>
-                <li class="text--md palette--secondary footer-brands pointer">
-                  <a href="/">میز قهوه،</a>
-                </li>
-                <li class="text--md palette--secondary footer-brands pointer">
-                  <a href="/">ست ناهارخوری،</a>
-                </li>
-                <li class="text--md palette--secondary footer-brands pointer">
-                  <a href="/">صندلی راحتی،</a>
-                </li>
-                <li class="text--md palette--secondary footer-brands pointer">
-                  <a href="/">مبل تختخواب شو،</a>
-                </li>
-                <li class="text--md palette--secondary footer-brands pointer">
-                  <a href="/">تشک دو نفره،</a>
-                </li>
-                <li class="text--md palette--secondary footer-brands pointer">
-                  <a href="/">کمد و بوفه،</a>
-                </li>
-                <li class="text--md palette--secondary footer-brands pointer">
-                  <a href="/">قفسه کتاب،</a>
-                </li>
-                <li class="text--md palette--secondary footer-brands pointer">
-                  <a href="/">واحد تلویزیون،</a>
-                </li>
-                <li class="text--md palette--secondary footer-brands pointer">
-                  <a href="/">گنجه،</a>
-                </li>
-                <li class="text--md palette--secondary footer-brands pointer">
-                  <a href="/">تشک تاشو،</a>
-                </li>
-                <li class="text--md palette--secondary footer-brands pointer">
-                  <a href="/">بالش،</a>
-                </li>
-                <li class="text--md palette--secondary footer-brands pointer">
-                  <a href="/">قفسه دیواری،</a>
-                </li>
-                <li class="text--md palette--secondary footer-brands pointer">
-                  <a href="/">قاب عکس،</a>
-                </li>
-                <li class="text--md palette--secondary footer-brands pointer">
-                  <a href="/">ملحفه تخت،</a>
-                </li>
-                <li class="text--md palette--secondary footer-brands pointer">
-                  <a href="/">رومیزی،</a>
-                </li>
-                <li class="text--md palette--secondary footer-brands pointer">
-                  <a href="/">میز مطالعه،</a>
-                </li>
-                <li class="text--md palette--secondary footer-brands pointer">
-                  <a href="/">مبلمان اداری،</a>
-                </li>
-                <li class="text--md palette--secondary footer-brands pointer">
-                  <a href="/">میز ناهارخوری،</a>
-                </li>
-                <li class="text--md palette--secondary footer-brands pointer">
-                  <a href="/">فرش،</a>
-                </li>
-                <li class="text--md palette--secondary footer-brands pointer">
-                  <a href="/">هنر دیواری</a>
-                </li>
-              </ul>
-            </div>
-
-            <!-- Popular brands section -->
-            <div class="column footer-second-col">
-              <p class="text--lg extrabold">برندهای محبوب</p>
-              <ul>
-                <li class="text--md palette--secondary footer-brands pointer">
-                  <a href="/">برند ۱،</a>
-                </li>
-                <li class="text--md palette--secondary footer-brands pointer">
-                  <a href="/">برند ۲،</a>
-                </li>
-                <li class="text--md palette--secondary footer-brands pointer">
-                  <a href="/">برند ۳،</a>
-                </li>
-                <li class="text--md palette--secondary footer-brands pointer">
-                  <a href="/">برند ۴،</a>
-                </li>
-                <li class="text--md palette--secondary footer-brands pointer">
-                  <a href="/">برند ۵،</a>
-                </li>
-                <li class="text--md palette--secondary footer-brands pointer">
-                  <a href="/">برند ۶،</a>
-                </li>
-                <li class="text--md palette--secondary footer-brands pointer">
-                  <a href="/">برند ۷،</a>
-                </li>
-                <li class="text--md palette--secondary footer-brands pointer">
-                  <a href="/">برند ۸،</a>
-                </li>
-                <li class="text--md palette--secondary footer-brands pointer">
-                  <a href="/">برند ۹،</a>
-                </li>
-                <li class="text--md palette--secondary footer-brands pointer">
-                  <a href="/">برند ۱۰</a>
-                </li>
-              </ul>
-            </div>
-
-            <!-- Popular cities section -->
-            <div class="column footer-second-col">
-              <p class="text--lg extrabold">شهرهای محبوب</p>
-              <ul>
-                <li class="text--md palette--secondary footer-brands">
-                  <a href="/">تهران،</a>
-                </li>
-                <li class="text--md palette--secondary footer-brands">
-                  <a href="/">مشهد،</a>
-                </li>
-                <li class="text--md palette--secondary footer-brands">
-                  <a href="/">اصفهان،</a>
-                </li>
-                <li class="text--md palette--secondary footer-brands">
-                  <a href="/">شیراز،</a>
-                </li>
-                <li class="text--md palette--secondary footer-brands">
-                  <a href="/">تبریز،</a>
-                </li>
-                <li class="text--md palette--secondary footer-brands">
-                  <a href="/">کرج،</a>
-                </li>
-                <li class="text--md palette--secondary footer-brands">
-                  <a href="/">قم،</a>
-                </li>
-                <li class="text--md palette--secondary footer-brands">
-                  <a href="/">اهواز،</a>
-                </li>
-                <li class="text--md palette--secondary footer-brands">
-                  <a href="/">کرمانشاه،</a>
-                </li>
-                <li class="text--md palette--secondary footer-brands">
-                  <a href="/">رشت</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <!-- Accept cards and social icons section -->
-          <div class="row accept-cards-social-icons">
-            <!-- Accept cards section -->
-            <div class="accept-cards">
-              <p class="text--lg extrabold accept-header">ما می‌پذیریم</p>
-              <div class="accept-card-icons">
-                <div class="accept-card-icon">
-                  <img
-                    height="35"
-                    width="56"
-                    src="https://placehold.co/56x35"
-                    alt="کارت ویزا"
-                    class="card-icons"
-                  />
-                </div>
-                <div class="accept-card-icon">
-                  <img
-                    height="35"
-                    width="56"
-                    src="https://placehold.co/56x35"
-                    alt="کارت مسترکارت"
-                    class="card-icons"
-                  />
-                </div>
-                <div class="accept-card-icon">
-                  <img
-                    height="35"
-                    width="56"
-                    src="https://placehold.co/56x35"
-                    alt="کارت maestro"
-                    class="card-icons"
-                  />
-                </div>
-                <div class="accept-card-icon">
-                  <img
-                    height="35"
-                    width="56"
-                    src="https://placehold.co/56x35"
-                    alt="کارت American Express"
-                    class="card-icons"
-                  />
-                </div>
-              </div>
-            </div>
-
+          <!-- Main container for the mobile section -->
+          <div class="mobile-section">
             <!-- Social icons section -->
-            <div class="social-icon-section">
-              <p class="text--lg extrabold social-icon-heading">
-                ما را در شبکه‌های اجتماعی دنبال کنید
-              </p>
-              <div class="social-icon-wrapper">
-                <div>
-                  <img
-                    class="social-icons pointer"
-                    src="https://placehold.co/32x32"
-                    alt="اینستاگرام"
-                  />
-                </div>
-                <div>
-                  <img
-                    class="social-icons pointer"
-                    src="https://placehold.co/32x32"
-                    alt="فیسبوک"
-                  />
-                </div>
-                <div>
-                  <img
-                    class="social-icons pointer"
-                    src="https://placehold.co/32x32"
-                    alt="پینترست"
-                  />
-                </div>
-                <div>
-                  <img
-                    class="social-icons pointer"
-                    src="https://placehold.co/32x32"
-                    alt="لینکدین"
-                  />
-                </div>
-                <div>
-                  <img
-                    class="social-icons pointer"
-                    src="https://placehold.co/32x32"
-                    alt="یوتیوب"
-                  />
-                </div>
-                <div>
-                  <img
-                    class="social-icons pointer"
-                    src="https://placehold.co/32x32"
-                    alt="توییتر"
-                  />
+            <div class="row social-icons-wrapper">
+              <div class="social-icon-mbl-section">
+                <!-- Social icons heading -->
+                <p class="text-lg font-extrabold social-icon-heading">
+                  محتوا را دوست دارید؟ ما را اینجا دنبال کنید
+                </p>
+                <!-- Social icons wrapper -->
+                <div class="social-icon-wrapper">
+                  <!-- Instagram icon placeholder -->
+                  <div>
+                    <img
+                      loading="lazy"
+                      class="social-icons cursor-pointer"
+                      src="https://placehold.co/50x50"
+                      alt="آیکون اینستاگرام"
+                    />
+                  </div>
+                  <!-- Facebook icon placeholder -->
+                  <div>
+                    <img
+                      loading="lazy"
+                      class="social-icons cursor-pointer"
+                      src="https://placehold.co/50x50"
+                      alt="آیکون فیسبوک"
+                    />
+                  </div>
+                  <!-- Pinterest icon placeholder -->
+                  <div>
+                    <img
+                      loading="lazy"
+                      class="social-icons cursor-pointer"
+                      src="https://placehold.co/50x50"
+                      alt="آیکون پینترست"
+                    />
+                  </div>
+                  <!-- LinkedIn icon placeholder -->
+                  <div>
+                    <img
+                      loading="lazy"
+                      class="social-icons cursor-pointer"
+                      src="https://placehold.co/50x50"
+                      alt="آیکون لینکدین"
+                    />
+                  </div>
+                  <!-- YouTube icon placeholder -->
+                  <div>
+                    <img
+                      loading="lazy"
+                      class="social-icons cursor-pointer"
+                      src="https://placehold.co/50x50"
+                      alt="آیکون یوتیوب"
+                    />
+                  </div>
+                  <!-- Twitter icon placeholder -->
+                  <div>
+                    <img
+                      loading="lazy"
+                      class="social-icons cursor-pointer"
+                      src="https://placehold.co/50x50"
+                      alt="آیکون توییتر"
+                    />
+                  </div>
                 </div>
               </div>
+              <!-- Mobile banner section -->
+              <div class="mobile-banner">
+                <a href="/" class="ftr-google-store-link no-underline">
+                  <img
+                    loading="lazy"
+                    height="136"
+                    width="332"
+                    src="https://placehold.co/332x136"
+                    alt="بنر موبایل"
+                    class="banner-img image1"
+                  />
+                </a>
+              </div>
             </div>
+            <div class="footer-content-mobile">
+              <!-- Useful links section -->
+              <div class="row">
+                <div class="useful-link-section">
+                  <p class="useful-link-mob text-lg font-extrabold">
+                    لینک‌های مفید
+                  </p>
+                  <ul>
+                    <li
+                      class="useful-link-mobile text-md color-secondary cursor-pointer"
+                    >
+                      <div>کارت هدیه</div>
+                    </li>
+                    <li
+                      class="useful-link-mobile text-md color-secondary cursor-pointer"
+                    >
+                      <div>خرید عمده</div>
+                    </li>
+                    <li
+                      class="useful-link-mobile text-md color-secondary cursor-pointer"
+                    >
+                      <div>برندهای ما</div>
+                    </li>
+                    <li
+                      class="useful-link-mobile text-md color-secondary cursor-pointer"
+                    >
+                      <div>وبلاگ ما</div>
+                    </li>
+                    <li
+                      class="useful-link-mobile text-md color-secondary cursor-pointer"
+                    >
+                      <div>فروشگاه‌ها</div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Legal pages section -->
+              <div class="legal-page-mobile">
+                <div class="container">
+                  <div class="row legal-pages-section">
+                    <div class="cursor-pointer legal-pages-wrapper">
+                      <div class="text-md color-secondary legal-pages-mobile">
+                        سیاست حریم خصوصی
+                      </div>
+                    </div>
+                    <div class="cursor-pointer legal-pages-wrapper">
+                      <div class="text-md color-secondary legal-pages-mobile">
+                        قوانین استفاده
+                      </div>
+                    </div>
+                    <div class="cursor-pointer legal-pages-wrapper">
+                      <div class="text-md color-secondary legal-pages-mobile">
+                        امنیت داده‌ها
+                      </div>
+                    </div>
+                    <div class="cursor-pointer legal-pages-wrapper">
+                      <div class="text-md color-secondary legal-pages-mobile">
+                        سایت‌ماپ
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Accepted payment cards section -->
+              <div class="accept-cards-mbl">
+                <div class="accept-cards">
+                  <p class="text-lg font-extrabold accept-header">
+                    ما پذیراییم
+                  </p>
+                  <div class="accept-card-icons">
+                    <div class="accept-card-icon">
+                      <img
+                        loading="lazy"
+                        height="35"
+                        width="56"
+                        src="https://placehold.co/56x35"
+                        alt="کارت ویزا"
+                        class="card-icons"
+                      />
+                    </div>
+                    <div class="accept-card-icon">
+                      <img
+                        loading="lazy"
+                        height="35"
+                        width="56"
+                        src="https://placehold.co/56x35"
+                        alt="کارت مسترکارت"
+                        class="card-icons"
+                      />
+                    </div>
+                    <div class="accept-card-icon">
+                      <img
+                        loading="lazy"
+                        height="35"
+                        width="56"
+                        src="https://placehold.co/56x35"
+                        alt="کارت maestro"
+                        class="card-icons"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Popular categories section -->
+              <div class="second-row-section-mbl pf-css-slider">
+                <div class="row">
+                  <div class="column footer-second-col">
+                    <p class="text-lg font-extrabold popular-category-heading">
+                      دسته‌بندی‌های محبوب
+                    </p>
+                    <ul>
+                      <li
+                        class="text-md color-secondary footer-brands cursor-pointer"
+                      >
+                        <a href="/">مبل</a>
+                      </li>
+                      <li
+                        class="text-md color-secondary footer-brands cursor-pointer"
+                      >
+                        <a href="/">مبل تختخواب شو</a>
+                      </li>
+                      <li
+                        class="text-md color-secondary footer-brands cursor-pointer"
+                      >
+                        <a href="/">میز ناهارخوری</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="column footer-second-col">
+                    <p class="text-lg font-extrabold popular-category-heading">
+                      برندهای محبوب
+                    </p>
+                    <ul>
+                      <li
+                        class="text-md color-secondary footer-brands cursor-pointer"
+                      >
+                        <a href="/">برند ۱</a>
+                      </li>
+                      <li
+                        class="text-md color-secondary footer-brands cursor-pointer"
+                      >
+                        <a href="/">برند ۲</a>
+                      </li>
+                      <li
+                        class="text-md color-secondary footer-brands cursor-pointer"
+                      >
+                        <a href="/">برند ۳</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="column footer-second-col">
+                    <p class="text-lg font-extrabold popular-category-heading">
+                      شهرهای محبوب
+                    </p>
+                    <ul>
+                      <li class="text-md color-secondary footer-brands">
+                        <a href="/">تهران</a>
+                      </li>
+                      <li class="text-md color-secondary footer-brands">
+                        <a href="/">مشهد</a>
+                      </li>
+                      <li class="text-md color-secondary footer-brands">
+                        <a href="/">اصفهان</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Copyright section -->
+              <div class="row copyright-text-section">
+                <p class="text-md color-secondary copyright-text">
+                  © کپی‌رایت شرکت نمونه
+                </p>
+              </div>
+            </div>
+            <!-- Show more button -->
+            <button type="button" class="footer-content-toggle btn__container btn__outline ">
+              نمایش بیشتر
+            </button>
           </div>
 
-          <!-- Legal pages section -->
-          <div class="legal-pages-desktop">
-            <div class="container">
-              <div class="row legal-pages-section">
-                <div class="pointer legal-pages-wrapper">
-                  <div class="text--md palette--secondary">Whitehat</div>
+          <div class="desktop-section">
+            <!-- First row of footer columns -->
+            <div class="first-row-section">
+              <div class="row pt--42">
+                <!-- Corporate section -->
+                <div class="footer-col">
+                  <p class="text--lg extrabold">شرکت</p>
+                  <ul class="ul-flex">
+                    <li class="text--md palette--secondary mb--8 pointer">
+                      <div>درباره ما</div>
+                    </li>
+                    <li class="text--md palette--secondary mb--8 pointer">
+                      <div>حاکمیت شرکتی</div>
+                    </li>
+                    <li class="text--md palette--secondary mb--8 pointer">
+                      <div>اخبار شرکت</div>
+                    </li>
+                    <li class="text--md palette--secondary mb--8 pointer">
+                      <div>فرصت‌های شغلی</div>
+                    </li>
+                  </ul>
                 </div>
-                <div class="pointer legal-pages-wrapper">
-                  <div class="text--md palette--secondary">نقشه سایت</div>
+
+                <!-- Useful links section -->
+                <div class="footer-col">
+                  <p class="text--lg extrabold">لینک‌های مفید</p>
+                  <ul class="ul-flex">
+                    <li class="text--md palette--secondary mb--8 pointer">
+                      <div>کارت‌های هدیه</div>
+                    </li>
+                    <li class="text--md palette--secondary mb--8 pointer">
+                      <div>خرید عمده</div>
+                    </li>
+                    <li class="text--md palette--secondary mb--8 pointer">
+                      <div>برندهای ما</div>
+                    </li>
+                    <li class="text--md palette--secondary mb--8 pointer">
+                      <div>وبلاگ ما</div>
+                    </li>
+                    <li class="text--md palette--secondary mb--8 pointer">
+                      <div>فروشگاه‌ها</div>
+                    </li>
+                  </ul>
                 </div>
-                <div class="pointer legal-pages-wrapper">
-                  <div class="text--md palette--secondary">قوانین استفاده</div>
+
+                <!-- Partner with us section -->
+                <div class="footer-col">
+                  <p class="text--lg extrabold">همکاری با ما</p>
+                  <ul class="ul-flex">
+                    <li class="text--md palette--secondary mb--8 pointer">
+                      <div>فروش در سایت</div>
+                    </li>
+                    <li class="text--md palette--secondary mb--8 pointer">
+                      <div>فرانشیز شوید</div>
+                    </li>
+                    <li class="text--md palette--secondary mb--8 pointer">
+                      <div>همکاری با ما</div>
+                    </li>
+                    <li class="text--md palette--secondary mb--8 pointer">
+                      <div>سیاست‌های بازار</div>
+                    </li>
+                    <li class="text--md palette--secondary mb--8 pointer">
+                      <div>ورود به پنل فروشندگان</div>
+                    </li>
+                  </ul>
                 </div>
-                <div class="pointer legal-pages-wrapper">
-                  <div class="text--md palette--secondary">حریم خصوصی</div>
+
+                <!-- Need help section -->
+                <div class="footer-col">
+                  <p class="text--lg extrabold">نیاز به کمک دارید؟</p>
+                  <ul class="ul-flex">
+                    <li class="text--md palette--secondary mb--8 pointer">
+                      <div>سوالات متداول</div>
+                    </li>
+                    <li class="text--md palette--secondary mb--8 pointer">
+                      <div>سیاست‌ها</div>
+                    </li>
+                    <li class="text--md palette--secondary mb--8 pointer">
+                      <div>تماس با ما</div>
+                    </li>
+                  </ul>
                 </div>
-                <div class="pointer legal-pages-wrapper">
-                  <div class="text--md palette--secondary">امنیت داده‌ها</div>
-                </div>
-                <div class="pointer legal-pages-wrapper">
-                  <div class="text--md palette--secondary">
-                    رسیدگی به شکایات
+
+                <!-- Brand proposition section -->
+                <div class="footer-col">
+                  <p class="text--lg extrabold">محصولات ایمن</p>
+                  <ul class="ul-flex mb--4">
+                    <li class="text--md palette--secondary mb--8">
+                      <div>مناسب کودکان و حیوانات</div>
+                    </li>
+                    <li class="text--md palette--secondary mb--8">
+                      <div>غیر سمی و تایید شده</div>
+                    </li>
+                    <li class="text--md palette--secondary mb--8">
+                      <div>ساخته شده با چسب گیاهی</div>
+                    </li>
+                    <li class="text--md palette--secondary mb--8">
+                      <div>مقاوم در برابر خراش</div>
+                    </li>
+                  </ul>
+                  <p class="text--lg extrabold">دانلود اپلیکیشن</p>
+                  <div class="row store-images-wrapper">
+                    <a class="column sm-6 no-underline" href="/">
+                      <img
+                        height="36"
+                        width="110"
+                        src="https://placehold.co/110x36"
+                        alt="اپ استور"
+                        class="store-images"
+                      />
+                    </a>
+                    <a class="column sm-6 no-underline" href="/">
+                      <img
+                        height="36"
+                        width="110"
+                        src="https://placehold.co/110x36"
+                        alt="گوگل پلی"
+                        class="store-images"
+                      />
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
 
-          <!-- Copyright section -->
-          <div class="row copyright-text-section">
-            <p class="text--md palette--secondary copyright-text">
-              © تمامی حقوق محفوظ است
-            </p>
+            <!-- Second row of footer columns -->
+            <div class="row second-row-section">
+              <!-- Popular categories section -->
+              <div class="column footer-second-col">
+                <p class="text--lg extrabold">دسته‌بندی‌های محبوب</p>
+                <ul>
+                  <li class="text--md palette--secondary footer-brands pointer">
+                    <a href="/">مبلمان،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer-brands pointer">
+                    <a href="/">مبل بخشی،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer-brands pointer">
+                    <a href="/">ست مبلمان،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer-brands pointer">
+                    <a href="/">تخت‌های دو نفره،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer-brands pointer">
+                    <a href="/">تخت‌های بزرگ،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer-brands pointer">
+                    <a href="/">میز قهوه،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer-brands pointer">
+                    <a href="/">ست ناهارخوری،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer-brands pointer">
+                    <a href="/">صندلی راحتی،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer-brands pointer">
+                    <a href="/">مبل تختخواب شو،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer-brands pointer">
+                    <a href="/">تشک دو نفره،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer-brands pointer">
+                    <a href="/">کمد و بوفه،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer-brands pointer">
+                    <a href="/">قفسه کتاب،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer-brands pointer">
+                    <a href="/">واحد تلویزیون،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer-brands pointer">
+                    <a href="/">گنجه،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer-brands pointer">
+                    <a href="/">تشک تاشو،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer-brands pointer">
+                    <a href="/">بالش،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer-brands pointer">
+                    <a href="/">قفسه دیواری،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer-brands pointer">
+                    <a href="/">قاب عکس،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer-brands pointer">
+                    <a href="/">ملحفه تخت،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer-brands pointer">
+                    <a href="/">رومیزی،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer-brands pointer">
+                    <a href="/">میز مطالعه،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer-brands pointer">
+                    <a href="/">مبلمان اداری،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer-brands pointer">
+                    <a href="/">میز ناهارخوری،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer-brands pointer">
+                    <a href="/">فرش،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer-brands pointer">
+                    <a href="/">هنر دیواری</a>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Popular brands section -->
+              <div class="column footer-second-col">
+                <p class="text--lg extrabold">برندهای محبوب</p>
+                <ul>
+                  <li class="text--md palette--secondary footer-brands pointer">
+                    <a href="/">برند ۱،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer-brands pointer">
+                    <a href="/">برند ۲،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer-brands pointer">
+                    <a href="/">برند ۳،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer-brands pointer">
+                    <a href="/">برند ۴،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer-brands pointer">
+                    <a href="/">برند ۵،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer-brands pointer">
+                    <a href="/">برند ۶،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer-brands pointer">
+                    <a href="/">برند ۷،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer-brands pointer">
+                    <a href="/">برند ۸،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer-brands pointer">
+                    <a href="/">برند ۹،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer-brands pointer">
+                    <a href="/">برند ۱۰</a>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Popular cities section -->
+              <div class="column footer-second-col">
+                <p class="text--lg extrabold">شهرهای محبوب</p>
+                <ul>
+                  <li class="text--md palette--secondary footer-brands">
+                    <a href="/">تهران،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer-brands">
+                    <a href="/">مشهد،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer-brands">
+                    <a href="/">اصفهان،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer-brands">
+                    <a href="/">شیراز،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer-brands">
+                    <a href="/">تبریز،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer-brands">
+                    <a href="/">کرج،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer-brands">
+                    <a href="/">قم،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer-brands">
+                    <a href="/">اهواز،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer-brands">
+                    <a href="/">کرمانشاه،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer-brands">
+                    <a href="/">رشت</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Accept cards and social icons section -->
+            <div class="row accept-cards-social-icons">
+              <!-- Accept cards section -->
+              <div class="accept-cards">
+                <p class="text--lg extrabold accept-header">ما می‌پذیریم</p>
+                <div class="accept-card-icons">
+                  <div class="accept-card-icon">
+                    <img
+                      height="35"
+                      width="56"
+                      src="https://placehold.co/56x35"
+                      alt="کارت ویزا"
+                      class="card-icons"
+                    />
+                  </div>
+                  <div class="accept-card-icon">
+                    <img
+                      height="35"
+                      width="56"
+                      src="https://placehold.co/56x35"
+                      alt="کارت مسترکارت"
+                      class="card-icons"
+                    />
+                  </div>
+                  <div class="accept-card-icon">
+                    <img
+                      height="35"
+                      width="56"
+                      src="https://placehold.co/56x35"
+                      alt="کارت maestro"
+                      class="card-icons"
+                    />
+                  </div>
+                  <div class="accept-card-icon">
+                    <img
+                      height="35"
+                      width="56"
+                      src="https://placehold.co/56x35"
+                      alt="کارت American Express"
+                      class="card-icons"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <!-- Social icons section -->
+              <div class="social-icon-section">
+                <p class="text--lg extrabold social-icon-heading">
+                  ما را در شبکه‌های اجتماعی دنبال کنید
+                </p>
+                <div class="social-icon-wrapper">
+                  <div>
+                    <img
+                      class="social-icons pointer"
+                      src="https://placehold.co/32x32"
+                      alt="اینستاگرام"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      class="social-icons pointer"
+                      src="https://placehold.co/32x32"
+                      alt="فیسبوک"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      class="social-icons pointer"
+                      src="https://placehold.co/32x32"
+                      alt="پینترست"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      class="social-icons pointer"
+                      src="https://placehold.co/32x32"
+                      alt="لینکدین"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      class="social-icons pointer"
+                      src="https://placehold.co/32x32"
+                      alt="یوتیوب"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      class="social-icons pointer"
+                      src="https://placehold.co/32x32"
+                      alt="توییتر"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Legal pages section -->
+            <div class="legal-pages-desktop">
+              <div class="container">
+                <div class="row legal-pages-section">
+                  <div class="pointer legal-pages-wrapper">
+                    <div class="text--md palette--secondary">Whitehat</div>
+                  </div>
+                  <div class="pointer legal-pages-wrapper">
+                    <div class="text--md palette--secondary">نقشه سایت</div>
+                  </div>
+                  <div class="pointer legal-pages-wrapper">
+                    <div class="text--md palette--secondary">
+                      قوانین استفاده
+                    </div>
+                  </div>
+                  <div class="pointer legal-pages-wrapper">
+                    <div class="text--md palette--secondary">حریم خصوصی</div>
+                  </div>
+                  <div class="pointer legal-pages-wrapper">
+                    <div class="text--md palette--secondary">امنیت داده‌ها</div>
+                  </div>
+                  <div class="pointer legal-pages-wrapper">
+                    <div class="text--md palette--secondary">
+                      رسیدگی به شکایات
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Copyright section -->
+            <div class="row copyright-text-section">
+              <p class="text--md palette--secondary copyright-text">
+                © تمامی حقوق محفوظ است
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -4114,10 +4400,7 @@
 
       <!-- Expert Help widget -->
       <div class="expert-help-main-container widget">
-        <div
-          class="bop-widget-section pointer"
-  
-        >
+        <div class="bop-widget-section pointer">
           <!-- Placeholder for Expert Help icon -->
           <img src="/irDecPreview/assets/icons/assist.webp" alt=" کمک کارشناس" />
           <div class="widget-first-text text--xs medium">مشاوره با</div>
@@ -4282,9 +4565,7 @@
 
           <!-- Store offer section -->
           <div class="store-offer-section text--center">
-            <h3 class="text--center bold">
-              به صورت حضوری از ما دیدن کنید
-            </h3>
+            <h3 class="text--center bold">به صورت حضوری از ما دیدن کنید</h3>
             <h4 class="text--sm medium form-sub-title mb--8">
               و تا
               <strong><span style="color: #0052cc">۱۰۰۰۰ تومان</span></strong>
@@ -4302,55 +4583,99 @@
     </div>
     <script src="/irDecPreview/lib/jquery/jquery.min.js"></script>
     <script src="/irDecPreview/lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="/irDecPreview/scripts/stores.js"></script>
     <script src="/irDecPreview/scripts/layout.js"></script>
     <script src="/irDecPreview/scripts/drawer.js"></script>
     <script>
- $(document).ready(function () {
-    // Initialize Owl Carousel
-    const owl = $(".owl-carousel").owlCarousel({
-      items: 1, // Single item carousel
-      loop: true, // Infinite loop
-      autoplay: true, // Auto-play
-      autoplayTimeout: 3000, // Auto-play interval
-      autoplayHoverPause: true, // Pause on hover
-      // dots: false, // Disable default dots
-      nav: false, // Disable navigation arrows
-      //autoWidth:true,
-      rtl:true,
-      autoHeight:true
-    });
+      $(document).ready(function () {
+        // Initialize Owl Carousel
+        const citiesCarousel = $(".stores__cities");
+        citiesCarousel.owlCarousel({
+          loop: true,
+          margin: 20, // Space between items
+          nav: false, // Disable default navigation
+          dots: false, // Disable dots
+          rtl: true, // Right-to-left direction
+          responsive: {
+            0: {
+              items: 1, // 1 item on small screens
+            },
+            600: {
+              items: 2, // 2 items on medium screens
+            },
+            1000: {
+              items: 3, // 3 items on large screens
+            },
+          },
+        });
+        const bannerCarousel = $(".owl-carousel");
+        bannerCarousel.owlCarousel({
+          items: 1, // Single item carousel
+          loop: true, // Infinite loop
+          autoplay: true, // Auto-play
+          autoplayTimeout: 3000, // Auto-play interval
+          autoplayHoverPause: true, // Pause on hover
+          // dots: false, // Disable default dots
+          nav: false, // Disable navigation arrows
+          //autoWidth:true,
+          rtl: true,
+          autoHeight: true,
+        });
+      });
+      $(document).ready(function () {
+        // Cache the navbar and toggler elements
+        const $navbar = $(".navbar__main-menu-container");
+        const $overlayToggler = $(".category__overlay-toggler");
+        const navbarOffset = $navbar.offset().top; // Get the initial offset of the navbar
 
-    // Create Custom Dots
-    const totalItems = owl.find(".carousel-item").length;
-    const dotsContainer = $(".custom-dots");
+        let lastScrollTop = 0; // Track the last scroll position
 
-    for (let i = 0; i < totalItems; i++) {
-      dotsContainer.append('<div class="dot" data-index="' + i + '"></div>');
-    }
+        $(window).scroll(function () {
+          // Check if screen size is less than 768px
+          if ($(window).width() < 768) {
+            const scrollTop = $(this).scrollTop(); // Get current scroll position
 
-    // Set the first dot as active
-    dotsContainer.find(".dot").first().addClass("active");
+            // Only modify the 'header-scroll' class if 'categories-open' does not exist
+            if (!$navbar.hasClass("categories-open")) {
+              if (scrollTop > navbarOffset) {
+                if (scrollTop > lastScrollTop) {
+                  // Scrolling down: remove the class
+                  $navbar.removeClass("header-scroll");
+                } else {
+                  // Scrolling up: add the class
+                  $navbar.addClass("header-scroll");
+                }
+              } else {
+                // Remove the class if scrolled to the top
+                $navbar.removeClass("header-scroll");
+              }
+            }
 
-    // Handle Dot Clicks
-    dotsContainer.on("click", ".dot", function () {
-      const index = $(this).data("index");
-      owl.trigger("to.owl.carousel", [index, 300]); // Go to the clicked slide
-      updateDots(index);
-    });
+            lastScrollTop = scrollTop; // Update the last scroll position
+          } else {
+            // Remove the classes if screen size is 768px or larger
+            $navbar.removeClass("header-scroll categories-open");
+          }
+        });
 
-    // Update Dots on Slide Change
-    owl.on("changed.owl.carousel", function (event) {
-      const currentIndex = event.item.index;
-      updateDots(currentIndex);
-    });
+        // Toggle the 'categories-open' class on overlay toggler click
+        $overlayToggler.click(function () {
+          if ($(window).width() < 768) {
+            $navbar.toggleClass("categories-open");
 
-    // Function to Update Active Dot
-    function updateDots(index) {
-      dotsContainer.find(".dot").removeClass("active");
-      dotsContainer.find('.dot[data-index="' + index + '"]').addClass("active");
-    }
-  });
+            // Ensure 'header-scroll' is added when 'categories-open' is present
+            if ($navbar.hasClass("categories-open")) {
+              $navbar.addClass("header-scroll");
+            }
+          }
+        });
+
+        // Handle window resize to ensure the classes are removed if screen size changes
+        $(window).resize(function () {
+          if ($(window).width() >= 768) {
+            $navbar.removeClass("header-scroll categories-open");
+          }
+        });
+      });
     </script>
   </body>
 </html>

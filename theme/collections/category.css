@@ -351,7 +351,7 @@
   .category-list__fixed-filter
   .category-list__filter-li
   .filters_applied:before {
-  background: url(https://ii2.pepperfry.com/irDecPreview/assets/w23-filter-mob-icon.png)
+  background: url(https://ii2.pepperfry.com/assets/w23-filter-mob-icon.png)
     no-repeat 0 right 0;
   background-size: cover !important;
   content: "";
@@ -364,7 +364,7 @@
   width: 12px;
 }
 .category-list__filter-xs-view .category-list__fixed-filter .category-list__filter-li .categories:after {
-  background: url(https://ii2.pepperfry.com/irDecPreview/assets/w23-menu__arrow-down.png)
+  background: url(https://ii2.pepperfry.com/assets/w23-menu__arrow-down.png)
     no-repeat 0 right 0;
   content: "";
   height: 12px;
@@ -376,14 +376,14 @@
   width: 12px;
 }
 .category-list__filter-xs-view .category-list__fixed-filter .category-list__filter-li .isCategoryOpen:after {
-  background: url(https://ii2.pepperfry.com/irDecPreview/assets/w23-menu__arrow-up.png)
+  background: url(https://ii2.pepperfry.com/assets/w23-menu__arrow-up.png)
     no-repeat 0 right 0;
 }
 .category-list__filter-xs-view .category-list__fixed-filter .category-list__filter-li .selectedSortBy {
   margin-left: -8px;
 }
 .category-list__filter-xs-view .category-list__fixed-filter .category-list__filter-li .sort_by:before {
-  background: url(https://ii2.pepperfry.com/irDecPreview/assets/w23-category-list__filter-icon.svg)
+  background: url(https://ii2.pepperfry.com/assets/w23-category-list__filter-icon.svg)
     no-repeat 0 right 0;
   background-size: cover !important;
   content: "";
@@ -651,7 +651,7 @@ meta {
   color: #009DC3;
 }
 .category-list__category-item__list.category-list__category-item__selected .category-list__subcategory-item__tab-wrapper {
-  background: url(https://ii1.pepperfry.com/irDecPreview/assets/w23-sub-category-title__arrow-active.svg)
+  background: url(https://ii1.pepperfry.com/assets/w23-sub-category-title__arrow-active.svg)
     no-repeat 6px center;
   cursor: default;
   padding-right: 22px;

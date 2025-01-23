@@ -5,8 +5,17 @@
 @import "/irDecPreview/theme/components/accordion.css";
 /* @import "/irDecPreview/theme/collections/filters.css"; */
 @import "/irDecPreview/theme/components/form.css";
+@import "/irDecPreview/theme/components/datepicker.css";
 @import "/irDecPreview/theme/components/dropdown.css";
 @import "/irDecPreview/theme/components/drawer.css";
+.checkout__container{
+  display: flex;
+      flex-direction: column;
+      min-height: 101vh;
+}
+footer{
+  margin-top: auto;
+}
 .cart-footer-container {
   background-color: #f5f5f5;
 }

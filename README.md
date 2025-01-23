@@ -87,23 +87,23 @@ help/: Views for help and support (e.g., FAQ, contact us).
 manufacturers/: Views for manufacturer-related pages (e.g., manufacturer list, manufacturer details).
 
 # Demo
-https://farbodghasemlu.github.io/irDecPreview/views/account/login.html
-https://farbodghasemlu.github.io/irDecPreview/views/account/register.html
-https://farbodghasemlu.github.io/irDecPreview/views/account/profile.html
-https://farbodghasemlu.github.io/irDecPreview/views/account/orders.html
-https://farbodghasemlu.github.io/irDecPreview/views/account/recentlyviewed.html
-https://farbodghasemlu.github.io/irDecPreview/views/account/wishlist.html
-https://farbodghasemlu.github.io/irDecPreview/views/help/contactus.html
-https://farbodghasemlu.github.io/irDecPreview/views/help/faq.html
-https://farbodghasemlu.github.io/irDecPreview/views/help/policies.html
-https://farbodghasemlu.github.io/irDecPreview/views/products/category.html
-https://farbodghasemlu.github.io/irDecPreview/views/products/subcategory.html
-https://farbodghasemlu.github.io/irDecPreview/views/products/product.html
-https://farbodghasemlu.github.io/irDecPreview/views/products/searchResult.html
-https://farbodghasemlu.github.io/irDecPreview/views/products/modular.html
-https://farbodghasemlu.github.io/irDecPreview/views/products/cart.html
-https://farbodghasemlu.github.io/irDecPreview/views/products/paymentMethod.html
-https://farbodghasemlu.github.io/irDecPreview/views/manufacturer/list.html
-https://farbodghasemlu.github.io/irDecPreview/views/manufacturer/products.html
-https://farbodghasemlu.github.io/irDecPreview/views/home/index.html
+https://farbodghasemlu.github.io/views/account/login.html
+https://farbodghasemlu.github.io/views/account/register.html
+https://farbodghasemlu.github.io/views/account/profile.html
+https://farbodghasemlu.github.io/views/account/orders.html
+https://farbodghasemlu.github.io/views/account/recentlyviewed.html
+https://farbodghasemlu.github.io/views/account/wishlist.html
+https://farbodghasemlu.github.io/views/help/contactus.html
+https://farbodghasemlu.github.io/views/help/faq.html
+https://farbodghasemlu.github.io/views/help/policies.html
+https://farbodghasemlu.github.io/views/products/category.html
+https://farbodghasemlu.github.io/views/products/subcategory.html
+https://farbodghasemlu.github.io/views/products/product.html
+https://farbodghasemlu.github.io/views/products/searchResult.html
+https://farbodghasemlu.github.io/views/products/modular.html
+https://farbodghasemlu.github.io/views/products/cart.html
+https://farbodghasemlu.github.io/views/products/paymentMethod.html
+https://farbodghasemlu.github.io/views/manufacturer/list.html
+https://farbodghasemlu.github.io/views/manufacturer/products.html
+https://farbodghasemlu.github.io/views/home/index.html
 
