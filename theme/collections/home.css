@@ -1,11 +1,11 @@
-@import "/irDecPreview/theme/base/main.css";
-@import "/irDecPreview/theme/components/carousel.css";
-@import "/irDecPreview/theme/components/buttons.css";
-@import "/irDecPreview/theme/components/cards.css";
-@import "/irDecPreview/theme/components/showcase.css";
-@import "/irDecPreview/theme/components/drawer.css";
-@import "/irDecPreview/theme/components/cities.css";
-/* @import "/irDecPreview/theme/collections/stores.css"; */
+@import "/theme/base/main.css";
+@import "/theme/components/carousel.css";
+@import "/theme/components/buttons.css";
+@import "/theme/components/cards.css";
+@import "/theme/components/showcase.css";
+@import "/theme/components/drawer.css";
+@import "/theme/components/cities.css";
+/* @import "/theme/collections/stores.css"; */
 .card-header img {
   width: 100%;
   /* height: auto; */

@@ -1,7 +1,7 @@
-@import "/irDecPreview/theme/base/main.css";
-@import "/irDecPreview/theme/components/buttons.css";
-@import "/irDecPreview/theme/components/cards.css";
-@import "/irDecPreview/theme/components/tabs.css";
+@import "/theme/base/main.css";
+@import "/theme/components/buttons.css";
+@import "/theme/components/cards.css";
+@import "/theme/components/tabs.css";
 
 .checkout__carousel--card .checkout__carousel--card-img-wrap {
   position: relative;
@@ -28,11 +28,11 @@
   transform: translate(-50%,-50%);
 }
 .checkout__carousel--card .checkout__carousel--card-img-wrap .checkout__carousel--card--fav.active {
-  background: #fff url(/irDecPreview/assets/icons/wishlist-filled.svg) no-repeat center;
+  background: #fff url(/assets/icons/wishlist-filled.svg) no-repeat center;
   background-size: 14px;
 }
 .checkout__carousel--card .checkout__carousel--card-img-wrap .checkout__carousel--card--fav {
-  background: #fff url(/irDecPreview/assets/icons/wishlist-secondary.svg) no-repeat center;
+  background: #fff url(/assets/icons/wishlist-secondary.svg) no-repeat center;
   background-size: 14px;
   border-radius: 50%;
   bottom: -10px;

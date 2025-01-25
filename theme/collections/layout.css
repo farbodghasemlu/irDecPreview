@@ -1,6 +1,6 @@
-@import "/irDecPreview/theme/components/widget.css";
-@import "/irDecPreview/theme/components/form.css";
-@import "/irDecPreview/theme/components/accordion.css";
+@import "/theme/components/widget.css";
+@import "/theme/components/form.css";
+@import "/theme/components/accordion.css";
 
 @keyframes fadeIn {
   0% {
@@ -84,17 +84,17 @@
   justify-content: flex-end;
   flex-grow: 1;
 }
-.main-header-container .header-corporate-links {
+.main-header-container .navbar__company-links {
   background: #f5f5f5;
   padding-bottom: 10px;
   padding-top: 10px;
 }
-.main-header-container .header-corporate-links .navbar__list-container {
+.main-header-container .navbar__company-links .navbar__list-container {
   display: flex;
   justify-content: center;
 }
 .main-header-container
-  .header-corporate-links
+  .navbar__company-links
   .navbar__list-container
   .navbar__list-item {
   background-color: transparent;
@@ -102,7 +102,13 @@
   margin-left: 32px;
 }
 .main-header-container
-  .header-corporate-links
+  .navbar__company-links
+  .navbar__list-container
+  .navbar__list-item:last-child {
+  margin-left: 0;
+}
+.main-header-container
+  .navbar__company-links
   .navbar__list-container
   .navbar__list-item:hover {
   color: #009dc3;
@@ -599,7 +605,7 @@ footer li {
 }
 footer .useful-link-mobile {
   display: block;
-  float: left;
+  /* float: left; */
   margin: 0;
 }
 footer .useful-link-mobile span {
@@ -931,7 +937,7 @@ footer .footer-content-toggle {
     margin: 0 auto;
     width: 112px;
   }
-  .main-header-container .header-corporate-links {
+  .main-header-container .navbar__company-links {
     display: none;
   }
   .main-header-container .navbar__nav-menu-ext-wrap {
@@ -1093,6 +1099,14 @@ footer .footer-content-toggle {
   }
 }
 @media only screen and (max-width: 767px) {
+  .navbar__back, .navbar__title{
+    display: none;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .sub-layout .navbar__logo-wrap{
+    display: none !important;
+  }
   .main-header {
     min-height: 0;
   }
@@ -1322,7 +1336,7 @@ footer .footer-content-toggle {
   }
 }
 
-.sticky-navigation-container {
+.bottom-navigation__container {
   display: flex;
   position: fixed;
   bottom: 0;
@@ -1333,11 +1347,11 @@ footer .footer-content-toggle {
   filter: drop-shadow(11px 0px 14px rgba(0, 0, 0, 0.08));
 }
 @media only screen and (min-width: 768px) {
-  .sticky-navigation-container {
+  .bottom-navigation__container {
     display: none;
   }
 }
-.sticky-navigation-container .sticky-navigation-element {
+.bottom-navigation__container .bottom-navigation__element {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1346,16 +1360,29 @@ footer .footer-content-toggle {
   overflow: hidden;
   white-space: nowrap;
   border-top: 3px solid transparent;
+  color: #121212;
+  cursor: pointer;
 }
-.sticky-navigation-container .active {
+.bottom-navigation__container .active {
   color: #009dc3;
   border-top: 3px solid #009dc3;
+  fill: #009dc3 ;
+
 }
-.nav-img-dim-tag .picture-image-cls-container img {
+.bottom-navigation__container.categories-open .category__overlay-toggler{
+  color: #009dc3;
+  border-top: 3px solid #009dc3;
+  fill: #009dc3 ;
+}
+.bottom-navigation__container.categories-open .active{
+  color: unset;
+  border-top: 3px solid transparent;
+}
+/* .nav-img-dim-tag .picture-image-cls-container svg {
   width: auto;
   background-color: transparent;
   display: inline;
-}
+} */
 footer {
   width: 100%;
 }
@@ -1399,8 +1426,9 @@ footer li {
 }
 footer .useful-link-mobile {
   display: block;
-  float: left;
+  /* float: left; */
   margin: 0;
+  text-align: right;
 }
 footer .useful-link-mobile span {
   padding: 0 4px;
@@ -1597,7 +1625,7 @@ footer .footer-content-toggle {
   .mobile-nav__content-list.mobile-nav__content-category:after {
   content: "";
   position: absolute;
-  background-image: url(/irDecPreview/assets/icons/chevron-right.svg);
+  background-image: url(/assets/icons/chevron-right.svg);
   background-size: contain;
   transform: rotate(180deg);
   background-repeat: no-repeat;
@@ -1925,6 +1953,10 @@ ul li.mobile-nav__partner-link {
 .category-open-title {
   margin-right: 8px;
 }
+.navbar__title{
+  margin-right: 8px;
+
+}
 .category-open-title,
 .category-open-icon {
   display: none !important;
@@ -1933,8 +1965,12 @@ ul li.mobile-nav__partner-link {
 .categories-open .category-open-icon {
   display: block !important;
 }
-.categories-open > .navbar__xs-hamburger-responsive,
-.categories-open > .navbar__logo-wrap {
+.main-layout .categories-open > .navbar__xs-hamburger-responsive,
+.main-layout .categories-open > .navbar__logo-wrap {
+  display: none !important;
+}
+.sub-layout .categories-open > .navbar__back,
+.sub-layout .categories-open > .navbar__title {
   display: none !important;
 }
 .legal-pages-section {
@@ -1999,11 +2035,16 @@ footer li {
   list-style-type: none;
   display: inline-block;
   word-break: break-all;
+  text-align: right;
 }
 footer .useful-link-mobile {
   display: block;
-  float: left;
+  float: right;
+  
   margin: 0;
+}
+footer .useful-link-mobile:last-child span{
+  display: none;
 }
 footer .useful-link-mobile span {
   padding: 0 4px;
@@ -2161,7 +2202,7 @@ footer .footer-content-toggle {
   position: absolute;
   display: inline-block;
   left: -8px;
-  background: url(/irDecPreview/assets/icons/chevron-down.svg)
+  background: url(/assets/icons/chevron-down.svg)
     no-repeat 0 0;
 }
 
@@ -2175,7 +2216,7 @@ footer .footer-content-toggle {
   position: absolute;
   display: inline-block;
   left: -8px;
-  background: url(/irDecPreview/assets/icons/chevron-down.svg)
+  background: url(/assets/icons/chevron-down.svg)
     no-repeat 0 0;
     transform: rotate(180deg);
 }
@@ -2192,7 +2233,7 @@ footer .footer-content-toggle {
   width: 11px;
   height: 12px;
   top: 8px;
-  background: url(/irDecPreview/assets/icons/plus.svg) no-repeat 0
+  background: url(/assets/icons/plus.svg) no-repeat 0
     0;
 }
 
@@ -2208,19 +2249,19 @@ footer .footer-content-toggle {
   width: 11px;
   height: 12px;
   top: 12px;
-  background: url(/irDecPreview/assets/icons/minus.svg) no-repeat 0
+  background: url(/assets/icons/minus.svg) no-repeat 0
     0;
 }
  .categories-container .categories-wrapper .sub-heading {
   color: #848484;
 }
- .ctg-color-tertiary {
+ .ctg-palette--tertiary {
   color: #5b5b5b;
 }
  .ctg-bg-color-primary {
   background-color: #f5f5f5;
 }
- .ctg-bgcolor-tertiary {
+ .ctg-bgpalette--tertiary {
   background-color: #fafafa;
 }
  .ctg-l1-padding {

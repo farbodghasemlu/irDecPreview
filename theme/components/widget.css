@@ -312,7 +312,7 @@
   display: block;
   width: 10px;
   height: 10px;
-  background: url(/irDecPreview/assets/icons/close.svg) no-repeat
+  background: url(/assets/icons/close.svg) no-repeat
     center;
   background-size: cover;
   position: absolute;

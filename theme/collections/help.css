@@ -1,10 +1,10 @@
-@import "/irDecPreview/theme/base/main.css";
+@import "/theme/base/main.css";
 
-@import "/irDecPreview/theme/components/tabs.css";
+@import "/theme/components/tabs.css";
 
-@import "/irDecPreview/theme/components/form.css";
+@import "/theme/components/form.css";
 
-@import "/irDecPreview/theme/components/accordion.css";
+@import "/theme/components/accordion.css";
 
 
 .body {
@@ -124,11 +124,11 @@ width:100%
 }
 
 .field__clear-text {
-background:url(/irDecPreview/assets/icons/close.svg) no-repeat left
+background:url(/assets/icons/close.svg) no-repeat left
 }
 
 .field__icon-right {
-background:url(/irDecPreview/assets/icons/search.svg) no-repeat left
+background:url(/assets/icons/search.svg) no-repeat left
 }
 
 .field__wrap .field__block:focus {

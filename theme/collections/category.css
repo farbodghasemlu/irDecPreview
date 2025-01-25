@@ -1,11 +1,11 @@
-@import "/irDecPreview/theme/base/main.css";
-@import "/irDecPreview/theme/components/buttons.css";
-@import "/irDecPreview/theme/components/cards.css";
-@import "/irDecPreview/theme/components/dropdown.css";
-@import "/irDecPreview/theme/components/carousel.css";
-@import "/irDecPreview/theme/components/accordion.css";
-@import "/irDecPreview/theme/components/cities.css";
-@import "/irDecPreview/theme/collections/filters.css";
+@import "/theme/base/main.css";
+@import "/theme/components/buttons.css";
+@import "/theme/components/cards.css";
+@import "/theme/components/dropdown.css";
+@import "/theme/components/carousel.css";
+@import "/theme/components/accordion.css";
+@import "/theme/components/cities.css";
+@import "/theme/collections/filters.css";
 #sortByModel .modal-container .modal-body .close-modal {
   top: 15px;
 }
@@ -634,7 +634,7 @@ meta {
   position: relative;
 }
 .category-list__category-item__list.category-list__category-item__selected .category-list__category-item__card-wrapper:after {
-  background: url(/irDecPreview/assets/icons/category-checked.svg)
+  background: url(/assets/icons/category-checked.svg)
     no-repeat center;
   background-size: 20px;
   content: "";
@@ -658,7 +658,7 @@ meta {
   background-color: transparent;
   color: #9d6a37;
 }
-.category-list__category-item__list.category-list__category-item__selected .category-list__subcategory-item__tab-wrapper .color-secondary {
+.category-list__category-item__list.category-list__category-item__selected .category-list__subcategory-item__tab-wrapper .palette--secondary {
   background-color: transparent;
   color: #9d6a37;
 }
@@ -925,8 +925,7 @@ meta {
   }
 }
 @media only screen and (max-width: 767px) {
-  .one-row-six-col-slider-container
-    .one-row-six-col-slider-web {
+  .one-row-six-col-slider-container {
     display: none;
   }
   .one-row-six-col-slider-container

@@ -12,7 +12,7 @@
 	left: 8px;
 	position: absolute;
 	z-index: 2;
-	background: #fff url(/irDecPreview/assets/icons/wishlist-secondary.svg) no-repeat center;
+	background: #fff url(/assets/icons/wishlist-secondary.svg) no-repeat center;
 	background-size: 14px;
 	border-radius: 50%;
 	height: 24px;
@@ -25,7 +25,7 @@
 	left: 8px;
 	position: absolute;
 	z-index: 2;
-	background: #fff url(/irDecPreview/assets/icons/wishlist-filled.svg) no-repeat center;
+	background: #fff url(/assets/icons/wishlist-filled.svg) no-repeat center;
 	background-size: 14px;
 	border-radius: 50%;
 	height: 24px;
@@ -58,7 +58,7 @@
 	left: 8px;
 	position: absolute;
 	z-index: 2;
-	background: #fff url(/irDecPreview/assets/icons/wishlist-secondary.svg) no-repeat center;
+	background: #fff url(/assets/icons/wishlist-secondary.svg) no-repeat center;
 	background-size: 14px;
 	border-radius: 50%;
 	height: 24px;
@@ -70,7 +70,7 @@
 	left: 8px;
 	position: absolute;
 	z-index: 2;
-	background: #fff url(/irDecPreview/assets/icons/wishlist-filled.svg) no-repeat center;
+	background: #fff url(/assets/icons/wishlist-filled.svg) no-repeat center;
 	background-size: 14px;
 	border-radius: 50%;
 	height: 24px;
@@ -165,7 +165,7 @@
   .wishlist-toastmsg-container .wishlist-icon {
 	margin-right: 8px;
   }
-  .color-tertiary {
+  .palette--tertiary {
 	color: #5b5b5b;
   }
   .prod__card-container-hover:hover {
@@ -176,7 +176,7 @@
 	position: relative;
   }
   .checkout-prod__card .checkout-prod__card__thumbnail .checkout-prod__card__fav {
-	background: #fff 9 url(/irDecPreview/assets/icons/wishlist-secondary.svg) no-repeat center;
+	background: #fff 9 url(/assets/icons/wishlist-secondary.svg) no-repeat center;
 	background-size: 14px;
 	border-radius: 50%;
 	bottom: -10px;
@@ -186,7 +186,7 @@
 	width: 24px;
   }
   .checkout-prod__card .checkout-prod__card__thumbnail .checkout-prod__card__fav.active {
-	background: #fff 9 url(/irDecPreview/assets/icons/wishlist-filled.svg) no-repeat center;
+	background: #fff 9 url(/assets/icons/wishlist-filled.svg) no-repeat center;
 	background-size: 14px;
   }
   .checkout-prod__card .checkout-prod__card__thumbnail--out-of-stock {

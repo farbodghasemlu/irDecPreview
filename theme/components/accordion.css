@@ -10,7 +10,7 @@
   position: relative;
 }
 .panel .panel-heading .panel-title:after {
-  background-image: url(/irDecPreview/assets/icons/chevron-down.svg);
+  background-image: url(/assets/icons/chevron-down.svg);
   height: 24px;
   left: 0;
   top: 50%;
