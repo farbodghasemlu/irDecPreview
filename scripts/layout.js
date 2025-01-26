@@ -5,8 +5,8 @@ $(document).ready(function () {
   const $navbar = $(".navbar__main-menu-container");
   const $overlayToggler = $(".category__overlay-toggler");
   const $bottomNav = $(".bottom-navigation__container");
-  const $footerToggle = $('.footer-content-toggle');
-  const $footerContent = $('.footer-content-mobile');
+  const $footerToggle = $('.footer__content-toggle');
+  const $footerContent = $('.footer__content-mobile');
   const $searchInput = $('#search');
   const $searchDropdown = $('.search-dropdown');
 

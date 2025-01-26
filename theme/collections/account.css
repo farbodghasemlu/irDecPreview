@@ -597,12 +597,12 @@
 .auth__container .auth__option-two {
   margin-bottom: 64px;
 }
-.auth__container .auth__option-two .social-login {
+.auth__container .auth__option-two .social__login {
   align-items: center;
   display: flex;
   justify-content: center;
 }
-.auth__container .auth__option-two .social-login .social-login-method {
+.auth__container .auth__option-two .social__login .social__login-method {
   align-items: center;
   color: #5b5b5b;
   display: flex;
@@ -614,21 +614,21 @@
 }
 .auth__container
   .auth__option-two
-  .social-login
-  .social-login-method
+  .social__login
+  .social__login-method
   .facebook {
   text-align: center;
 }
 .auth__container
   .auth__option-two
-  .social-login
-  .social-login-method:last-child {
+  .social__login
+  .social__login-method:last-child {
   margin-top: 12px;
 }
 .auth__container
   .auth__option-two
-  .social-login
-  .social-login-method.add-border {
+  .social__login
+  .social__login-method.add-border {
   border: 1px solid #e0e0e0;
 }
 .auth__container .auth__option-two .sub-heading {
@@ -640,11 +640,11 @@
   color: #848484;
   font-size: 12px;
 }
-.auth__container .auth__footer-container {
+.auth__container .auth__footer__container {
   display: flex;
   justify-content: space-between;
 }
-.auth__container .auth__footer-container .footer-img {
+.auth__container .auth__footer__container .footer__img {
   aspect-ratio: 1.0434782608696;
   width: 84px;
 }
@@ -851,7 +851,7 @@
   .auth__container .auth__option-two {
     margin-bottom: 24px;
   }
-  .auth__container .auth__option-two .social-login .social-login-method {
+  .auth__container .auth__option-two .social__login .social__login-method {
     width: 340px;
   }
   .take-mail__container .mail__input.prefix {
