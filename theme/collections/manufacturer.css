@@ -1,6 +1,8 @@
-@import "/theme/base/main.css";
-@import "/theme/components/cards.css";
-@import "/theme/components/pagination.css";
+@import "/irDecPreview/theme/base/main.css";
+@import "/irDecPreview/theme/components/cards.css";
+@import "/irDecPreview/theme/components/pagination.css";
+@import "/irDecPreview/theme/components/buttons.css";
+@import "/irDecPreview/theme/components/drawer.css";
 
 .discover-manufacturer__search {
   width: 40%;

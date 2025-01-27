@@ -1,23 +1,23 @@
 <html lang="fa">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
-      href="/lib/owlcarousel/assets/owl.carousel.min.css"
+      href="/irDecPreview/lib/owlcarousel/assets/owl.carousel.min.css"
     />
     <link
       rel="stylesheet"
-      href="/lib/owlcarousel/assets/owl.theme.default.min.css"
+      href="/irDecPreview/lib/owlcarousel/assets/owl.theme.default.min.css"
     />
-    <link rel="stylesheet" href="/theme/collections/product.css" />
-    <link rel="stylesheet" href="/theme/collections/layout.css" />
-    <link rel="stylesheet" href="/theme/components/gallery.css" />
+    <link rel="stylesheet" href="/irDecPreview/theme/collections/product.css" />
+    <link rel="stylesheet" href="/irDecPreview/theme/collections/layout.css" />
+    <link rel="stylesheet" href="/irDecPreview/theme/components/gallery.css" />
     <title>ایران دکور - فروشگاه مبلمان و دکوراسیون</title>
     <meta
       name="description"
       content="ایران دکور، فروشگاه اینترنتی مبلمان و دکوراسیون و مجموعه ی کاملی از محصولاتِ معتبرترین تولیدکنندگان حوزه مبل راحتی، کلاسیک، استیل و تمامی لوازم دکوراسیون با بهترین قیمت و کیفیت"
     />
-    <!-- <script type="text/javascript" src="/scripts/jquery.hammer.min.js"></script>   -->
+    <!-- <script type="text/javascript" src="/irDecPreview/scripts/jquery.hammer.min.js"></script>   -->
   </head>
 
   <body>
@@ -27,44 +27,54 @@
         <nav class="navbar__company-links">
           <ul class="navbar__list-container container">
             <!-- List item for tracking orders -->
-            <li class="navbar__list-item uppercase">
-              <a class="text--sm" href="/">پیگیری سفارش</a>
+            <li class="navbar__list-item">
+              <a class="text--sm" href="/irDecPreview/views/help/contactus.html"
+                >پیگیری سفارش</a
+              >
             </li>
             <!-- List item for help -->
-            <li class="navbar__list-item uppercase">
-              <a class="text--sm" href="/">راهنمایی</a>
+            <li class="navbar__list-item">
+              <a class="text--sm" href="/irDecPreview/views/help/faq.html">راهنمایی</a>
             </li>
             <!-- List item for collaboration -->
-            <li class="navbar__list-item uppercase">
-              <a class="text--sm" href="/">همکاری با ما</a>
-            </li>
-            <!-- List item for special orders -->
-            <li class="navbar__list-item uppercase">
-              <a class="text--sm" href="/">سفارش خاص</a>
-            </li>
-            <!-- List item for blog -->
-            <li class="navbar__list-item uppercase">
-              <a class="text--sm" href="/">بلاگ ما</a>
+            <li class="navbar__list-item">
+              <a class="text--sm" href="/irDecPreview/views/studio/partnership.html"
+                >همکاری با ما</a
+              >
             </li>
           </ul>
         </nav>
 
         <!-- Main container for navbar content -->
-        <div class="container">
+        <div class="container sub-layout">
           <div class="navbar__main-menu-container">
-            <!-- Hamburger menu for responsive design -->
-            <div class="navbar__xs-hamburger-responsive pointer">
-              <a
-                role="link"
-                class="navbar__hamburger-cta pointer"
-                data-rule="dialog"
-                data-target="nav-drawer"
-              >
-                <!-- SVG icon for hamburger menu -->
-                <img alt="hamburger icon" src="/assets/icons/menu.svg" />
+            <div class="pointer navbar__back">
+              <a role="link" href="javascript:history.back()">
+                <img
+                  alt="back icon"
+                  src="/irDecPreview/assets/icons/chevron-right.svg"
+                  width="16"
+                  height="16"
+                />
               </a>
             </div>
-
+            <div class="text--xl bold truncate navbar__title">
+              <span> نام محصول</span>
+            </div>
+            <div class="pointer category-open-icon category__overlay-toggler">
+              <a role="link">
+                <!-- SVG icon for hamburger menu -->
+                <img
+                  alt="back icon"
+                  src="/irDecPreview/assets/icons/chevron-right.svg"
+                  width="16"
+                  height="16"
+                />
+              </a>
+            </div>
+            <div class="text--xl bold truncate category-open-title">
+              <span> دسته بندی ها</span>
+            </div>
             <!-- Search bar section -->
             <div class="header-search">
               <div class="navbar__search-wrap">
@@ -89,7 +99,7 @@
                       alt="search-icon"
                       width="14"
                       height="14"
-                      src="/assets/icons/search.svg"
+                      src="/irDecPreview/assets/icons/search.svg"
                     />
                   </button>
                 </div>
@@ -114,7 +124,7 @@
                                 height="12"
                                 alt="recent search"
                                 class="img-dim-tag"
-                                src="/assets/icons/history.svg"
+                                src="/irDecPreview/assets/icons/history.svg"
                               />
                               <span class="text--xs color--tertiary"
                                 >جستجوی نمونه</span
@@ -128,7 +138,7 @@
                                 height="12"
                                 alt="recent search"
                                 class="img-dim-tag"
-                                src="/assets/icons/history.svg"
+                                src="/irDecPreview/assets/icons/history.svg"
                               />
                               <span class="text--xs color--tertiary"
                                 >جستجوی نمونه</span
@@ -150,7 +160,7 @@
                                 <a href="/">
                                   <img
                                     alt="recent search"
-                                    src="/assets/icons/trending.svg"
+                                    src="/irDecPreview/assets/icons/trending.svg"
                                   />
                                   <span class="text--xs color--tertiary"
                                     >نام محصول</span
@@ -161,7 +171,7 @@
                                 <a href="/">
                                   <img
                                     alt="recent search"
-                                    src="/assets/icons/trending.svg"
+                                    src="/irDecPreview/assets/icons/trending.svg"
                                   />
                                   <span class="text--xs color--tertiary"
                                     >نام محصول</span
@@ -172,7 +182,7 @@
                                 <a href="/">
                                   <img
                                     alt="recent search"
-                                    src="/assets/icons/trending.svg"
+                                    src="/irDecPreview/assets/icons/trending.svg"
                                   />
                                   <span class="text--xs color--tertiary"
                                     >نام محصول</span
@@ -183,7 +193,7 @@
                                 <a href="/">
                                   <img
                                     alt="recent search"
-                                    src="/assets/icons/trending.svg"
+                                    src="/irDecPreview/assets/icons/trending.svg"
                                   />
                                   <span class="text--xs color--tertiary"
                                     >نام محصول</span
@@ -194,7 +204,7 @@
                                 <a href="/">
                                   <img
                                     alt="recent search"
-                                    src="/assets/icons/trending.svg"
+                                    src="/irDecPreview/assets/icons/trending.svg"
                                   />
                                   <span class="text--xs color--tertiary"
                                     >نام محصول</span
@@ -207,7 +217,7 @@
                                 <a href="/">
                                   <img
                                     alt="recent search"
-                                    src="/assets/icons/trending.svg"
+                                    src="/irDecPreview/assets/icons/trending.svg"
                                   />
                                   <span class="text--xs color--tertiary"
                                     >نام محصول</span
@@ -218,7 +228,7 @@
                                 <a href="/">
                                   <img
                                     alt="recent search"
-                                    src="/assets/icons/trending.svg"
+                                    src="/irDecPreview/assets/icons/trending.svg"
                                   />
                                   <span class="text--xs color--tertiary"
                                     >نام محصول</span
@@ -229,7 +239,7 @@
                                 <a href="/">
                                   <img
                                     alt="recent search"
-                                    src="/assets/icons/trending.svg"
+                                    src="/irDecPreview/assets/icons/trending.svg"
                                   />
                                   <span class="text--xs color--tertiary"
                                     >نام محصول</span
@@ -240,7 +250,7 @@
                                 <a href="/">
                                   <img
                                     alt="recent search"
-                                    src="/assets/icons/trending.svg"
+                                    src="/irDecPreview/assets/icons/trending.svg"
                                   />
                                   <span class="text--xs color--tertiary"
                                     >نام محصول</span
@@ -251,7 +261,7 @@
                                 <a href="/">
                                   <img
                                     alt="recent search"
-                                    src="/assets/icons/trending.svg"
+                                    src="/irDecPreview/assets/icons/trending.svg"
                                   />
                                   <span class="text--xs color--tertiary"
                                     >نام محصول</span
@@ -270,13 +280,12 @@
 
             <!-- Logo section -->
             <div class="navbar__logo-wrap">
-              <a class="logo" href="/">
-                <!-- Placeholder logo -->
+              <a class="logo" href="/irDecPreview/views/home/index.html">
                 <img
                   alt="ایران دکور"
                   width="219"
                   height="47"
-                  src="/assets/images/logo.svg"
+                  src="/irDecPreview/assets/images/logo.svg"
                 />
               </a>
             </div>
@@ -293,7 +302,7 @@
                         width="32"
                         height="32"
                         alt="profile icon"
-                        src="/assets/icons/profile-secondary.svg"
+                        src="/irDecPreview/assets/icons/profile-secondary.svg"
                       />
                     </a>
                     <div class="user-credit-text pointer">
@@ -308,7 +317,7 @@
                   <!-- 
       This HTML block represents a user registration/login section.
       - It includes a welcome message, a call-to-action for registration, and a login/signup button.
- 
+  
     -->
 
                   <div class="navbar__ext-logged-tt-wrap">
@@ -329,7 +338,7 @@
                         <!-- Login/Signup Button -->
                         <button
                           type="button"
-                          class="btn__container btn__large btn__primary"
+                          class="btn__container btn__large btn__primary btn__block"
                         >
                           <span>ورود/ثبت‌نام</span>
                         </button>
@@ -340,16 +349,19 @@
 
                 <!-- Studio icon and text -->
                 <div class="navbar__stores__wrap">
-                  <a class="pointer" href="/">
+                  <a class="pointer" href="/irDecPreview/views/studio/discover.html">
                     <!-- Placeholder studio icon -->
                     <img
                       alt="studio icon"
-                      src="/assets/icons/studio.svg"
+                      src="/irDecPreview/assets/icons/studio.svg"
                       width="32"
                       height="32"
                     />
                   </a>
-                  <a class="stores__text pointer" href="/">
+                  <a
+                    class="stores__text pointer"
+                    href="/irDecPreview/views/studio/discover.html"
+                  >
                     <div
                       class="stores__first-text text--xs semibold text--right"
                     >
@@ -363,11 +375,15 @@
 
                 <!-- Wishlist icon -->
                 <div class="navbar__wishlist-wrap navbar__icon-cta">
-                  <a role="link" class="pointer" href="/">
+                  <a
+                    role="link"
+                    class="pointer"
+                    href="/irDecPreview/views/account/wishlist.html"
+                  >
                     <!-- Placeholder wishlist icon -->
                     <img
                       alt="wishlist icon"
-                      src="/assets/icons/wishlist-secondary.svg"
+                      src="/irDecPreview/assets/icons/wishlist-secondary.svg"
                       width="32"
                       height="32"
                     />
@@ -376,13 +392,13 @@
 
                 <!-- Cart icon -->
                 <div class="navbar__cart-wrap navbar__icon-cta">
-                  <a role="link" class="pointer" href="/">
+                  <a role="link" class="pointer" href="/irDecPreview/views/checkout/cart">
                     <!-- Placeholder cart icon -->
                     <img
                       width="32"
                       height="32"
                       alt="cart icon"
-                      src="/assets/icons/cart.svg"
+                      src="/irDecPreview/assets/icons/cart.svg"
                     />
                   </a>
                 </div>
@@ -398,104 +414,87 @@
                 <!-- Main menu list -->
                 <ul class="navbar__menu-main-list-container">
                   <!-- Menu item: Furniture -->
-                  <li class="navbar__menu-list-item pointer" id="Furniture">
+                  <li class="navbar__menu-list-item pointer">
                     <a
                       class="navbar__menu-level-top text--md medium"
-                      href="/"
+                      href="/irDecPreview/views/products/category.html"
                     >
                       لینک
                     </a>
                   </li>
                   <!-- Menu item: Sofas & Seating -->
-                  <li
-                    class="navbar__menu-list-item pointer"
-                    id="Sofas &amp; Seating"
-                  >
+                  <li class="navbar__menu-list-item pointer">
                     <a
                       class="navbar__menu-level-top text--md medium"
-                      href="/"
+                      href="/irDecPreview/views/products/category.html"
                     >
                       لینک
                     </a>
                   </li>
                   <!-- Menu item: Mattresses -->
-                  <li class="navbar__menu-list-item pointer" id="Mattresses">
+                  <li class="navbar__menu-list-item pointer">
                     <a
                       class="navbar__menu-level-top text--md medium"
-                      href="/"
+                      href="/irDecPreview/views/products/category.html"
                     >
                       لینک
                     </a>
                   </li>
                   <!-- Menu item: Home Decor -->
-                  <li class="navbar__menu-list-item pointer" id="Home Decor">
+                  <li class="navbar__menu-list-item pointer">
                     <a
                       class="navbar__menu-level-top text--md medium"
-                      href="/"
+                      href="/irDecPreview/views/products/category.html"
                     >
                       لینک
                     </a>
                   </li>
                   <!-- Menu item: Furnishings -->
-                  <li class="navbar__menu-list-item pointer" id="Furnishings">
+                  <li class="navbar__menu-list-item pointer">
                     <a
                       class="navbar__menu-level-top text--md medium"
-                      href="/"
+                      href="/irDecPreview/views/products/category.html"
                     >
                       لینک
                     </a>
                   </li>
                   <!-- Menu item: Lamps & Lighting -->
-                  <li
-                    class="navbar__menu-list-item pointer"
-                    id="Lamps &amp; Lighting"
-                  >
+                  <li class="navbar__menu-list-item pointer">
                     <a
                       class="navbar__menu-level-top text--md medium"
-                      href="/"
+                      href="/irDecPreview/views/products/category.html"
                     >
                       لینک
                     </a>
                   </li>
                   <!-- Menu item: Kitchen & Dining -->
-                  <li
-                    class="navbar__menu-list-item pointer"
-                    id="Kitchen &amp; Dining"
-                  >
+                  <li class="navbar__menu-list-item pointer">
                     <a
                       class="navbar__menu-level-top text--md medium"
-                      href="/"
+                      href="/irDecPreview/views/products/category.html"
                     >
                       لینک
                     </a>
                   </li>
                   <!-- Menu item: Luxury -->
-                  <li class="navbar__menu-list-item pointer" id="Luxury">
+                  <li class="navbar__menu-list-item pointer">
                     <a
                       class="navbar__menu-level-top text--md medium"
-                      href="/"
+                      href="/irDecPreview/views/products/category.html"
                     >
                       لینک
                     </a>
                   </li>
                   <!-- Menu item: Modular -->
-                  <li class="navbar__menu-list-item pointer" id="Modular">
+                  <li class="navbar__menu-list-item pointer">
                     <a
                       class="navbar__menu-level-top text--md medium"
-                      href="/"
+                      href="/irDecPreview/views/products/modular.html"
                     >
-                      لینک
+                      ماژولار
                     </a>
                   </li>
                   <!-- Menu item: Modular -->
-                  <li class="navbar__menu-list-item pointer" id="Modular">
-                    <a
-                      class="navbar__menu-level-top text--md medium"
-                      href="/"
-                    >
-                      لینک
-                    </a>
-                  </li>
                 </ul>
                 <div></div>
               </div>
@@ -631,6 +630,226 @@
         </div>
       </div>
     </header>
+    <!-- Categories drawer section -->
+    <div class="category-title__section anchor--full category__overlay">
+      <div
+        class="category-title__overlay__container category-title__anchor--right"
+      >
+        <div class="categories-container">
+          <ul class="categories-wrapper">
+            <!-- Furniture category -->
+            <li class="categories-l0-listing p--12 pointer">
+              <div class="categories-content text--sm categories-listing-l0">
+                <div class="categories-icon p--4">
+                  <img
+                    src="https://placehold.co/24x24"
+                    height="24"
+                    width="24"
+                    alt=" مبلمان"
+                    class="cat-ico-img"
+                  />
+                </div>
+                <div class="categories-desc">
+                  <div class="bold text--sm truncate">مبلمان</div>
+                  <div class="sub-heading text--xs medium truncate">
+                    مبل، مبل بخشی، مبل تختخواب شو، صندلی راحتی، صندلی اداری،
+                    صندلی بازی، صندلی ناهارخوری، صندلی بار، نیمکت، عثمانی، میز
+                    قهوه، میز کناری، واحد تلویزیون، کمد و بوفه، قفسه کتاب، ست
+                    ناهارخوری، تخت، میز کنار تخت، کشو، میز آرایش، گنجه، مبلمان
+                    کودکان و نوجوانان، میز مطالعه، مبلمان اداری، مراقبت از
+                    مبلمان، فضای باز، ماساژورها
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- Sofas & Seating category -->
+            <li class="categories-l0-listing p--12 pointer">
+              <div class="categories-content text--sm categories-listing-l0">
+                <div class="categories-icon p--4">
+                  <img
+                    src="https://placehold.co/24x24"
+                    height="24"
+                    width="24"
+                    alt=" مبل و صندلی"
+                    class="cat-ico-img"
+                  />
+                </div>
+                <div class="categories-desc">
+                  <div class="bold text--sm truncate">مبل و صندلی</div>
+                  <div class="sub-heading text--xs medium truncate">
+                    مبل، ست مبل، مبل بخشی، مبل تختخواب شو، صندلی راحتی، ست صندلی
+                    راحتی، صندلی اداری، صندلی بازی، صندلی ناهارخوری، صندلی بار،
+                    نیمکت، عثمانی، صندلی فضای باز، مراقبت از مبلمان، برترین
+                    مجموعه‌ها، برترین برندها
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- Mattresses category -->
+            <li class="categories-l0-listing p--12 pointer">
+              <div class="categories-content text--sm categories-listing-l0">
+                <div class="categories-icon p--4">
+                  <img
+                    src="https://placehold.co/24x24"
+                    height="24"
+                    width="24"
+                    alt=" تشک"
+                    class="cat-ico-img"
+                  />
+                </div>
+                <div class="categories-desc">
+                  <div class="bold text--sm truncate">تشک</div>
+                  <div class="sub-heading text--xs medium truncate">
+                    تشک بزرگ، تشک دو نفره، تشک تک نفره، تشک تاشو، تشک نوزاد،
+                    محافظ تشک، روکش تشک، بالش، مراقبت از تشک، برترین برندها
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- Home Decor category -->
+            <li class="categories-l0-listing p--12 pointer">
+              <div class="categories-content text--sm categories-listing-l0">
+                <div class="categories-icon p--4">
+                  <img
+                    src="https://placehold.co/24x24"
+                    height="24"
+                    width="24"
+                    alt=" دکوراسیون خانه"
+                    class="cat-ico-img"
+                  />
+                </div>
+                <div class="categories-desc">
+                  <div class="bold text--sm truncate">دکوراسیون خانه</div>
+                  <div class="sub-heading text--xs medium truncate">
+                    گلدان، مجسمه، کلکسیون، اشیاء تزئینی، ابزار خانه، دکور میز،
+                    دکور کودکان، قاب عکس، شمع، پایه شمع، معنوی، عطر خانه، ست
+                    دکور، لوازم نماز، گیاهان مصنوعی، دکور جشن، باغبانی، گلدان،
+                    دکور فضای باز، آویز دیواری، قفسه دیواری، کابینت دیواری،
+                    نگهدارنده تلویزیون، نگهدارنده کلید، جارخانی، پارتیشن، دکور
+                    دیواری، هنر دیواری، کاغذ دیواری، ساعت، آینه، هدیه
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- Furnishings category -->
+            <li class="categories-l0-listing p--12 pointer">
+              <div class="categories-content text--sm categories-listing-l0">
+                <div class="categories-icon p--4">
+                  <img
+                    src="https://placehold.co/24x24"
+                    height="24"
+                    width="24"
+                    alt=" لوازم خانه"
+                    class="cat-ico-img"
+                  />
+                </div>
+                <div class="categories-desc">
+                  <div class="bold text--sm truncate">لوازم خانه</div>
+                  <div class="sub-heading text--xs medium truncate">
+                    ملحفه تخت، پتو و لحاف، لوازم حمام، لوازم تخت، پرده، لوازم
+                    پرده، سبد لباس، توری پنجره، ست لوازم خانه، کوسن و روکش، روکش
+                    مبل، روکش صندلی، فرش، زیرانداز، رومیزی، لوازم کودکان، لوازم
+                    حیوانات، زیرانداز یوگا، برترین برندها
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- Lamps & Lighting category -->
+            <li class="categories-l0-listing p--12 pointer">
+              <div class="categories-content text--sm categories-listing-l0">
+                <div class="categories-icon p--4">
+                  <img
+                    src="https://placehold.co/24x24"
+                    height="24"
+                    width="24"
+                    alt=" چراغ و روشنایی"
+                    class="cat-ico-img"
+                  />
+                </div>
+                <div class="categories-desc">
+                  <div class="bold text--sm truncate">چراغ و روشنایی</div>
+                  <div class="sub-heading text--xs medium truncate">
+                    چراغ پایه‌دار، چراغ قفسه، چراغ میز، چراغ خواب، چراغ مطالعه،
+                    آباژور، چراغ کودکان، چراغ سقفی، چراغ دیواری، چراغ هوشمند،
+                    چراغ فضای باز، چراغ تزئینی، چراغ اضطراری، لامپ، برترین
+                    برندها
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- Kitchen & Dining category -->
+            <li class="categories-l0-listing p--12 pointer">
+              <div class="categories-content text--sm categories-listing-l0">
+                <div class="categories-icon p--4">
+                  <img
+                    src="https://placehold.co/24x24"
+                    height="24"
+                    width="24"
+                    alt=" آشپزخانه و ناهارخوری"
+                    class="cat-ico-img"
+                  />
+                </div>
+                <div class="categories-desc">
+                  <div class="bold text--sm truncate">آشپزخانه و ناهارخوری</div>
+                  <div class="sub-heading text--xs medium truncate">
+                    ظروف سرو، پارچ، ظروف پخت، ظروف غذاخوری، ظروف پخت و پز، ابزار
+                    آشپزی، ظروف نوشیدنی، بطری، فلاسک، نی، لوازم بار، لوازم چای،
+                    چاقو و قاشق و چنگال، لوازم میز، ظروف نگهداری،
+                    سازمان‌دهنده‌های آشپزخانه، جعبه ناهار، لوازم آشپزخانه
+                    کودکان، ست هدیه، لوازم آشپزخانه، رومیزی، برترین برندها
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- Luxury category -->
+            <li class="categories-l0-listing p--12 pointer">
+              <div class="categories-content text--sm categories-listing-l0">
+                <div class="categories-icon p--4">
+                  <img
+                    src="https://placehold.co/24x24"
+                    height="24"
+                    width="24"
+                    alt=" لوکس"
+                    class="cat-ico-img"
+                  />
+                </div>
+                <div class="categories-desc">
+                  <div class="bold text--sm truncate">لوکس</div>
+                  <div class="sub-heading text--xs medium truncate">
+                    اتاق نشیمن، اتاق خواب، اتاق ناهارخوری، دفتر کار
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- Modular category -->
+            <li class="categories-l0-listing p--12 pointer">
+              <div class="categories-content text--sm">
+                <div class="categories-icon p--4">
+                  <img
+                    src="https://placehold.co/24x24"
+                    height="24"
+                    width="24"
+                    alt=" مدولار"
+                    class="cat-ico-img"
+                  />
+                </div>
+                <div class="categories-desc">
+                  <div class="bold text--sm truncate">ماژولار</div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
     <main class="main-body">
       <div class="details-page-container">
         <div class="details-sticky-header" style="top: -100vh">
@@ -647,51 +866,48 @@
                       class="img-dim-tag"
                       src="https://ii1.pepperfry.com/assets/upArrow.svg"
                   /></span>
-                  <h3 class="details-stickyheader-ttl">
-                    بازگشت به بالا
-                  </h3></a
+                  <h3 class="details-stickyheader-ttl">بازگشت به بالا</h3></a
                 >
               </div>
               <div class="column sm-6">
-            
-                  <div
-                    data-test="detailsCtaContainer"
-                    class="details-cta-section-container"
-                  >
-                    <div class="row no-wrap">
-                      <div
-                        data-test="detailsCtaAddToCartBtn"
-                        class="column xs-6 details-cta-cart-btn"
+                <div
+                  data-test="detailsCtaContainer"
+                  class="details-cta-section-container"
+                >
+                  <div class="row no-wrap">
+                    <div
+                      data-test="detailsCtaAddToCartBtn"
+                      class="column xs-6 details-cta-cart-btn"
+                    >
+                      <button
+                        type="undefined"
+                        class="btn__container btn__size--lg details-action-cta btn__outline--teal"
+                        id="Button"
+                        name="Button"
                       >
-                        <button
-                            type="undefined"
-                            class="btn__container btn__size--lg details-action-cta btn__outline--teal"
-                            id="Button"
-                            name="Button"
-                          >
-                            <div>
-                              <span class="">افزودن به سبد خرید</span>
-                            </div>
-                          </button>
-                      </div>
+                        <div>
+                          <span class="">افزودن به سبد خرید</span>
+                        </div>
+                      </button>
+                    </div>
 
-                      <div
-                        data-test="detailsCtaBuyNowBtn"
-                        class="column xs-6 details-cta-buy-now-btn"
+                    <div
+                      data-test="detailsCtaBuyNowBtn"
+                      class="column xs-6 details-cta-buy-now-btn"
+                    >
+                      <button
+                        type="undefined"
+                        class="btn__container btn__size--lg details-action-cta btn__primary"
+                        id="Button"
+                        name="Button"
                       >
-                        <button
-                            type="undefined"
-                            class="btn__container btn__size--lg details-action-cta btn__primary"
-                            id="Button"
-                            name="Button"
-                          >
-                            <div>
-                              <span class="">پرداخت</span>
-                            </div>
-                          </button>
-                      </div>
+                        <div>
+                          <span class="">پرداخت</span>
+                        </div>
+                      </button>
                     </div>
                   </div>
+                </div>
               </div>
             </div>
           </div>
@@ -699,58 +915,65 @@
 
         <div class="container">
           <div class="details-breadcrumb-wrapper">
-            
-              <div class="breadcrumb-container">
-                <ul class="breadcrumb-main-list">
-                  <li
-                    itemprop="itemListElement"
-                    class="breadcrumb-list breadcrumb--home"
-                  >
-                    <a
-                      itemprop="item"
-                      class="breadcrumb-link text--xs palette--secondary medium"
-                      href="/"
-                      ><span itemprop="name">خانه</span></a
-                    ><meta itemprop="postion" content="1" />
-                  </li>
-                  <li
-                    itemprop="itemListElement"
-                    class="breadcrumb--Furniture breadcrumb-list"
-                  >
-                    <span class="breadcrumb-arrow text--xs palette--secondary"
-                      >&gt;</span
-                    ><a
-                      itemprop="item"
-                      class="breadcrumb-link text--xs palette--secondary medium"
-                      ><span itemprop="name">مبلمان</span></a
-                    ><meta itemprop="postion" content="2" />
-                  </li>
+            <div class="breadcrumb-container">
+              <ul class="breadcrumb-main-list">
+                <li
+                  itemprop="itemListElement"
+                  class="breadcrumb-list breadcrumb--home"
+                >
+                  <a
+                    itemprop="item"
+                    class="breadcrumb-link text--xs palette--secondary medium"
+                    href="/"
+                    ><span itemprop="name">خانه</span></a
+                  ><meta itemprop="postion" content="1" />
+                </li>
+                <li
+                  itemprop="itemListElement"
+                  class="breadcrumb--Furniture breadcrumb-list"
+                >
+                  <span class="breadcrumb-arrow text--xs palette--secondary"
+                    >&gt;</span
+                  ><a
+                    itemprop="item"
+                    class="breadcrumb-link text--xs palette--secondary medium"
+                    ><span itemprop="name">مبلمان</span></a
+                  ><meta itemprop="postion" content="2" />
+                </li>
 
-                  <li
-                    itemprop="itemListElement"
-                    class="breadcrumb--Sofas breadcrumb-list"
-                  >
-                    <span class="breadcrumb-arrow text--xs palette--secondary"
-                      >&gt;</span
-                    ><a
-                      itemprop="item"
-                      class="breadcrumb-link text--xs palette--secondary medium"
-                      ><span itemprop="name">مبل تکنفره</span></a
-                    ><meta itemprop="postion" content="3" />
-                  </li>
-                </ul></div
-            >
+                <li
+                  itemprop="itemListElement"
+                  class="breadcrumb--Sofas breadcrumb-list"
+                >
+                  <span class="breadcrumb-arrow text--xs palette--secondary"
+                    >&gt;</span
+                  ><a
+                    itemprop="item"
+                    class="breadcrumb-link text--xs palette--secondary medium"
+                    ><span itemprop="name">مبل تکنفره</span></a
+                  ><meta itemprop="postion" content="3" />
+                </li>
+              </ul>
+            </div>
           </div>
 
           <div class="row details-row-wrapper">
             <div class="column xs-12 sm-7 details-lhs">
               <!-- Product Image Section -->
-              <div class="details-similar-itms web-details-similar-itms text-sm font-bold cursor-pointer">
+              <!-- <div
+                class="details-similar-itms web-details-similar-itms text-sm font-bold cursor-pointer"
+              >
                 <div class="details-similar-icon web-details-similar-icon">
-                  <img alt="Similar Set Icon" title="Similar Set Icon" width="24" height="24" src="/assets/icons/similar.svg">
+                  <img
+                    alt="Similar Set Icon"
+                    title="Similar Set Icon"
+                    width="24"
+                    height="24"
+                    src="/irDecPreview/assets/icons/similar.svg"
+                  />
                 </div>
                 مشاهده موارد مشابه
-              </div>
+              </div> -->
               <section id="output">
                 <div class="xzoom-container">
                   <img
@@ -868,14 +1091,14 @@
                                 class="pointer details-redirect-pointer"
                                 href="/"
                               >
-                              <img
-                              loading="eager"
-                              height="auto"
-                              width="340"
-                              src="https://placehold.co/340x256"
-                              alt="نام محصول"
-                              title="نام محصول"
-                            />
+                                <img
+                                  loading="eager"
+                                  height="auto"
+                                  width="340"
+                                  src="https://placehold.co/340x256"
+                                  alt="نام محصول"
+                                  title="نام محصول"
+                                />
                               </a>
                               <a class="details-redirect-pointer" href="/">
                                 <div
@@ -922,14 +1145,14 @@
                                 class="pointer details-redirect-pointer"
                                 href="/"
                               >
-                              <img
-                              loading="eager"
-                              height="auto"
-                              width="340"
-                              src="https://placehold.co/340x256"
-                              alt="نام محصول"
-                              title="نام محصول"
-                            />
+                                <img
+                                  loading="eager"
+                                  height="auto"
+                                  width="340"
+                                  src="https://placehold.co/340x256"
+                                  alt="نام محصول"
+                                  title="نام محصول"
+                                />
                               </a>
                               <a class="details-redirect-pointer" href="/">
                                 <div
@@ -1011,7 +1234,7 @@
                         </h1>
                         <div class="details-share-container pointer">
                           <img
-                            src="/assets/icons/share.svg"
+                            src="/irDecPreview/assets/icons/share.svg"
                             alt="share"
                             title="share"
                             width="15"
@@ -1032,7 +1255,7 @@
                       <span class="details-prod__rating">۵</span>
                       <span class="details-prod__star">
                         <img
-                          src="/assets/icons/rate.svg"
+                          src="/irDecPreview/assets/icons/rate.svg"
                           alt="rate"
                           title="rate"
                           width="16"
@@ -1046,7 +1269,7 @@
                       </span>
                       <span class="details-prod__assured-icon pointer">
                         <img
-                          src="/assets/icons/assured.svg"
+                          src="/irDecPreview/assets/icons/assured.svg"
                           alt="assured"
                           title="assured"
                           width="69"
@@ -1076,15 +1299,30 @@
                 <div class="mobile-carousel owl-carousel">
                   <!-- Slide 1 -->
                   <div class="carousel-item">
-                    <img src="https://placehold.co/300x300?text=Slide+1" alt="Slide 1" />
+                    <img
+                      src="https://placehold.co/600x400?text=Slide+1"
+                      width="100%"
+                      height="auto"
+                      alt="Slide 1"
+                    />
                   </div>
                   <!-- Slide 2 -->
                   <div class="carousel-item">
-                    <img src="https://placehold.co/300x300?text=Slide+2" alt="Slide 2" />
+                    <img
+                      src="https://placehold.co/600x400?text=Slide+2"
+                      width="100%"
+                      height="auto"
+                      alt="Slide 2"
+                    />
                   </div>
                   <!-- Slide 3 -->
                   <div class="carousel-item">
-                    <img src="https://placehold.co/300x300?text=Slide+3" alt="Slide 3" />
+                    <img
+                      src="https://placehold.co/600x400?text=Slide+3"
+                      width="100%"
+                      height="auto"
+                      alt="Slide 3"
+                    />
                   </div>
                 </div>
                 <!-- Product Price and Coupon -->
@@ -1245,136 +1483,135 @@
                       id="palette--option-images"
                       class="palette--option-images"
                     >
-                        <div
-                          class="palette-carousel owl-carousel owl-theme owl-loaded owl-responsive"
-                        >
-                          <div class="owl-stage-outer">
-                            <div class="owl-stage">
-                              <!-- Color Option 1 -->
-                              <div class="owl-item active">
-                                <div
-                                  class="details-palette--option-image-wrapper"
-                                >
-                                  <a href="/">
-                                    <img
-                                      loading="lazy"
-                                      height="60"
-                                      width="65"
-                                      src="https://placehold.co/65x60?text=color"
-                                      alt="رنگ ۱"
-                                    />
-                                  </a>
-                                </div>
+                      <div
+                        class="palette-carousel owl-carousel owl-theme owl-loaded owl-responsive"
+                      >
+                        <div class="owl-stage-outer">
+                          <div class="owl-stage">
+                            <!-- Color Option 1 -->
+                            <div class="owl-item active">
+                              <div
+                                class="details-palette--option-image-wrapper"
+                              >
+                                <a href="/">
+                                  <img
+                                    loading="lazy"
+                                    height="60"
+                                    width="65"
+                                    src="https://placehold.co/65x60?text=color"
+                                    alt="رنگ ۱"
+                                  />
+                                </a>
                               </div>
-                              <div class="owl-item">
-                                <div
-                                  class="details-palette--option-image-wrapper"
-                                >
-                                  <a href="/">
-                                    <img
-                                      loading="lazy"
-                                      height="60"
-                                      width="65"
-                                      src="https://placehold.co/65x60?text=color"
-                                      alt="رنگ ۱"
-                                    />
-                                  </a>
-                                </div>
+                            </div>
+                            <div class="owl-item">
+                              <div
+                                class="details-palette--option-image-wrapper"
+                              >
+                                <a href="/">
+                                  <img
+                                    loading="lazy"
+                                    height="60"
+                                    width="65"
+                                    src="https://placehold.co/65x60?text=color"
+                                    alt="رنگ ۱"
+                                  />
+                                </a>
                               </div>
-                              <div class="owl-item">
-                                <div
-                                  class="details-palette--option-image-wrapper"
-                                >
-                                  <a href="/">
-                                    <img
-                                      loading="lazy"
-                                      height="60"
-                                      width="65"
-                                      src="https://placehold.co/65x60?text=color"
-                                      alt="رنگ ۱"
-                                    />
-                                  </a>
-                                </div>
+                            </div>
+                            <div class="owl-item">
+                              <div
+                                class="details-palette--option-image-wrapper"
+                              >
+                                <a href="/">
+                                  <img
+                                    loading="lazy"
+                                    height="60"
+                                    width="65"
+                                    src="https://placehold.co/65x60?text=color"
+                                    alt="رنگ ۱"
+                                  />
+                                </a>
                               </div>
-                              <div class="owl-item">
-                                <div
-                                  class="details-palette--option-image-wrapper"
-                                >
-                                  <a href="/">
-                                    <img
-                                      loading="lazy"
-                                      height="60"
-                                      width="65"
-                                      src="https://placehold.co/65x60?text=color"
-                                      alt="رنگ ۱"
-                                    />
-                                  </a>
-                                </div>
+                            </div>
+                            <div class="owl-item">
+                              <div
+                                class="details-palette--option-image-wrapper"
+                              >
+                                <a href="/">
+                                  <img
+                                    loading="lazy"
+                                    height="60"
+                                    width="65"
+                                    src="https://placehold.co/65x60?text=color"
+                                    alt="رنگ ۱"
+                                  />
+                                </a>
                               </div>
-                              <div class="owl-item">
-                                <div
-                                  class="details-palette--option-image-wrapper"
-                                >
-                                  <a href="/">
-                                    <img
-                                      loading="lazy"
-                                      height="60"
-                                      width="65"
-                                      src="https://placehold.co/65x60?text=color"
-                                      alt="رنگ ۱"
-                                    />
-                                  </a>
-                                </div>
+                            </div>
+                            <div class="owl-item">
+                              <div
+                                class="details-palette--option-image-wrapper"
+                              >
+                                <a href="/">
+                                  <img
+                                    loading="lazy"
+                                    height="60"
+                                    width="65"
+                                    src="https://placehold.co/65x60?text=color"
+                                    alt="رنگ ۱"
+                                  />
+                                </a>
                               </div>
-                              <div class="owl-item">
-                                <div
-                                  class="details-palette--option-image-wrapper"
-                                >
-                                  <a href="/">
-                                    <img
-                                      loading="lazy"
-                                      height="60"
-                                      width="65"
-                                      src="https://placehold.co/65x60?text=color"
-                                      alt="رنگ ۱"
-                                    />
-                                  </a>
-                                </div>
+                            </div>
+                            <div class="owl-item">
+                              <div
+                                class="details-palette--option-image-wrapper"
+                              >
+                                <a href="/">
+                                  <img
+                                    loading="lazy"
+                                    height="60"
+                                    width="65"
+                                    src="https://placehold.co/65x60?text=color"
+                                    alt="رنگ ۱"
+                                  />
+                                </a>
                               </div>
-                              <div class="owl-item">
-                                <div
-                                  class="details-palette--option-image-wrapper"
-                                >
-                                  <a href="/">
-                                    <img
-                                      loading="lazy"
-                                      height="60"
-                                      width="65"
-                                      src="https://placehold.co/65x60?text=color"
-                                      alt="رنگ ۱"
-                                    />
-                                  </a>
-                                </div>
+                            </div>
+                            <div class="owl-item">
+                              <div
+                                class="details-palette--option-image-wrapper"
+                              >
+                                <a href="/">
+                                  <img
+                                    loading="lazy"
+                                    height="60"
+                                    width="65"
+                                    src="https://placehold.co/65x60?text=color"
+                                    alt="رنگ ۱"
+                                  />
+                                </a>
                               </div>
-                              <div class="owl-item">
-                                <div
-                                  class="details-palette--option-image-wrapper"
-                                >
-                                  <a href="/">
-                                    <img
-                                      loading="lazy"
-                                      height="60"
-                                      width="65"
-                                      src="https://placehold.co/65x60?text=color"
-                                      alt="رنگ ۱"
-                                    />
-                                  </a>
-                                </div>
+                            </div>
+                            <div class="owl-item">
+                              <div
+                                class="details-palette--option-image-wrapper"
+                              >
+                                <a href="/">
+                                  <img
+                                    loading="lazy"
+                                    height="60"
+                                    width="65"
+                                    src="https://placehold.co/65x60?text=color"
+                                    alt="رنگ ۱"
+                                  />
+                                </a>
                               </div>
-                              
                             </div>
                           </div>
                         </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -1392,44 +1629,40 @@
                     </div>
                     <div class="row middle-xs">
                       <!-- Pincode Input Field -->
-                      <div
-                        class="pincode-field__container column xs-8 sm-7"
-                      >
+                      <div class="pincode-field__container column xs-8 sm-7">
                         <div class="pincode-field__main">
-                      <div class="pincode-field__wrapper">
-
-                          <input
-                            id="pincode-input"
-                            name="pincode"
-                            placeholder="کد پستی را وارد کنید"
-                            maxlength="6"
-                            autocomplete="off"
-                            type="text"
-                            inputmode="numeric"
-                            class="pincode-input palette--primary text--md "
-                          />
-                 
-                      <!-- Locate Button -->
-                        <span
-                          id="locate-button"
-                          class="pincode-btn-action pointer text--md"
-                        >
-                          <span class="pincode-locate-icon">
-                            <img
-                              alt="موقعیت یابی"
-                              title="موقعیت یابی"
-                              src="/assets/icons/locate.svg"
+                          <div class="pincode-field__wrapper">
+                            <input
+                              id="pincode-input"
+                              name="pincode"
+                              placeholder="کد پستی را وارد کنید"
+                              maxlength="6"
+                              autocomplete="off"
+                              type="text"
+                              inputmode="numeric"
+                              class="pincode-input palette--primary text--md"
                             />
-                          </span>
-                          <span
-                            class="pincode-locate-txt text--md palette--teal bold"
-                          >
-                            موقعیت یابی
-                          </span>
-                        </span>
-                      </div>
-                    </div>
 
+                            <!-- Locate Button -->
+                            <span
+                              id="locate-button"
+                              class="pincode-btn-action pointer text--md"
+                            >
+                              <span class="pincode-locate-icon">
+                                <img
+                                  alt="موقعیت یابی"
+                                  title="موقعیت یابی"
+                                  src="/irDecPreview/assets/icons/locate.svg"
+                                />
+                              </span>
+                              <span
+                                class="pincode-locate-txt text--md palette--teal bold"
+                              >
+                                موقعیت یابی
+                              </span>
+                            </span>
+                          </div>
+                        </div>
                       </div>
 
                       <!-- Messages -->
@@ -1732,8 +1965,8 @@
                             </div>
                             <!-- Upvote section -->
                             <div class="vote__section">
-                              <span class="text--sm helpful"
-                                > پاسخ مفید بود؟</span
+                              <span class="text--sm helpful">
+                                پاسخ مفید بود؟</span
                               >
                               <span class="pointer vote-icon downvoted"></span>
                               <span class="text--sm like-count"></span>
@@ -1752,420 +1985,1691 @@
   This HTML block represents a section for seeking expert advice.
 -->
 
-<div class="details-page-section details-need-expert-wrapper">
-  <div class="details-need-help-container">
-    <div class="container">
-      <div class="row">
-        <div class="column xs-12">
-          <div class="details-nh-strip-wrap">
-            <!-- Title for the section -->
-            <div class="details-nh-ttl text--lg bold">مشاوره تخصصی نیاز دارید؟</div>
-            <div class="details-nh-data-wrap">
-              <!-- First row with a link to visit the nearest store -->
-              <div class="details-nh-data-row">
-                <div class="details-nh-data-card truncate">
-                  <a href="/">
-                    <span class="details-nh-data-card-txt medium text--xs">
-                      بازدید از <span class="bold">فروشگاه نزدیک شما</span>
-                      <span class="details-nh-data-card-icon">-&gt;</span>
-                    </span>
-                  </a>
-                </div>
-              </div>
-              <!-- Second row with a link to talk to an expert -->
-              <div class="details-nh-data-row">
-                <div class="details-nh-data-card truncate talk-expert">
-                  <a href="/">
-                    <span class="details-nh-data-card-txt text--xs medium">
-                      با متخصص ما صحبت کنید
-                      <span class="bold">شماره تماس</span>
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="details-page-section">
-    <div class="details-slider-container">
-  <div class="container">
-    <h2 class="details-section-ttl title--lg text--center palette--heading mb--12 semibold">
-      محصولات مشابه
-    </h2>
-<div class="carousel">
-  <div class="row">
-    <!-- Product Card 1 -->
-    <div class="column xs-6 sm-2">
-      <div class="prod__card-container active">
-        <div class="prod__card-image-wrap mb--8">
-          <a href="/">
-            <img
-              height="224"
-              width="203"
-              src="https://placehold.co/203x224?text=Placeholder"
-              alt="Placeholder"
-              class="image-cls-container"
-            />
-          </a>
-          <span class="prod__card-wishlist-icon pointer"></span>
-        </div>
-        <div class="prod__card-details text--right">
-          <h2
-            class="prod__card-name text--xs medium truncate--box prod__card-whitespace"
-          >
-            <a href="/"><span>نام محصول</span></a>
-          </h2>
-          <div class="prod__card-price text--md mb--4">
-            <span
-              class="prod__card-disc-per palette--green bold"
-              >۶۰٪</span
-            >
-            <span
-              class="prod__card-price-old palette--secondary line-through normal"
-            >
-              ۱۰۰,۰۰۰ ریال
-            </span>
-            <span class="prod__card-price-new bold"
-              >۴۰,۰۰۰ ریال</span
-            >
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Product Card 2 -->
-    <div class="column xs-6 sm-2">
-      <div class="prod__card-container">
-        <div class="prod__card-image-wrap mb--8">
-          <a href="/">
-            <img
-              height="224"
-              width="203"
-              src="https://placehold.co/203x224?text=Placeholder"
-              alt="Placeholder"
-              class="image-cls-container"
-            />
-          </a>
-          <span class="prod__card-wishlist-icon pointer">
-          </span>
-        </div>
-        <div class="prod__card-details text--right">
-          <h2
-            class="prod__card-name text--xs medium truncate--box prod__card-whitespace"
-          >
-            <a href="/"><span>نام محصول</span></a>
-          </h2>
-          <div class="prod__card-price text--md mb--4">
-            <span
-              class="prod__card-disc-per palette--green bold"
-              >۶۰٪</span
-            >
-            <span
-              class="prod__card-price-old palette--secondary line-through normal"
-            >
-              ۱۰۰,۰۰۰ ریال
-            </span>
-            <span class="prod__card-price-new bold"
-              >۴۰,۰۰۰ ریال</span
-            >
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Product Card 3 -->
-    <div class="column xs-6 sm-2">
-      <div class="prod__card-container">
-        <div class="prod__card-image-wrap mb--8">
-          <a href="/">
-            <img
-              height="224"
-              width="203"
-              src="https://placehold.co/203x224?text=Placeholder"
-              alt="Placeholder"
-              class="image-cls-container"
-            />
-          </a>
-          <span class="prod__card-wishlist-icon pointer"></span>
-        </div>
-        <div class="prod__card-details text--right">
-          <h2
-            class="prod__card-name text--xs medium truncate--box prod__card-whitespace"
-          >
-            <a href="/"><span>نام محصول</span></a>
-          </h2>
-          <div class="prod__card-price text--md mb--4">
-            <span
-              class="prod__card-disc-per palette--green bold"
-              >۶۰٪</span
-            >
-            <span
-              class="prod__card-price-old palette--secondary line-through normal"
-            >
-              ۱۰۰,۰۰۰ ریال
-            </span>
-            <span class="prod__card-price-new bold"
-              >۴۰,۰۰۰ ریال</span
-            >
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Product Card 4 -->
-    <div class="column xs-6 sm-2">
-      <div class="prod__card-container">
-        <div class="prod__card-image-wrap mb--8">
-          <a href="/">
-            <img
-              height="224"
-              width="203"
-              src="https://placehold.co/203x224?text=Placeholder"
-              alt="Placeholder"
-              class="image-cls-container"
-            />
-          </a>
-          <span class="prod__card-wishlist-icon pointer"></span>
-        </div>
-        <div class="prod__card-details text--right">
-          <h2
-            class="prod__card-name text--xs medium truncate--box prod__card-whitespace"
-          >
-            <a href="/"><span>نام محصول</span></a>
-          </h2>
-          <div class="prod__card-price text--md mb--4">
-            <span
-              class="prod__card-disc-per palette--green bold"
-              >۶۰٪</span
-            >
-            <span
-              class="prod__card-price-old palette--secondary line-through normal"
-            >
-              ۱۰۰,۰۰۰ ریال
-            </span>
-            <span class="prod__card-price-new bold"
-              >۴۰,۰۰۰ ریال</span
-            >
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-</div>
-</div>
-<div class="details-page-section details-feedback-wrapper">
-  <div class="category-list__feedback-container">
-    <div class="category-list__feedback-wrapper pointer text--lg">
-      <span class="category-list__feedback-question bold"> آنچه به دنبالش بودید را پیدا نکردید؟ </span>
-      <span class="category-list__feedback-share medium"> بازخورد خود را با ما به اشتراک بگذارید -&gt; </span>
-    </div>
-  </div>
-</div>
-<div class="st-review">
-  <!-- Divider: A visual separator between sections. -->
-  <div class="stores__seperator" style="margin-top: 40px; margin-bottom: 40px;"></div>
-  <div class="container">
-    <!-- Review Summary Header: Displays the title and star rating. -->
-    <div class="text--center mb--16">
-      <div class="title--lg semibold">خلاصه نظرات</div>
-      <div class="star-rating-container">
-        <!-- Star Rating: SVG icons for star ratings. -->
-        <span><svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg" style="width: 13px; height: 13px; margin-right: 1px; cursor: auto; fill: rgb(255, 169, 134);"><path fill-rule="evenodd" clip-rule="evenodd" d="m7 10.444-3.82 1.813.544-4.193L.818 4.992l4.157-.779L7 .501l2.025 3.712 4.157.779-2.906 3.072.545 4.193L7 10.444z"></path></svg></span>
-        <span><svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg" style="width: 13px; height: 13px; margin-right: 1px; cursor: auto; fill: rgb(255, 169, 134);"><path fill-rule="evenodd" clip-rule="evenodd" d="m7 10.444-3.82 1.813.544-4.193L.818 4.992l4.157-.779L7 .501l2.025 3.712 4.157.779-2.906 3.072.545 4.193L7 10.444z"></path></svg></span>
-        <span><svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg" style="width: 13px; height: 13px; margin-right: 1px; cursor: auto; fill: rgb(255, 169, 134);"><path fill-rule="evenodd" clip-rule="evenodd" d="m7 10.444-3.82 1.813.544-4.193L.818 4.992l4.157-.779L7 .501l2.025 3.712 4.157.779-2.906 3.072.545 4.193L7 10.444z"></path></svg></span>
-        <span><svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg" style="width: 13px; height: 13px; margin-right: 1px; cursor: auto; fill: rgb(255, 169, 134);"><path fill-rule="evenodd" clip-rule="evenodd" d="m7 10.444-3.82 1.813.544-4.193L.818 4.992l4.157-.779L7 .501l2.025 3.712 4.157.779-2.906 3.072.545 4.193L7 10.444z"></path></svg></span>
-        <span><svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg" style="width: 13px; height: 13px; margin-right: 1px; cursor: auto; fill: rgb(219, 219, 219);"><path fill-rule="evenodd" clip-rule="evenodd" d="m7 10.444-3.82 1.813.544-4.193L.818 4.992l4.157-.779L7 .501l2.025 3.712 4.157.779-2.906 3.072.545 4.193L7 10.444z"></path></svg></span>
-      </div>
-    </div>
-    <!-- Review Cards: Displays individual review cards. -->
-    <div class="row">
-      <!-- Review Card 1 -->
-      <div class="review-card column xs-12 sm-4 mb--12">
-        <section class="card-shadow card--container">
-          <div class="card-body">
-            <div class="card-content">
-              <!-- Rating Section: Displays user image, name, and star rating. -->
-              <div class="rating-section">
-                <picture class="picture-image-container">
-                  <img loading="lazy" class="rating-image" src="https://placehold.co/128x128" alt="تصویر کاربر">
-                </picture>
-                <div class="rating-name-section">
-                  <span class="rating-name text--md bold mb--4">نام کاربر</span>
-                  <div class="rating-review">
-                    <span class="text--lg medium">۴</span>
-                    <div class="star-rating-container">
-                      <!-- Star Rating: SVG icons for star ratings. -->
-                      <span><svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg" style="width: 13px; height: 13px; cursor: auto; fill: rgb(255, 169, 134);"><path fill-rule="evenodd" clip-rule="evenodd" d="m7 10.444-3.82 1.813.544-4.193L.818 4.992l4.157-.779L7 .501l2.025 3.712 4.157.779-2.906 3.072.545 4.193L7 10.444z"></path></svg></span>
-                      <span><svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg" style="width: 13px; height: 13px; cursor: auto; fill: rgb(255, 169, 134);"><path fill-rule="evenodd" clip-rule="evenodd" d="m7 10.444-3.82 1.813.544-4.193L.818 4.992l4.157-.779L7 .501l2.025 3.712 4.157.779-2.906 3.072.545 4.193L7 10.444z"></path></svg></span>
-                      <span><svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg" style="width: 13px; height: 13px; cursor: auto; fill: rgb(255, 169, 134);"><path fill-rule="evenodd" clip-rule="evenodd" d="m7 10.444-3.82 1.813.544-4.193L.818 4.992l4.157-.779L7 .501l2.025 3.712 4.157.779-2.906 3.072.545 4.193L7 10.444z"></path></svg></span>
-                      <span><svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg" style="width: 13px; height: 13px; cursor: auto; fill: rgb(255, 169, 134);"><path fill-rule="evenodd" clip-rule="evenodd" d="m7 10.444-3.82 1.813.544-4.193L.818 4.992l4.157-.779L7 .501l2.025 3.712 4.157.779-2.906 3.072.545 4.193L7 10.444z"></path></svg></span>
-                      <span><svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg" style="width: 13px; height: 13px; cursor: auto; fill: rgb(219, 219, 219);"><path fill-rule="evenodd" clip-rule="evenodd" d="m7 10.444-3.82 1.813.544-4.193L.818 4.992l4.157-.779L7 .501l2.025 3.712 4.157.779-2.906 3.072.545 4.193L7 10.444z"></path></svg></span>
+        <div class="details-page-section details-need-expert-wrapper">
+          <div class="details-need-help-container">
+            <div class="container">
+              <div class="row">
+                <div class="column xs-12">
+                  <div class="details-nh-strip-wrap">
+                    <!-- Title for the section -->
+                    <div class="details-nh-ttl text--lg bold">
+                      مشاوره تخصصی نیاز دارید؟
+                    </div>
+                    <div class="details-nh-data-wrap">
+                      <!-- First row with a link to visit the nearest store -->
+                      <div class="details-nh-data-row">
+                        <div class="details-nh-data-card truncate">
+                          <a href="/">
+                            <span
+                              class="details-nh-data-card-txt medium text--xs"
+                            >
+                              بازدید از
+                              <span class="bold">فروشگاه نزدیک شما</span>
+                              <span class="details-nh-data-card-icon"
+                                >-&gt;</span
+                              >
+                            </span>
+                          </a>
+                        </div>
+                      </div>
+                      <!-- Second row with a link to talk to an expert -->
+                      <div class="details-nh-data-row">
+                        <div class="details-nh-data-card truncate talk-expert">
+                          <a href="/">
+                            <span
+                              class="details-nh-data-card-txt text--xs medium"
+                            >
+                              با متخصص ما صحبت کنید
+                              <span class="bold">شماره تماس</span>
+                            </span>
+                          </a>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <!-- Review Comment: Displays the user's review. -->
-              <div class="review-comment-section">
-                <div class="medium text--lg">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</div>
-              </div>
-              <span class="medium text--lg isReadMoreDisplayHide">ادامه مطلب</span>
             </div>
           </div>
-        </section>
-      </div>
-       <!-- Review Card 2 -->
-       <div class="review-card column xs-12 sm-4 mb--12">
-        <section class="card-shadow card--container">
-          <div class="card-body">
-            <div class="card-content">
-              <!-- Rating Section: Displays user image, name, and star rating. -->
-              <div class="rating-section">
-                <picture class="picture-image-container">
-                  <img loading="lazy" class="rating-image" src="https://placehold.co/128x128" alt="تصویر کاربر">
-                </picture>
-                <div class="rating-name-section">
-                  <span class="rating-name text--md bold mb--4">نام کاربر</span>
-                  <div class="rating-review">
-                    <span class="text--lg medium">۴</span>
-                    <div class="star-rating-container">
-                      <!-- Star Rating: SVG icons for star ratings. -->
-                      <span><svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg" style="width: 13px; height: 13px; cursor: auto; fill: rgb(255, 169, 134);"><path fill-rule="evenodd" clip-rule="evenodd" d="m7 10.444-3.82 1.813.544-4.193L.818 4.992l4.157-.779L7 .501l2.025 3.712 4.157.779-2.906 3.072.545 4.193L7 10.444z"></path></svg></span>
-                      <span><svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg" style="width: 13px; height: 13px; cursor: auto; fill: rgb(255, 169, 134);"><path fill-rule="evenodd" clip-rule="evenodd" d="m7 10.444-3.82 1.813.544-4.193L.818 4.992l4.157-.779L7 .501l2.025 3.712 4.157.779-2.906 3.072.545 4.193L7 10.444z"></path></svg></span>
-                      <span><svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg" style="width: 13px; height: 13px; cursor: auto; fill: rgb(255, 169, 134);"><path fill-rule="evenodd" clip-rule="evenodd" d="m7 10.444-3.82 1.813.544-4.193L.818 4.992l4.157-.779L7 .501l2.025 3.712 4.157.779-2.906 3.072.545 4.193L7 10.444z"></path></svg></span>
-                      <span><svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg" style="width: 13px; height: 13px; cursor: auto; fill: rgb(255, 169, 134);"><path fill-rule="evenodd" clip-rule="evenodd" d="m7 10.444-3.82 1.813.544-4.193L.818 4.992l4.157-.779L7 .501l2.025 3.712 4.157.779-2.906 3.072.545 4.193L7 10.444z"></path></svg></span>
-                      <span><svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg" style="width: 13px; height: 13px; cursor: auto; fill: rgb(219, 219, 219);"><path fill-rule="evenodd" clip-rule="evenodd" d="m7 10.444-3.82 1.813.544-4.193L.818 4.992l4.157-.779L7 .501l2.025 3.712 4.157.779-2.906 3.072.545 4.193L7 10.444z"></path></svg></span>
+        </div>
+        <div class="details-page-section">
+          <div class="details-slider-container">
+            <div class="container">
+              <h2
+                class="details-section-ttl title--lg text--center palette--heading mb--12 semibold"
+              >
+                محصولات مشابه
+              </h2>
+              <div class="carousel">
+                <div class="row">
+                  <!-- Product Card 1 -->
+                  <div class="column xs-6 sm-2">
+                    <div class="prod__card-container active">
+                      <div class="prod__card-image-wrap mb--8">
+                        <a href="/">
+                          <img
+                            height="auto"
+                            width="100%"
+                            src="https://placehold.co/300x200?text=Placeholder"
+                            alt="Placeholder"
+                          />
+                        </a>
+                        <span class="prod__card-wishlist-icon pointer"></span>
+                      </div>
+                      <div class="prod__card-details text--right">
+                        <h2
+                          class="prod__card-name text--xs medium truncate--box prod__card-whitespace"
+                        >
+                          <a href="/"><span>نام محصول</span></a>
+                        </h2>
+                        <div class="prod__card-price text--md mb--4">
+                          <span class="prod__card-disc-per palette--green bold"
+                            >۶۰٪</span
+                          >
+                          <span
+                            class="prod__card-price-old palette--secondary line-through normal"
+                          >
+                            ۱۰۰,۰۰۰ ریال
+                          </span>
+                          <span class="prod__card-price-new bold"
+                            >۴۰,۰۰۰ ریال</span
+                          >
+                        </div>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </div>
-              <!-- Review Comment: Displays the user's review. -->
-              <div class="review-comment-section">
-                <div class="medium text--lg">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</div>
-              </div>
-              <span class="medium text--lg isReadMoreDisplayHide">ادامه مطلب</span>
-            </div>
-          </div>
-        </section>
-      </div>
-      
-       <!-- Review Card 3 -->
-       <div class="review-card column xs-12 sm-4 mb--12">
-        <section class="card-shadow card--container">
-          <div class="card-body">
-            <div class="card-content">
-              <!-- Rating Section: Displays user image, name, and star rating. -->
-              <div class="rating-section">
-                <picture class="picture-image-container">
-                  <img loading="lazy" class="rating-image" src="https://placehold.co/128x128" alt="تصویر کاربر">
-                </picture>
-                <div class="rating-name-section">
-                  <span class="rating-name text--md bold mb--4">نام کاربر</span>
-                  <div class="rating-review">
-                    <span class="text--lg medium">۴</span>
-                    <div class="star-rating-container">
-                      <!-- Star Rating: SVG icons for star ratings. -->
-                      <span><svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg" style="width: 13px; height: 13px; cursor: auto; fill: rgb(255, 169, 134);"><path fill-rule="evenodd" clip-rule="evenodd" d="m7 10.444-3.82 1.813.544-4.193L.818 4.992l4.157-.779L7 .501l2.025 3.712 4.157.779-2.906 3.072.545 4.193L7 10.444z"></path></svg></span>
-                      <span><svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg" style="width: 13px; height: 13px; cursor: auto; fill: rgb(255, 169, 134);"><path fill-rule="evenodd" clip-rule="evenodd" d="m7 10.444-3.82 1.813.544-4.193L.818 4.992l4.157-.779L7 .501l2.025 3.712 4.157.779-2.906 3.072.545 4.193L7 10.444z"></path></svg></span>
-                      <span><svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg" style="width: 13px; height: 13px; cursor: auto; fill: rgb(255, 169, 134);"><path fill-rule="evenodd" clip-rule="evenodd" d="m7 10.444-3.82 1.813.544-4.193L.818 4.992l4.157-.779L7 .501l2.025 3.712 4.157.779-2.906 3.072.545 4.193L7 10.444z"></path></svg></span>
-                      <span><svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg" style="width: 13px; height: 13px; cursor: auto; fill: rgb(255, 169, 134);"><path fill-rule="evenodd" clip-rule="evenodd" d="m7 10.444-3.82 1.813.544-4.193L.818 4.992l4.157-.779L7 .501l2.025 3.712 4.157.779-2.906 3.072.545 4.193L7 10.444z"></path></svg></span>
-                      <span><svg viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg" style="width: 13px; height: 13px; cursor: auto; fill: rgb(219, 219, 219);"><path fill-rule="evenodd" clip-rule="evenodd" d="m7 10.444-3.82 1.813.544-4.193L.818 4.992l4.157-.779L7 .501l2.025 3.712 4.157.779-2.906 3.072.545 4.193L7 10.444z"></path></svg></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Review Comment: Displays the user's review. -->
-              <div class="review-comment-section">
-                <div class="medium text--lg">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</div>
-              </div>
-              <span class="medium text--lg isReadMoreDisplayHide">ادامه مطلب</span>
-            </div>
-          </div>
-        </section>
-      </div>
-      
-    </div>
-    <!-- Buttons: View All and Submit Review buttons. -->
-    <div class="row center-xs">
-      <div class="review-actions text--center">
-        <button type="button" class="btn__container btn__size--large btn__outline">مشاهده همه</button>
-        <button type="button" class="btn__container btn__size--large btn__primary">ثبت نظر</button>
-      </div>
-    </div>
-  </div>
-</div>
-        <!-- Check Out More Modern 1 Seater Sofas -->
 
+                  <!-- Product Card 2 -->
+                  <div class="column xs-6 sm-2">
+                    <div class="prod__card-container active">
+                      <div class="prod__card-image-wrap mb--8">
+                        <a href="/">
+                          <img
+                            height="auto"
+                            width="100%"
+                            src="https://placehold.co/300x200?text=Placeholder"
+                            alt="Placeholder"
+                          />
+                        </a>
+                        <span class="prod__card-wishlist-icon pointer"></span>
+                      </div>
+                      <div class="prod__card-details text--right">
+                        <h2
+                          class="prod__card-name text--xs medium truncate--box prod__card-whitespace"
+                        >
+                          <a href="/"><span>نام محصول</span></a>
+                        </h2>
+                        <div class="prod__card-price text--md mb--4">
+                          <span class="prod__card-disc-per palette--green bold"
+                            >۶۰٪</span
+                          >
+                          <span
+                            class="prod__card-price-old palette--secondary line-through normal"
+                          >
+                            ۱۰۰,۰۰۰ ریال
+                          </span>
+                          <span class="prod__card-price-new bold"
+                            >۴۰,۰۰۰ ریال</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Product Card 3 -->
+                  <div class="column xs-6 sm-2">
+                    <div class="prod__card-container active">
+                      <div class="prod__card-image-wrap mb--8">
+                        <a href="/">
+                          <img
+                            height="auto"
+                            width="100%"
+                            src="https://placehold.co/300x200?text=Placeholder"
+                            alt="Placeholder"
+                          />
+                        </a>
+                        <span class="prod__card-wishlist-icon pointer"></span>
+                      </div>
+                      <div class="prod__card-details text--right">
+                        <h2
+                          class="prod__card-name text--xs medium truncate--box prod__card-whitespace"
+                        >
+                          <a href="/"><span>نام محصول</span></a>
+                        </h2>
+                        <div class="prod__card-price text--md mb--4">
+                          <span class="prod__card-disc-per palette--green bold"
+                            >۶۰٪</span
+                          >
+                          <span
+                            class="prod__card-price-old palette--secondary line-through normal"
+                          >
+                            ۱۰۰,۰۰۰ ریال
+                          </span>
+                          <span class="prod__card-price-new bold"
+                            >۴۰,۰۰۰ ریال</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Product Card 4 -->
+                  <div class="column xs-6 sm-2">
+                    <div class="prod__card-container active">
+                      <div class="prod__card-image-wrap mb--8">
+                        <a href="/">
+                          <img
+                            height="auto"
+                            width="100%"
+                            src="https://placehold.co/300x200?text=Placeholder"
+                            alt="Placeholder"
+                          />
+                        </a>
+                        <span class="prod__card-wishlist-icon pointer"></span>
+                      </div>
+                      <div class="prod__card-details text--right">
+                        <h2
+                          class="prod__card-name text--xs medium truncate--box prod__card-whitespace"
+                        >
+                          <a href="/"><span>نام محصول</span></a>
+                        </h2>
+                        <div class="prod__card-price text--md mb--4">
+                          <span class="prod__card-disc-per palette--green bold"
+                            >۶۰٪</span
+                          >
+                          <span
+                            class="prod__card-price-old palette--secondary line-through normal"
+                          >
+                            ۱۰۰,۰۰۰ ریال
+                          </span>
+                          <span class="prod__card-price-new bold"
+                            >۴۰,۰۰۰ ریال</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Product Card 5 -->
+                  <div class="column xs-6 sm-2">
+                    <div class="prod__card-container active">
+                      <div class="prod__card-image-wrap mb--8">
+                        <a href="/">
+                          <img
+                            height="auto"
+                            width="100%"
+                            src="https://placehold.co/300x200?text=Placeholder"
+                            alt="Placeholder"
+                          />
+                        </a>
+                        <span class="prod__card-wishlist-icon pointer"></span>
+                      </div>
+                      <div class="prod__card-details text--right">
+                        <h2
+                          class="prod__card-name text--xs medium truncate--box prod__card-whitespace"
+                        >
+                          <a href="/"><span>نام محصول</span></a>
+                        </h2>
+                        <div class="prod__card-price text--md mb--4">
+                          <span class="prod__card-disc-per palette--green bold"
+                            >۶۰٪</span
+                          >
+                          <span
+                            class="prod__card-price-old palette--secondary line-through normal"
+                          >
+                            ۱۰۰,۰۰۰ ریال
+                          </span>
+                          <span class="prod__card-price-new bold"
+                            >۴۰,۰۰۰ ریال</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Product Card 6 -->
+                  <div class="column xs-6 sm-2">
+                    <div class="prod__card-container active">
+                      <div class="prod__card-image-wrap mb--8">
+                        <a href="/">
+                          <img
+                            height="auto"
+                            width="100%"
+                            src="https://placehold.co/300x200?text=Placeholder"
+                            alt="Placeholder"
+                          />
+                        </a>
+                        <span class="prod__card-wishlist-icon pointer"></span>
+                      </div>
+                      <div class="prod__card-details text--right">
+                        <h2
+                          class="prod__card-name text--xs medium truncate--box prod__card-whitespace"
+                        >
+                          <a href="/"><span>نام محصول</span></a>
+                        </h2>
+                        <div class="prod__card-price text--md mb--4">
+                          <span class="prod__card-disc-per palette--green bold"
+                            >۶۰٪</span
+                          >
+                          <span
+                            class="prod__card-price-old palette--secondary line-through normal"
+                          >
+                            ۱۰۰,۰۰۰ ریال
+                          </span>
+                          <span class="prod__card-price-new bold"
+                            >۴۰,۰۰۰ ریال</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="details-page-section details-feedback-wrapper  mb--64">
+          <div class="category-list__feedback-container">
+            <div class="category-list__feedback-wrapper pointer text--lg">
+              <span class="category-list__feedback-question bold">
+                آنچه به دنبالش بودید را پیدا نکردید؟
+              </span>
+              <span class="category-list__feedback-share medium">
+                بازخورد خود را با ما به اشتراک بگذارید -&gt;
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="st-review  mb--64">
+        
+          <div class="container">
+            <!-- Review Summary Header: Displays the title and star rating. -->
+            <div class="text--center mb--16">
+              <div class="title--lg semibold">خلاصه نظرات</div>
+              <div class="star-rating-container">
+                <!-- Star Rating: SVG icons for star ratings. -->
+                <span
+                  ><svg
+                    viewBox="0 0 14 13"
+                    xmlns="http://www.w3.org/2000/svg"
+                    style="
+                      width: 13px;
+                      height: 13px;
+                      margin-right: 1px;
+                      cursor: auto;
+                      fill: rgb(255, 169, 134);
+                    "
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="m7 10.444-3.82 1.813.544-4.193L.818 4.992l4.157-.779L7 .501l2.025 3.712 4.157.779-2.906 3.072.545 4.193L7 10.444z"
+                    ></path></svg
+                ></span>
+                <span
+                  ><svg
+                    viewBox="0 0 14 13"
+                    xmlns="http://www.w3.org/2000/svg"
+                    style="
+                      width: 13px;
+                      height: 13px;
+                      margin-right: 1px;
+                      cursor: auto;
+                      fill: rgb(255, 169, 134);
+                    "
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="m7 10.444-3.82 1.813.544-4.193L.818 4.992l4.157-.779L7 .501l2.025 3.712 4.157.779-2.906 3.072.545 4.193L7 10.444z"
+                    ></path></svg
+                ></span>
+                <span
+                  ><svg
+                    viewBox="0 0 14 13"
+                    xmlns="http://www.w3.org/2000/svg"
+                    style="
+                      width: 13px;
+                      height: 13px;
+                      margin-right: 1px;
+                      cursor: auto;
+                      fill: rgb(255, 169, 134);
+                    "
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="m7 10.444-3.82 1.813.544-4.193L.818 4.992l4.157-.779L7 .501l2.025 3.712 4.157.779-2.906 3.072.545 4.193L7 10.444z"
+                    ></path></svg
+                ></span>
+                <span
+                  ><svg
+                    viewBox="0 0 14 13"
+                    xmlns="http://www.w3.org/2000/svg"
+                    style="
+                      width: 13px;
+                      height: 13px;
+                      margin-right: 1px;
+                      cursor: auto;
+                      fill: rgb(255, 169, 134);
+                    "
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="m7 10.444-3.82 1.813.544-4.193L.818 4.992l4.157-.779L7 .501l2.025 3.712 4.157.779-2.906 3.072.545 4.193L7 10.444z"
+                    ></path></svg
+                ></span>
+                <span
+                  ><svg
+                    viewBox="0 0 14 13"
+                    xmlns="http://www.w3.org/2000/svg"
+                    style="
+                      width: 13px;
+                      height: 13px;
+                      margin-right: 1px;
+                      cursor: auto;
+                      fill: rgb(219, 219, 219);
+                    "
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="m7 10.444-3.82 1.813.544-4.193L.818 4.992l4.157-.779L7 .501l2.025 3.712 4.157.779-2.906 3.072.545 4.193L7 10.444z"
+                    ></path></svg
+                ></span>
+              </div>
+            </div>
+            <!-- Review Cards: Displays individual review cards. -->
+            <div class="carousel">
+              <div class="row">
+                <!-- Review Card 1 -->
+                <div class="review-card column xs-12 sm-4 mb--12">
+                  <section class="card-shadow card--container">
+                    <div class="card-body">
+                      <div class="card-content">
+                        <!-- Rating Section: Displays user image, name, and star rating. -->
+                        <div class="rating-section">
+                          <picture class="picture-image-container">
+                            <img
+                              loading="lazy"
+                              class="rating-image"
+                              src="https://placehold.co/128x128"
+                              alt="تصویر کاربر"
+                            />
+                          </picture>
+                          <div class="rating-name-section">
+                            <span class="rating-name text--md bold mb--4"
+                              >نام کاربر</span
+                            >
+                            <div class="rating-review">
+                              <span class="text--lg medium">۴</span>
+                              <div class="star-rating-container">
+                                <!-- Star Rating: SVG icons for star ratings. -->
+                                <span
+                                  ><svg
+                                    viewBox="0 0 14 13"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    style="
+                                      width: 13px;
+                                      height: 13px;
+                                      cursor: auto;
+                                      fill: rgb(255, 169, 134);
+                                    "
+                                  >
+                                    <path
+                                      fill-rule="evenodd"
+                                      clip-rule="evenodd"
+                                      d="m7 10.444-3.82 1.813.544-4.193L.818 4.992l4.157-.779L7 .501l2.025 3.712 4.157.779-2.906 3.072.545 4.193L7 10.444z"
+                                    ></path></svg
+                                ></span>
+                                <span
+                                  ><svg
+                                    viewBox="0 0 14 13"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    style="
+                                      width: 13px;
+                                      height: 13px;
+                                      cursor: auto;
+                                      fill: rgb(255, 169, 134);
+                                    "
+                                  >
+                                    <path
+                                      fill-rule="evenodd"
+                                      clip-rule="evenodd"
+                                      d="m7 10.444-3.82 1.813.544-4.193L.818 4.992l4.157-.779L7 .501l2.025 3.712 4.157.779-2.906 3.072.545 4.193L7 10.444z"
+                                    ></path></svg
+                                ></span>
+                                <span
+                                  ><svg
+                                    viewBox="0 0 14 13"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    style="
+                                      width: 13px;
+                                      height: 13px;
+                                      cursor: auto;
+                                      fill: rgb(255, 169, 134);
+                                    "
+                                  >
+                                    <path
+                                      fill-rule="evenodd"
+                                      clip-rule="evenodd"
+                                      d="m7 10.444-3.82 1.813.544-4.193L.818 4.992l4.157-.779L7 .501l2.025 3.712 4.157.779-2.906 3.072.545 4.193L7 10.444z"
+                                    ></path></svg
+                                ></span>
+                                <span
+                                  ><svg
+                                    viewBox="0 0 14 13"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    style="
+                                      width: 13px;
+                                      height: 13px;
+                                      cursor: auto;
+                                      fill: rgb(255, 169, 134);
+                                    "
+                                  >
+                                    <path
+                                      fill-rule="evenodd"
+                                      clip-rule="evenodd"
+                                      d="m7 10.444-3.82 1.813.544-4.193L.818 4.992l4.157-.779L7 .501l2.025 3.712 4.157.779-2.906 3.072.545 4.193L7 10.444z"
+                                    ></path></svg
+                                ></span>
+                                <span
+                                  ><svg
+                                    viewBox="0 0 14 13"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    style="
+                                      width: 13px;
+                                      height: 13px;
+                                      cursor: auto;
+                                      fill: rgb(219, 219, 219);
+                                    "
+                                  >
+                                    <path
+                                      fill-rule="evenodd"
+                                      clip-rule="evenodd"
+                                      d="m7 10.444-3.82 1.813.544-4.193L.818 4.992l4.157-.779L7 .501l2.025 3.712 4.157.779-2.906 3.072.545 4.193L7 10.444z"
+                                    ></path></svg
+                                ></span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Review Comment: Displays the user's review. -->
+                        <div class="review-comment-section">
+                          <div class="medium text--lg">
+                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
+                            صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و
+                            متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم
+                            است
+                          </div>
+                        </div>
+                        <span class="medium text--lg isReadMoreDisplayHide"
+                          >ادامه مطلب</span
+                        >
+                      </div>
+                    </div>
+                  </section>
+                </div>
+                <!-- Review Card 2 -->
+                <div class="review-card column xs-12 sm-4 mb--12">
+                  <section class="card-shadow card--container">
+                    <div class="card-body">
+                      <div class="card-content">
+                        <!-- Rating Section: Displays user image, name, and star rating. -->
+                        <div class="rating-section">
+                          <picture class="picture-image-container">
+                            <img
+                              loading="lazy"
+                              class="rating-image"
+                              src="https://placehold.co/128x128"
+                              alt="تصویر کاربر"
+                            />
+                          </picture>
+                          <div class="rating-name-section">
+                            <span class="rating-name text--md bold mb--4"
+                              >نام کاربر</span
+                            >
+                            <div class="rating-review">
+                              <span class="text--lg medium">۴</span>
+                              <div class="star-rating-container">
+                                <!-- Star Rating: SVG icons for star ratings. -->
+                                <span
+                                  ><svg
+                                    viewBox="0 0 14 13"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    style="
+                                      width: 13px;
+                                      height: 13px;
+                                      cursor: auto;
+                                      fill: rgb(255, 169, 134);
+                                    "
+                                  >
+                                    <path
+                                      fill-rule="evenodd"
+                                      clip-rule="evenodd"
+                                      d="m7 10.444-3.82 1.813.544-4.193L.818 4.992l4.157-.779L7 .501l2.025 3.712 4.157.779-2.906 3.072.545 4.193L7 10.444z"
+                                    ></path></svg
+                                ></span>
+                                <span
+                                  ><svg
+                                    viewBox="0 0 14 13"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    style="
+                                      width: 13px;
+                                      height: 13px;
+                                      cursor: auto;
+                                      fill: rgb(255, 169, 134);
+                                    "
+                                  >
+                                    <path
+                                      fill-rule="evenodd"
+                                      clip-rule="evenodd"
+                                      d="m7 10.444-3.82 1.813.544-4.193L.818 4.992l4.157-.779L7 .501l2.025 3.712 4.157.779-2.906 3.072.545 4.193L7 10.444z"
+                                    ></path></svg
+                                ></span>
+                                <span
+                                  ><svg
+                                    viewBox="0 0 14 13"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    style="
+                                      width: 13px;
+                                      height: 13px;
+                                      cursor: auto;
+                                      fill: rgb(255, 169, 134);
+                                    "
+                                  >
+                                    <path
+                                      fill-rule="evenodd"
+                                      clip-rule="evenodd"
+                                      d="m7 10.444-3.82 1.813.544-4.193L.818 4.992l4.157-.779L7 .501l2.025 3.712 4.157.779-2.906 3.072.545 4.193L7 10.444z"
+                                    ></path></svg
+                                ></span>
+                                <span
+                                  ><svg
+                                    viewBox="0 0 14 13"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    style="
+                                      width: 13px;
+                                      height: 13px;
+                                      cursor: auto;
+                                      fill: rgb(255, 169, 134);
+                                    "
+                                  >
+                                    <path
+                                      fill-rule="evenodd"
+                                      clip-rule="evenodd"
+                                      d="m7 10.444-3.82 1.813.544-4.193L.818 4.992l4.157-.779L7 .501l2.025 3.712 4.157.779-2.906 3.072.545 4.193L7 10.444z"
+                                    ></path></svg
+                                ></span>
+                                <span
+                                  ><svg
+                                    viewBox="0 0 14 13"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    style="
+                                      width: 13px;
+                                      height: 13px;
+                                      cursor: auto;
+                                      fill: rgb(219, 219, 219);
+                                    "
+                                  >
+                                    <path
+                                      fill-rule="evenodd"
+                                      clip-rule="evenodd"
+                                      d="m7 10.444-3.82 1.813.544-4.193L.818 4.992l4.157-.779L7 .501l2.025 3.712 4.157.779-2.906 3.072.545 4.193L7 10.444z"
+                                    ></path></svg
+                                ></span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Review Comment: Displays the user's review. -->
+                        <div class="review-comment-section">
+                          <div class="medium text--lg">
+                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
+                            صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و
+                            متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم
+                            است
+                          </div>
+                        </div>
+                        <span class="medium text--lg isReadMoreDisplayHide"
+                          >ادامه مطلب</span
+                        >
+                      </div>
+                    </div>
+                  </section>
+                </div>
+
+                <!-- Review Card 3 -->
+                <div class="review-card column xs-12 sm-4 mb--12">
+                  <section class="card-shadow card--container">
+                    <div class="card-body">
+                      <div class="card-content">
+                        <!-- Rating Section: Displays user image, name, and star rating. -->
+                        <div class="rating-section">
+                          <picture class="picture-image-container">
+                            <img
+                              loading="lazy"
+                              class="rating-image"
+                              src="https://placehold.co/128x128"
+                              alt="تصویر کاربر"
+                            />
+                          </picture>
+                          <div class="rating-name-section">
+                            <span class="rating-name text--md bold mb--4"
+                              >نام کاربر</span
+                            >
+                            <div class="rating-review">
+                              <span class="text--lg medium">۴</span>
+                              <div class="star-rating-container">
+                                <!-- Star Rating: SVG icons for star ratings. -->
+                                <span
+                                  ><svg
+                                    viewBox="0 0 14 13"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    style="
+                                      width: 13px;
+                                      height: 13px;
+                                      cursor: auto;
+                                      fill: rgb(255, 169, 134);
+                                    "
+                                  >
+                                    <path
+                                      fill-rule="evenodd"
+                                      clip-rule="evenodd"
+                                      d="m7 10.444-3.82 1.813.544-4.193L.818 4.992l4.157-.779L7 .501l2.025 3.712 4.157.779-2.906 3.072.545 4.193L7 10.444z"
+                                    ></path></svg
+                                ></span>
+                                <span
+                                  ><svg
+                                    viewBox="0 0 14 13"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    style="
+                                      width: 13px;
+                                      height: 13px;
+                                      cursor: auto;
+                                      fill: rgb(255, 169, 134);
+                                    "
+                                  >
+                                    <path
+                                      fill-rule="evenodd"
+                                      clip-rule="evenodd"
+                                      d="m7 10.444-3.82 1.813.544-4.193L.818 4.992l4.157-.779L7 .501l2.025 3.712 4.157.779-2.906 3.072.545 4.193L7 10.444z"
+                                    ></path></svg
+                                ></span>
+                                <span
+                                  ><svg
+                                    viewBox="0 0 14 13"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    style="
+                                      width: 13px;
+                                      height: 13px;
+                                      cursor: auto;
+                                      fill: rgb(255, 169, 134);
+                                    "
+                                  >
+                                    <path
+                                      fill-rule="evenodd"
+                                      clip-rule="evenodd"
+                                      d="m7 10.444-3.82 1.813.544-4.193L.818 4.992l4.157-.779L7 .501l2.025 3.712 4.157.779-2.906 3.072.545 4.193L7 10.444z"
+                                    ></path></svg
+                                ></span>
+                                <span
+                                  ><svg
+                                    viewBox="0 0 14 13"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    style="
+                                      width: 13px;
+                                      height: 13px;
+                                      cursor: auto;
+                                      fill: rgb(255, 169, 134);
+                                    "
+                                  >
+                                    <path
+                                      fill-rule="evenodd"
+                                      clip-rule="evenodd"
+                                      d="m7 10.444-3.82 1.813.544-4.193L.818 4.992l4.157-.779L7 .501l2.025 3.712 4.157.779-2.906 3.072.545 4.193L7 10.444z"
+                                    ></path></svg
+                                ></span>
+                                <span
+                                  ><svg
+                                    viewBox="0 0 14 13"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    style="
+                                      width: 13px;
+                                      height: 13px;
+                                      cursor: auto;
+                                      fill: rgb(219, 219, 219);
+                                    "
+                                  >
+                                    <path
+                                      fill-rule="evenodd"
+                                      clip-rule="evenodd"
+                                      d="m7 10.444-3.82 1.813.544-4.193L.818 4.992l4.157-.779L7 .501l2.025 3.712 4.157.779-2.906 3.072.545 4.193L7 10.444z"
+                                    ></path></svg
+                                ></span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Review Comment: Displays the user's review. -->
+                        <div class="review-comment-section">
+                          <div class="medium text--lg">
+                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
+                            صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و
+                            متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم
+                            است
+                          </div>
+                        </div>
+                        <span class="medium text--lg isReadMoreDisplayHide"
+                          >ادامه مطلب</span
+                        >
+                      </div>
+                    </div>
+                  </section>
+                </div>
+              </div>
+            </div>
+            <!-- Buttons: View All and Submit Review buttons. -->
+            <div class="row center-xs">
+              <div class="review-actions text--center">
+                <button
+                  type="button"
+                  class="btn__container btn__size--large btn__primary"
+                  data-rule="dialog"
+                  data-target="review-drawer"
+                >
+                  ثبت نظر
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+            <!-- Sticky navigation bar at the bottom -->
+    <div class="footer__bottom-nav">
+      <ul class="bottom-navigation__container">
+        <!-- Home navigation item -->
+        <li class="bottom-navigation__element text--center">
+          <a href="/irDecPreview/views/home/index.html">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+            >
+              <path
+                d="M10.5495 2.53214C11.3874 1.82555 12.6126 1.82555 13.4505 2.53214L20.2005 8.22425C20.7074 8.65176 21 9.28115 21 9.94431V19.7471C21 20.7136 20.2165 21.4971 19.25 21.4971H15.75C14.7835 21.4971 14 20.7136 14 19.7471V14.2471C14 14.109 13.8881 13.9971 13.75 13.9971H10.25C10.1119 13.9971 9.99999 14.109 9.99999 14.2471V19.7471C9.99999 20.7136 9.2165 21.4971 8.25 21.4971H4.75C3.7835 21.4971 3 20.7136 3 19.7471V9.94431C3 9.28115 3.29255 8.65176 3.79952 8.22425L10.5495 2.53214ZM12.4835 3.67884C12.2042 3.44331 11.7958 3.44331 11.5165 3.67884L4.76651 9.37095C4.59752 9.51346 4.5 9.72325 4.5 9.94431V19.7471C4.5 19.8851 4.61193 19.9971 4.75 19.9971H8.25C8.38807 19.9971 8.49999 19.8851 8.49999 19.7471V14.2471C8.49999 13.2806 9.2835 12.4971 10.25 12.4971H13.75C14.7165 12.4971 15.5 13.2806 15.5 14.2471V19.7471C15.5 19.8851 15.6119 19.9971 15.75 19.9971H19.25C19.3881 19.9971 19.5 19.8851 19.5 19.7471V9.94431C19.5 9.72325 19.4025 9.51346 19.2335 9.37095L12.4835 3.67884Z"
+                fill="currentcolor"
+              />
+            </svg>
+            <div class="medium">خانه</div>
+          </a>
+        </li>
+
+        <!-- My Account navigation item -->
+        <li class="bottom-navigation__element text--center">
+          <a href="/irDecPreview/views/account/profile.html">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 36 36"
+              fill="none"
+            >
+              <path
+                d="M17.82 17.1161C19.9654 17.1161 21.8229 16.3467 23.341 14.8285C24.8586 13.3107 25.6283 11.4534 25.6283 9.30781C25.6283 7.16294 24.8589 5.30547 23.3408 3.78709C21.8226 2.26945 19.9651 1.5 17.82 1.5C15.6744 1.5 13.8172 2.26945 12.2993 3.78734C10.7814 5.30522 10.0117 7.16269 10.0117 9.30781C10.0117 11.4534 10.7814 13.3109 12.2993 14.8288C13.8177 16.3464 15.6752 17.1161 17.82 17.1161ZM13.6428 5.1306C14.8075 3.96591 16.1738 3.39977 17.82 3.39977C19.466 3.39977 20.8325 3.96591 21.9975 5.1306C23.1622 6.29554 23.7286 7.66206 23.7286 9.30781C23.7286 10.9541 23.1622 12.3203 21.9975 13.4853C20.8325 14.6502 19.466 15.2164 17.82 15.2164C16.1743 15.2164 14.808 14.65 13.6428 13.4853C12.4779 12.3206 11.9115 10.9541 11.9115 9.30781C11.9115 7.66206 12.4779 6.29554 13.6428 5.1306Z"
+                fill="currentcolor"
+              />
+              <path
+                d="M31.4813 26.429C31.4376 25.7973 31.349 25.1082 31.2187 24.3806C31.0871 23.6475 30.9177 22.9544 30.7148 22.321C30.5051 21.6663 30.2204 21.0198 29.868 20.4002C29.5027 19.7572 29.0733 19.1972 28.5915 18.7364C28.0877 18.2544 27.4708 17.8668 26.7575 17.5841C26.0467 17.3029 25.2589 17.1604 24.4163 17.1604C24.0853 17.1604 23.7653 17.2962 23.1472 17.6986C22.7668 17.9467 22.3218 18.2336 21.8252 18.5509C21.4005 18.8215 20.8252 19.075 20.1146 19.3045C19.4214 19.5289 18.7175 19.6426 18.0224 19.6426C17.3279 19.6426 16.624 19.5289 15.9303 19.3045C15.2204 19.0753 14.6449 18.8217 14.2209 18.5512C13.729 18.2368 13.2838 17.9499 12.8977 17.6984C12.2801 17.2959 11.9601 17.1602 11.6291 17.1602C10.7862 17.1602 9.99871 17.3029 9.28812 17.5843C8.57531 17.8665 7.95821 18.2541 7.4539 18.7367C6.9721 19.1977 6.54272 19.7574 6.17766 20.4002C5.82571 21.0198 5.54078 21.6661 5.33104 22.3213C5.12847 22.9547 4.95905 23.6475 4.82747 24.3806C4.69688 25.1072 4.60858 25.7965 4.5648 26.4297C4.52177 27.0488 4.5 27.6931 4.5 28.3441C4.5 30.0363 5.03795 31.4063 6.09876 32.4167C7.14647 33.4137 8.53252 33.9192 10.2186 33.9192H25.8283C27.5139 33.9192 28.8999 33.4137 29.9479 32.4167C31.0089 31.407 31.5469 30.0366 31.5469 28.3438C31.5466 27.6906 31.5246 27.0463 31.4813 26.429ZM28.638 31.0402C27.9457 31.6991 27.0266 32.0194 25.828 32.0194H10.2186C9.01977 32.0194 8.10068 31.6991 7.40864 31.0405C6.72971 30.3942 6.39977 29.512 6.39977 28.3441C6.39977 27.7366 6.4198 27.1368 6.45987 26.561C6.49895 25.9961 6.57884 25.3756 6.69731 24.7162C6.8143 24.065 6.96319 23.4538 7.14028 22.9005C7.3102 22.37 7.54195 21.8446 7.82935 21.3386C8.10364 20.8563 8.41924 20.4425 8.76749 20.1091C9.09323 19.7972 9.5038 19.542 9.98758 19.3505C10.435 19.1734 10.9378 19.0765 11.4837 19.0619C11.5502 19.0973 11.6687 19.1648 11.8606 19.2899C12.2512 19.5444 12.7013 19.8348 13.199 20.1526C13.7599 20.5103 14.4826 20.8333 15.3461 21.112C16.2288 21.3975 17.1291 21.5424 18.0227 21.5424C18.9163 21.5424 19.8169 21.3975 20.6991 21.1123C21.5633 20.8331 22.2857 20.5103 22.8474 20.1521C23.3567 19.8267 23.7942 19.5447 24.1848 19.2899C24.3767 19.165 24.4952 19.0973 24.5617 19.0619C25.1078 19.0765 25.6106 19.1734 26.0583 19.3505C26.5418 19.542 26.9524 19.7975 27.2782 20.1091C27.6264 20.4423 27.942 20.8561 28.2163 21.3389C28.5039 21.8446 28.7359 22.3702 28.9056 22.9003C29.0829 23.4543 29.2321 24.0652 29.3488 24.7159C29.4671 25.3766 29.5472 25.9974 29.5863 26.5613V26.5618C29.6266 27.1354 29.6469 27.7349 29.6471 28.3441C29.6469 29.5122 29.3169 30.3942 28.638 31.0402Z"
+                fill="currentcolor"
+              />
+            </svg>
+            <div class="medium">حساب کاربری</div>
+          </a>
+        </li>
+
+        <!-- Stores navigation item -->
+        <li class="bottom-navigation__element text--center">
+          <a href="/irDecPreview/views/studio/discover.html">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              width="25"
+              height="24"
+              viewBox="0 0 25 24"
+              fill="none"
+            >
+              <path
+                d="M5.50391 10.7516L5.50392 10.7516C6.95605 14.1852 9.0331 17.2693 11.6773 19.9161C11.7663 20.0053 11.8833 20.05 12.0001 20.05H12.0004C12.1173 20.05 12.2339 20.0052 12.3231 19.9162L12.3232 19.9161C14.9668 17.2699 17.0435 14.1864 18.4957 10.7516C18.8637 9.88165 19.0502 8.95706 19.0502 8.00398C19.0502 7.05091 18.8637 6.12663 18.496 5.25699C18.1408 4.41641 17.6325 3.66158 16.9855 3.01421C16.3379 2.36565 15.5841 1.85644 14.7446 1.50156C13.0062 0.766148 10.9943 0.766148 9.25585 1.50156L9.25584 1.50156C8.41579 1.85706 7.66171 2.36626 7.01471 3.01423C6.36863 3.66067 5.85996 4.41518 5.50392 5.25697L5.50391 5.25699C5.13643 6.12694 4.95024 7.05091 4.95024 8.00398C4.95024 8.95706 5.13643 9.88103 5.50391 10.7516ZM9.61129 2.34341L9.61133 2.34339C10.352 2.02954 11.1385 1.86739 11.9501 1.861V1.86141H12.0001C12.8294 1.86141 13.6329 2.02401 14.3889 2.34401C15.119 2.65309 15.7751 3.09616 16.3393 3.66122L16.3393 3.66126C16.9031 4.22476 17.3455 4.88148 17.6549 5.61364L17.6549 5.61367C17.9748 6.36943 18.137 7.17383 18.137 8.00429C18.137 8.83474 17.9745 9.63914 17.6546 10.3949L17.6546 10.3949C16.308 13.5808 14.407 16.4531 12.0001 18.9416C9.59261 16.4531 7.69126 13.5795 6.34502 10.3952C6.02534 9.63885 5.8632 8.83414 5.8632 8.00398C5.8632 7.17385 6.02533 6.36976 6.3447 5.61337C6.65501 4.88055 7.09736 4.22321 7.66057 3.66034L7.66062 3.66029C8.22418 3.09555 8.88023 2.65248 9.61129 2.34341Z"
+                fill="currentcolor"
+                stroke="currentcolor"
+                stroke-width="0.1"
+              />
+              <path
+                d="M15.7792 17.9505L15.7556 17.9481L15.7388 17.965C15.5612 18.1439 15.3784 18.3204 15.1924 18.4963L15.1113 18.573L15.2225 18.5824C16.7924 18.716 18.0343 18.9393 18.8825 19.1887C19.3069 19.3135 19.6305 19.4441 19.8468 19.572C19.955 19.6359 20.0343 19.698 20.0859 19.7565C20.1377 19.8151 20.1585 19.8664 20.1585 19.9102C20.1585 19.9678 20.1225 20.0379 20.0313 20.1186C19.9411 20.1984 19.8042 20.282 19.6203 20.3665C19.2528 20.5353 18.7076 20.7033 18.0011 20.8521C16.5889 21.1496 14.5403 21.369 11.9999 21.369C9.45942 21.369 7.4109 21.1495 5.99872 20.8519C5.29229 20.703 4.7471 20.535 4.37968 20.3662C4.19577 20.2817 4.05884 20.1981 3.9687 20.1183C3.87751 20.0376 3.84147 19.9675 3.84147 19.91C3.84147 19.8662 3.86232 19.8149 3.91406 19.7563C3.96572 19.6978 4.04497 19.6357 4.15321 19.5717C4.36954 19.4439 4.69307 19.3132 5.11751 19.1885C5.96571 18.9391 7.20759 18.7158 8.77745 18.5822L8.88862 18.5728L8.80758 18.4961C8.62193 18.3204 8.43884 18.1436 8.26119 17.9648L8.24443 17.9479L8.22077 17.9502C6.75319 18.096 5.44244 18.3299 4.49727 18.6507C4.02496 18.8111 3.64071 18.9942 3.37358 19.2011C3.10658 19.408 2.95 19.6441 2.95 19.91C2.95 20.2833 3.25721 20.598 3.75401 20.8596C4.25442 21.123 4.96541 21.3425 5.81266 21.5184C7.50805 21.8704 9.76173 22.05 12.0001 22.05C14.2386 22.05 16.4922 21.8704 18.1875 21.5184C19.0347 21.3425 19.7457 21.123 20.246 20.8596C20.7428 20.598 21.05 20.2832 21.05 19.91C21.05 19.6442 20.8934 19.4081 20.6264 19.2012C20.3593 18.9943 19.975 18.8112 19.5027 18.6509C18.5576 18.33 17.2468 18.0961 15.7792 17.9505Z"
+                fill="currentcolor"
+                stroke="currentcolor"
+                stroke-width="0.1"
+              />
+            </svg>
+            <div class="medium">فروشگاه‌ها</div>
+          </a>
+        </li>
+
+        <!-- Categories navigation item -->
+        <li
+          class="category__overlay-toggler bottom-navigation__element text--center"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+          >
+            <path
+              d="M5.25 12.85H9C9.57022 12.85 10.1171 13.0765 10.5203 13.4797C10.9235 13.8829 11.15 14.4298 11.15 15V18.75C11.15 19.3202 10.9235 19.8671 10.5203 20.2703C10.1171 20.6735 9.57022 20.9 9 20.9H5.25C4.67978 20.9 4.13292 20.6735 3.72972 20.2703C3.32652 19.8671 3.1 19.3202 3.1 18.75V15C3.1 14.4298 3.32652 13.8829 3.72972 13.4797C4.13292 13.0765 4.67978 12.85 5.25 12.85ZM9.60104 19.351C9.76045 19.1916 9.85 18.9754 9.85 18.75V15C9.85 14.7746 9.76045 14.5584 9.60104 14.399C9.44163 14.2396 9.22543 14.15 9 14.15H5.25C5.02457 14.15 4.80837 14.2396 4.64896 14.399C4.48955 14.5584 4.4 14.7746 4.4 15V18.75C4.4 18.9754 4.48955 19.1916 4.64896 19.351C4.80837 19.5104 5.02457 19.6 5.25 19.6H9C9.22543 19.6 9.44163 19.5104 9.60104 19.351Z"
+              fill="currentcolor"
+              stroke="white"
+              stroke-width="0.2"
+            />
+            <path
+              d="M15 12.85H18.75C19.3202 12.85 19.8671 13.0765 20.2703 13.4797C20.6735 13.8829 20.9 14.4298 20.9 15V18.75C20.9 19.3202 20.6735 19.8671 20.2703 20.2703C19.8671 20.6735 19.3202 20.9 18.75 20.9H15C14.4298 20.9 13.8829 20.6735 13.4797 20.2703C13.0765 19.8671 12.85 19.3202 12.85 18.75V15C12.85 14.4298 13.0765 13.8829 13.4797 13.4797C13.8829 13.0765 14.4298 12.85 15 12.85ZM19.351 19.351C19.5104 19.1916 19.6 18.9754 19.6 18.75V15C19.6 14.7746 19.5104 14.5584 19.351 14.399C19.1916 14.2396 18.9754 14.15 18.75 14.15H15C14.7746 14.15 14.5584 14.2396 14.399 14.399C14.2396 14.5584 14.15 14.7746 14.15 15V18.75C14.15 18.9754 14.2396 19.1916 14.399 19.351C14.5584 19.5104 14.7746 19.6 15 19.6H18.75C18.9754 19.6 19.1916 19.5104 19.351 19.351Z"
+              fill="currentcolor"
+              stroke="white"
+              stroke-width="0.2"
+            />
+            <path
+              d="M5.25 3.1H9C9.57022 3.1 10.1171 3.32652 10.5203 3.72972C10.9235 4.13292 11.15 4.67978 11.15 5.25V9C11.15 9.57022 10.9235 10.1171 10.5203 10.5203C10.1171 10.9235 9.57022 11.15 9 11.15H5.25C4.67978 11.15 4.13292 10.9235 3.72972 10.5203C3.32652 10.1171 3.1 9.57022 3.1 9V5.25C3.1 4.67978 3.32652 4.13292 3.72972 3.72972C4.13292 3.32652 4.67978 3.1 5.25 3.1ZM9.60104 9.60104C9.76045 9.44163 9.85 9.22543 9.85 9V5.25C9.85 5.02457 9.76045 4.80837 9.60104 4.64896C9.44163 4.48955 9.22543 4.4 9 4.4H5.25C5.02457 4.4 4.80837 4.48955 4.64896 4.64896C4.48955 4.80837 4.4 5.02457 4.4 5.25V9C4.4 9.22543 4.48955 9.44163 4.64896 9.60104C4.80837 9.76045 5.02457 9.85 5.25 9.85H9C9.22543 9.85 9.44163 9.76045 9.60104 9.60104Z"
+              fill="currentcolor"
+              stroke="white"
+              stroke-width="0.2"
+            />
+            <path
+              d="M16.225 7.875V7.775H16.125H13.5C13.3276 7.775 13.1623 7.70652 13.0404 7.58462C12.9185 7.46272 12.85 7.29739 12.85 7.125C12.85 6.95261 12.9185 6.78728 13.0404 6.66538C13.1623 6.54348 13.3276 6.475 13.5 6.475H16.125H16.225V6.375V3.75C16.225 3.57761 16.2935 3.41228 16.4154 3.29038C16.5373 3.16848 16.7026 3.1 16.875 3.1C17.0474 3.1 17.2127 3.16848 17.3346 3.29038C17.4565 3.41228 17.525 3.57761 17.525 3.75V6.375V6.475H17.625H20.25C20.4224 6.475 20.5877 6.54348 20.7096 6.66538C20.8315 6.78728 20.9 6.95261 20.9 7.125C20.9 7.29739 20.8315 7.46272 20.7096 7.58462C20.5877 7.70652 20.4224 7.775 20.25 7.775H17.625H17.525V7.875V10.5C17.525 10.6724 17.4565 10.8377 17.3346 10.9596C17.2127 11.0815 17.0474 11.15 16.875 11.15C16.7026 11.15 16.5373 11.0815 16.4154 10.9596C16.2935 10.8377 16.225 10.6724 16.225 10.5V7.875Z"
+              fill="currentcolor"
+              stroke="white"
+              stroke-width="0.2"
+            />
+          </svg>
+          <div class="medium">دسته‌بندی‌ها</div>
+        </li>
+      </ul>
+    </div>
+    <!-- Footer section -->
+    <footer class="footer__container">
+      <div class="footer__wrapper">
+        <div class="container">
+          <!-- Main container for the mobile section -->
+          <div class="mobile-section">
+            <!-- Social icons section -->
+            <div class="row social__icons-wrapper">
+              <div class="social__icon-mbl-section">
+                <!-- Social icons heading -->
+                <p class="text--lg extrabold social__icon-heading">
+                  محتوا را دوست دارید؟ ما را اینجا دنبال کنید
+                </p>
+                <!-- Social icons wrapper -->
+                <div class="social__icon-wrapper">
+                  <!-- Instagram icon placeholder -->
+                  <div>
+                    <img
+                      loading="lazy"
+                      class="social__icons pointer"
+                      src="https://placehold.co/50x50"
+                      alt="آیکون اینستاگرام"
+                    />
+                  </div>
+                  <!-- Facebook icon placeholder -->
+                  <div>
+                    <img
+                      loading="lazy"
+                      class="social__icons pointer"
+                      src="https://placehold.co/50x50"
+                      alt="آیکون فیسبوک"
+                    />
+                  </div>
+                  <!-- Pinterest icon placeholder -->
+                  <div>
+                    <img
+                      loading="lazy"
+                      class="social__icons pointer"
+                      src="https://placehold.co/50x50"
+                      alt="آیکون پینترست"
+                    />
+                  </div>
+                  <!-- LinkedIn icon placeholder -->
+                  <div>
+                    <img
+                      loading="lazy"
+                      class="social__icons pointer"
+                      src="https://placehold.co/50x50"
+                      alt="آیکون لینکدین"
+                    />
+                  </div>
+                  <!-- YouTube icon placeholder -->
+                  <div>
+                    <img
+                      loading="lazy"
+                      class="social__icons pointer"
+                      src="https://placehold.co/50x50"
+                      alt="آیکون یوتیوب"
+                    />
+                  </div>
+                  <!-- Twitter icon placeholder -->
+                  <div>
+                    <img
+                      loading="lazy"
+                      class="social__icons pointer"
+                      src="https://placehold.co/50x50"
+                      alt="آیکون توییتر"
+                    />
+                  </div>
+                </div>
+              </div>
+              <!-- Mobile banner section -->
+              <div class="mobile-banner">
+                <a href="/" class="ftr-google-store-link no-underline">
+                  <img
+                    loading="lazy"
+                    height="136"
+                    width="332"
+                    src="https://placehold.co/332x136"
+                    alt="بنر موبایل"
+                    class="banner-img image1"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="footer__content-mobile">
+              <!-- Useful links section -->
+              <div class="row">
+                <div class="useful-link-section">
+                  <p class="useful-link-mob text--lg extrabold">
+                    لینک‌های مفید
+                  </p>
+                  <ul>
+                    <li
+                      class="useful-link-mobile text--md palette--secondary pointer"
+                    >
+                      <a href="/irDecPreview/views/studio/partnership.html">
+                        همکاری با ما <span> | </span>
+                      </a>
+                    </li>
+                    <li
+                      class="useful-link-mobile text--md palette--secondary pointer"
+                    >
+                      <a href="/irDecPreview/views/manufacturer/list.html">
+                        برندهای ما <span> | </span>
+                      </a>
+                    </li>
+
+                    <li
+                      class="useful-link-mobile text--md palette--secondary pointer"
+                    >
+                      <a href="/irDecPreview/views/studio/discover.html">
+                        فروشگاه‌ها <span> | </span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Legal pages section -->
+              <div class="legal-page-mobile">
+                <div class="container">
+                  <div class="row legal-pages-section">
+                    <div class="pointer legal-pages-wrapper">
+                      <div
+                        class="text--md palette--secondary legal-pages-mobile"
+                      >
+                      <a href="/irDecPreview/views/help/policies.html">
+                        سیاست حریم خصوصی <span> | </span>
+                      </a>
+                      </div>
+                    </div>
+                    <div class="pointer legal-pages-wrapper">
+                      <div
+                        class="text--md palette--secondary legal-pages-mobile"
+                      >
+                      <a href="/irDecPreview/views/help/policies.html">
+                      
+                        قوانین استفاده
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Accepted payment cards section -->
+              <div class="accept-cards-mbl">
+                <div class="accept-cards">
+                  <p class="text--lg extrabold accept-header">
+                    ما پذیراییم
+                  </p>
+                  <div class="accept-card-icons">
+                    <div class="accept-card-icon">
+                      <img
+                        loading="lazy"
+                        height="35"
+                        width="56"
+                        src="https://placehold.co/56x35"
+                        alt="کارت ویزا"
+                        class="card-icons"
+                      />
+                    </div>
+                    <div class="accept-card-icon">
+                      <img
+                        loading="lazy"
+                        height="35"
+                        width="56"
+                        src="https://placehold.co/56x35"
+                        alt="کارت مسترکارت"
+                        class="card-icons"
+                      />
+                    </div>
+                    <div class="accept-card-icon">
+                      <img
+                        loading="lazy"
+                        height="35"
+                        width="56"
+                        src="https://placehold.co/56x35"
+                        alt="کارت maestro"
+                        class="card-icons"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Popular categories section -->
+              <div class="second-row-section-mbl">
+                <div class="row">
+                  <div class="column xs-6">
+                    <p class="text--lg extrabold popular-category-heading">
+                      دسته‌بندی‌های محبوب
+                    </p>
+                    <ul>
+                      <li
+                        class="text--md palette--secondary footer__brands pointer"
+                      >
+                        <a href="/irDecPreview/views/products/category.html">مبل</a>
+                      </li>
+                      <li
+                        class="text--md palette--secondary footer__brands pointer"
+                      >
+                        <a href="/irDecPreview/views/products/category.html">مبل تختخواب شو</a>
+                      </li>
+                      <li
+                        class="text--md palette--secondary footer__brands pointer"
+                      >
+                        <a href="/irDecPreview/views/products/category.html">میز ناهارخوری</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="column xs-6">
+                    <p class="text--lg extrabold popular-category-heading">
+                      برندهای محبوب
+                    </p>
+                    <ul>
+                      <li
+                        class="text--md palette--secondary footer__brands pointer"
+                      >
+                        <a href="/irDecPreview/views/manufacturer/products.html">برند ۱</a>
+                      </li>
+                      <li
+                        class="text--md palette--secondary footer__brands pointer"
+                      >
+                        <a href="/irDecPreview/views/manufacturer/products.html">برند ۲</a>
+                      </li>
+                      <li
+                        class="text--md palette--secondary footer__brands pointer"
+                      >
+                        <a href="/irDecPreview/views/manufacturer/products.html">برند ۳</a>
+                      </li>
+                    </ul>
+                  </div>
+              
+                </div>
+              </div>
+
+              <!-- Copyright section -->
+              <div class="row copyright-text-section">
+                <p class="text--md palette--secondary copyright-text">
+                  © کپی‌رایت شرکت
+                </p>
+              </div>
+            </div>
+            <!-- Show more button -->
+            <button
+              type="button"
+              class="footer__content-toggle btn__container btn__outline"
+            >
+              نمایش بیشتر
+            </button>
+          </div>
+
+          <div class="desktop-section">
+            <!-- First row of footer columns -->
+            <div class="first-row-section">
+              <div class="row pt--42">
+                <!-- Corporate section -->
+                <div class="footer__col">
+                  <p class="text--lg extrabold">شرکت</p>
+                  <ul class="ul-flex">
+                    <li class="text--md palette--secondary mb--8 pointer">
+                      <a href="/irDecPreview/views/help/contactus.html">درباره ما</ش>
+                    </li>
+                    <li class="text--md palette--secondary mb--8 pointer">
+                      <a href="/irDecPreview/views/manufacturer/list.html">برند ها</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- Useful links section -->
+                <div class="footer__col">
+                  <p class="text--lg extrabold">لینک‌های مفید</p>
+                  <ul class="ul-flex">
+                    <li class="text--md palette--secondary mb--8 pointer">
+                      <a href="/irDecPreview/views/studio/cities.html">فروشگاه‌ها</a>
+                    </li>
+                    <li class="text--md palette--secondary mb--8 pointer">
+                      <a href="/irDecPreview/views/studio/partnership.html">همکاری با ما</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- Partner with us section -->
+                <div class="footer__col">
+                  <p class="text--lg extrabold">حساب کاربری</p>
+                  <ul class="ul-flex">
+                    <li class="text--md palette--secondary mb--8 pointer">
+                      <a href="/irDecPreview/views/account/wishlist.html">علاقه متدی ها</a>
+                    </li>
+                    <li class="text--md palette--secondary mb--8 pointer">
+                      <a href="/irDecPreview/views/account/orders.html">سفارشات</a>
+                    </li>
+
+                  </ul>
+                </div>
+
+                <!-- Need help section -->
+                <div class="footer__col">
+                  <p class="text--lg extrabold">نیاز به کمک دارید؟</p>
+                  <ul class="ul-flex">
+                    <li class="text--md palette--secondary mb--8 pointer">
+                      <a href="/irDecPreview/views/help/faq">سوالات متداول</a>
+                    </li>
+                    <li class="text--md palette--secondary mb--8 pointer">
+                      <a href="/irDecPreview/views/help/contactus.html">تماس با ما</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- Brand proposition section -->
+                <div class="footer__col">             
+                  <p class="text--lg extrabold">دانلود اپلیکیشن</p>
+                  <div class="row store-images-wrapper">
+                    <a class="column sm-6 no-underline" href="/">
+                      <img
+                        height="36"
+                        width="110"
+                        src="https://placehold.co/110x36"
+                        alt="اپ استور"
+                        class="store-images"
+                      />
+                    </a>
+                    <a class="column sm-6 no-underline" href="/">
+                      <img
+                        height="36"
+                        width="110"
+                        src="https://placehold.co/110x36"
+                        alt="گوگل پلی"
+                        class="store-images"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Second row of footer columns -->
+            <div class="row second-row-section">
+              <!-- Popular categories section -->
+              <div class="footer__second-col">
+                <p class="text--lg extrabold">دسته‌بندی‌های محبوب</p>
+                <ul>
+                  <li class="text--md palette--secondary footer__brands pointer">
+                    <a href="/irDecPreview/views/products/category.html">مبلمان،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer__brands pointer">
+                    <a href="/irDecPreview/views/products/category.html">مبل بخشی،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer__brands pointer">
+                    <a href="/irDecPreview/views/products/category.html">ست مبلمان،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer__brands pointer">
+                    <a href="/irDecPreview/views/products/category.html">تخت‌های دو نفره،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer__brands pointer">
+                    <a href="/irDecPreview/views/products/category.html">تخت‌های بزرگ،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer__brands pointer">
+                    <a href="/irDecPreview/views/products/category.html">میز قهوه،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer__brands pointer">
+                    <a href="/irDecPreview/views/products/category.html">ست ناهارخوری،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer__brands pointer">
+                    <a href="/irDecPreview/views/products/category.html">صندلی راحتی،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer__brands pointer">
+                    <a href="/irDecPreview/views/products/category.html">مبل تختخواب شو،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer__brands pointer">
+                    <a href="/irDecPreview/views/products/category.html">تشک دو نفره،</a>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Popular brands section -->
+              <div class="footer__second-col">
+                <p class="text--lg extrabold">برندهای محبوب</p>
+                <ul>
+                  <li class="text--md palette--secondary footer__brands pointer">
+                    <a href="/irDecPreview/views/manufacturer/products.html">برند ۱،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer__brands pointer">
+                    <a href="/irDecPreview/views/manufacturer/products.html">برند ۲،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer__brands pointer">
+                    <a href="/irDecPreview/views/manufacturer/products.html">برند ۳،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer__brands pointer">
+                    <a href="/irDecPreview/views/manufacturer/products.html">برند ۴،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer__brands pointer">
+                    <a href="/irDecPreview/views/manufacturer/products.html">برند ۵،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer__brands pointer">
+                    <a href="/irDecPreview/views/manufacturer/products.html">برند ۶،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer__brands pointer">
+                    <a href="/irDecPreview/views/manufacturer/products.html">برند ۷،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer__brands pointer">
+                    <a href="/irDecPreview/views/manufacturer/products.html">برند ۸،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer__brands pointer">
+                    <a href="/irDecPreview/views/manufacturer/products.html">برند ۹،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer__brands pointer">
+                    <a href="/irDecPreview/views/manufacturer/products.html">برند ۱۰</a>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Popular cities section -->
+              <div class="footer__second-col">
+                <p class="text--lg extrabold">شهرهای محبوب</p>
+                <ul>
+                  <li class="text--md palette--secondary footer__brands">
+                    <a href="/irDecPreview/views/studio/discover.html">تهران،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer__brands">
+                    <a href="/irDecPreview/views/studio/discover.html">مشهد،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer__brands">
+                    <a href="/irDecPreview/views/studio/discover.html">اصفهان،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer__brands">
+                    <a href="/irDecPreview/views/studio/discover.html">شیراز،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer__brands">
+                    <a href="/irDecPreview/views/studio/discover.html">تبریز،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer__brands">
+                    <a href="/irDecPreview/views/studio/discover.html">کرج،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer__brands">
+                    <a href="/irDecPreview/views/studio/discover.html">قم،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer__brands">
+                    <a href="/irDecPreview/views/studio/discover.html">اهواز،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer__brands">
+                    <a href="/irDecPreview/views/studio/discover.html">کرمانشاه،</a>
+                  </li>
+                  <li class="text--md palette--secondary footer__brands">
+                    <a href="/irDecPreview/views/studio/discover.html">رشت</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Accept cards and social icons section -->
+            <div class="row accept-cards-social__icons">
+              <!-- Accept cards section -->
+              <div class="accept-cards">
+                <p class="text--lg extrabold accept-header">ما می‌پذیریم</p>
+                <div class="accept-card-icons">
+                  <div class="accept-card-icon">
+                    <img
+                      height="35"
+                      width="56"
+                      src="https://placehold.co/56x35"
+                      alt="کارت ویزا"
+                      class="card-icons"
+                    />
+                  </div>
+                  <div class="accept-card-icon">
+                    <img
+                      height="35"
+                      width="56"
+                      src="https://placehold.co/56x35"
+                      alt="کارت مسترکارت"
+                      class="card-icons"
+                    />
+                  </div>
+                  <div class="accept-card-icon">
+                    <img
+                      height="35"
+                      width="56"
+                      src="https://placehold.co/56x35"
+                      alt="کارت maestro"
+                      class="card-icons"
+                    />
+                  </div>
+                  <div class="accept-card-icon">
+                    <img
+                      height="35"
+                      width="56"
+                      src="https://placehold.co/56x35"
+                      alt="کارت American Express"
+                      class="card-icons"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <!-- Social icons section -->
+              <div class="social__icon-section">
+                <p class="text--lg extrabold social__icon-heading">
+                  ما را در شبکه‌های اجتماعی دنبال کنید
+                </p>
+                <div class="social__icon-wrapper">
+                  <div>
+                    <img
+                      class="social__icons pointer"
+                      src="https://placehold.co/32x32"
+                      alt="اینستاگرام"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      class="social__icons pointer"
+                      src="https://placehold.co/32x32"
+                      alt="فیسبوک"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      class="social__icons pointer"
+                      src="https://placehold.co/32x32"
+                      alt="پینترست"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      class="social__icons pointer"
+                      src="https://placehold.co/32x32"
+                      alt="لینکدین"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      class="social__icons pointer"
+                      src="https://placehold.co/32x32"
+                      alt="یوتیوب"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      class="social__icons pointer"
+                      src="https://placehold.co/32x32"
+                      alt="توییتر"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Legal pages section -->
+            <div class="legal-pages-desktop">
+              <div class="container">
+                <div class="row legal-pages-section">
+                  <div class="pointer legal-pages-wrapper">
+                    <a href="/irDecPreview/views/help/policies.html" class="text--md palette--secondary">
+                      قوانین استفاده
+                    </a>
+                  </div>
+                  <div class="pointer legal-pages-wrapper">
+                    <a href="/irDecPreview/views/help/policies.html" class="text--md palette--secondary">حریم خصوصی</a>
+                  </div>
+                  <div class="pointer legal-pages-wrapper">
+                    <a href="/irDecPreview/views/help/contactus.html" class="text--md palette--secondary">
+                      رسیدگی به شکایات
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Copyright section -->
+            <div class="row copyright-text-section">
+              <p class="text--md palette--secondary copyright-text">
+                © تمامی حقوق محفوظ است
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+        <div
+          data-toggler="review-drawer"
+          class="overlay__container anchor--right"
+        >
+          <!-- Close Button -->
+          <a
+            class="overlay__close"
+            data-rule="dialog"
+            data-target="review-drawer"
+            >&nbsp;</a
+          >
+
+          <!-- Header -->
+
+          <!-- Body -->
+          <div class="body p--12 review-form">
+            <div class="text--xl bold mb--12 text--center palette--heading">
+              ثبت نظر
+            </div>
+            <!-- <label class="field__box-label">امتیاز</label>
+
+    <p><span id="selected-rating">0</span>/5</p> -->
+            <div class="review-rating-container">
+              <span data-rating="1"
+                ><svg
+                  viewBox="0 0 14 13"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="28"
+                  height="26"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="m7 10.444-3.82 1.813.544-4.193L.818 4.992l4.157-.779L7 .501l2.025 3.712 4.157.779-2.906 3.072.545 4.193L7 10.444z"
+                  ></path></svg
+              ></span>
+              <span data-rating="2"
+                ><svg
+                  viewBox="0 0 14 13"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="28"
+                  height="26"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="m7 10.444-3.82 1.813.544-4.193L.818 4.992l4.157-.779L7 .501l2.025 3.712 4.157.779-2.906 3.072.545 4.193L7 10.444z"
+                  ></path></svg
+              ></span>
+              <span data-rating="3"
+                ><svg
+                  viewBox="0 0 14 13"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="28"
+                  height="26"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="m7 10.444-3.82 1.813.544-4.193L.818 4.992l4.157-.779L7 .501l2.025 3.712 4.157.779-2.906 3.072.545 4.193L7 10.444z"
+                  ></path></svg
+              ></span>
+              <span data-rating="4"
+                ><svg
+                  viewBox="0 0 14 13"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="28"
+                  height="26"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="m7 10.444-3.82 1.813.544-4.193L.818 4.992l4.157-.779L7 .501l2.025 3.712 4.157.779-2.906 3.072.545 4.193L7 10.444z"
+                  ></path></svg
+              ></span>
+              <span data-rating="5"
+                ><svg
+                  viewBox="0 0 14 13"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="28"
+                  height="26"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="m7 10.444-3.82 1.813.544-4.193L.818 4.992l4.157-.779L7 .501l2.025 3.712 4.157.779-2.906 3.072.545 4.193L7 10.444z"
+                  ></path></svg
+              ></span>
+            </div>
+            <textarea
+              name="review"
+              rows="6"
+              id=""
+              class="field__box column"
+              placeholder="متن"
+            ></textarea>
+            <button
+              type="button"
+              class="btn__container btn__size--large btn__primary"
+            >
+              ثبت
+            </button>
+          </div>
+        </div>
         <!-- recently -->
       </div>
     </main>
-    <script src="/lib/jquery/jquery.min.js"></script>
-    <script src="/lib/gallery/gallery.js"></script>
-    <script src="/lib/gallery/magnific-popup.js"></script>
-    <script src="/scripts/locate.js"></script>
-    <script src="/scripts/productGallery.js"></script>
-    <script src="/scripts/layout.js"></script>
-    <script src="/scripts/drawer.js"></script>
-    <script src="/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="/irDecPreview/lib/jquery/jquery.min.js"></script>
+    <script src="/irDecPreview/lib/gallery/gallery.js"></script>
+    <script src="/irDecPreview/lib/gallery/magnific-popup.js"></script>
+    <script src="/irDecPreview/scripts/locate.js"></script>
+    <script src="/irDecPreview/scripts/productGallery.js"></script>
+    <script src="/irDecPreview/scripts/layout.js"></script>
+    <script src="/irDecPreview/scripts/drawer.js"></script>
+    <script src="/irDecPreview/lib/owlcarousel/owl.carousel.min.js"></script>
 
     <script>
       $(document).ready(function () {
-    // Initialize Owl Carousel
-    const owl = $(".mobile-carousel").owlCarousel({
-      items: 1, // Single item carousel
-      loop: true, // Infinite loop
-      autoplay: true, // Auto-play
-      autoplayTimeout: 3000, // Auto-play interval
-      autoplayHoverPause: true, // Pause on hover
-      // dots: false, // Disable default dots
-      nav: false, // Disable navigation arrows
-      autoWidth:true,
-      rtl:true,
-      // autoHeight:true
-    });
-    const palette = $(".palette-carousel").owlCarousel({
-      items: 6, // Single item carousel
-      loop: true, // Infinite loop
-      autoplay: true, // Auto-play
-      autoplayTimeout: 3000, // Auto-play interval
-      autoplayHoverPause: true, // Pause on hover
-      dots: false, // Disable default dots
-      nav: true, // Disable navigation arrows
-      autoWidth:true,
-      rtl:true,
-      // autoHeight:true
-    });
-  // Get the sticky header and the CTA element
-  const $stickyHeader = $(".details-sticky-header");
-  const $ctaElement = $(".details-cta");
+        // Initialize Owl Carousel
+        const owl = $(".mobile-carousel").owlCarousel({
+          items: 1, // Single item carousel
+          loop: true, // Infinite loop
+          autoplay: true, // Auto-play
+          autoplayTimeout: 6000, // Auto-play interval
+          autoplayHoverPause: true, // Pause on hover
+          // dots: false, // Disable default dots
+          nav: false, // Disable navigation arrows
+          rtl: true,
+          // autoHeight:true
+        });
+        const palette = $(".palette-carousel").owlCarousel({
+          items: 6, // Single item carousel
+          loop: true, // Infinite loop
+          autoplay: true, // Auto-play
+          autoplayTimeout: 3000, // Auto-play interval
+          autoplayHoverPause: true, // Pause on hover
+          dots: false, // Disable default dots
+          nav: true, // Disable navigation arrows
+          autoWidth: true,
+          rtl: true,
+          // autoHeight:true
+        });
+        // Get the sticky header and the CTA element
+        const $stickyHeader = $(".details-sticky-header");
+        const $ctaElement = $(".details-cta");
 
-  if ($stickyHeader.length && $ctaElement.length) {
-    // Function to handle scroll events
-    function handleScroll() {
-      // Get the bounding rectangle of the CTA element
-      const ctaRect = $ctaElement[0].getBoundingClientRect();
+        if ($stickyHeader.length && $ctaElement.length) {
+          // Function to handle scroll events
+          function handleScroll() {
+            // Get the bounding rectangle of the CTA element
+            const ctaRect = $ctaElement[0].getBoundingClientRect();
 
-      // Check if the user has scrolled past the CTA element
-      if (ctaRect.bottom <= 0) {
-        // Set the top position of the sticky header to 46px
-        $stickyHeader.css("top", "46px");
-      } else {
-        // Reset the top position of the sticky header
-        $stickyHeader.css("top", "-100vh");
-      }
-    }
+            // Check if the user has scrolled past the CTA element
+            if (ctaRect.bottom <= 0) {
+              // Set the top position of the sticky header to 46px
+              $stickyHeader.css("top", "46px");
+            } else {
+              // Reset the top position of the sticky header
+              $stickyHeader.css("top", "-100vh");
+            }
+          }
 
-    // Attach the scroll event listener
-    $(window).on("scroll", handleScroll);
-  } else {
-    console.error("Required elements not found in the DOM.");
-  }
-});
+          // Attach the scroll event listener
+          $(window).on("scroll", handleScroll);
+        } else {
+          console.error("Required elements not found in the DOM.");
+        }
+
+        // Handle star click
+        let selectedRating = 0;
+
+        // Handle star click
+        $(".review-rating-container span").click(function () {
+          selectedRating = $(this).data("rating");
+          $("#selected-rating").text(selectedRating);
+
+          // Update the stars' fill color
+          $(".review-rating-container span").each(function (index) {
+            console.log(selectedRating, index);
+            if (index < selectedRating) {
+              $(this).find("svg").addClass("filled"); // Fill selected stars
+            } else {
+              $(this).find("svg").removeClass("filled"); // Reset unselected stars
+            }
+          });
+        });
+
+        // Handle submit button click
+        $("#submit-rating").click(function () {
+          alert("You rated " + selectedRating + " stars!");
+          // You can send the rating to your server here using AJAX
+        });
+      });
     </script>
   </body>
 </html>

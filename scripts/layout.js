@@ -4,6 +4,7 @@ $(document).ready(function () {
   const $navMenuWrapper = $(".navbar__nav-menu-ext-wrap");
   const $navbar = $(".navbar__main-menu-container");
   const $overlayToggler = $(".category__overlay-toggler");
+  const $overlayCat = $(".category__overlay");
   const $bottomNav = $(".bottom-navigation__container");
   const $footerToggle = $('.footer__content-toggle');
   const $footerContent = $('.footer__content-mobile');
@@ -18,7 +19,7 @@ $(document).ready(function () {
 
       if ($(window).width() < 768) {
           if (!$navbar.hasClass("categories-open")) {
-              if (scrollTop >= navbarOffset) {
+              if (scrollTop >= navbarOffset && scrollTop !== 0) {
                   if (scrollTop > lastScrollTop) {
                       $navbar.removeClass("header-scroll");
                   } else {
@@ -82,6 +83,7 @@ $(document).ready(function () {
       if ($(window).width() < 768) {
           $navbar.toggleClass("categories-open");
           $bottomNav.toggleClass("categories-open");
+          $overlayCat.toggleClass("open")
           if ($navbar.hasClass("categories-open")) {
               $navbar.addClass("header-scroll");
           }

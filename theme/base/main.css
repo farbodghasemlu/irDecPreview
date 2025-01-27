@@ -1,7 +1,7 @@
-@import "/theme/base/spacing.css";
-@import "/theme/base/typography.css";
-@import "/theme/base/gridsystem.css";
-@import "/theme/base/palette.css";
+@import "/irDecPreview/theme/base/spacing.css";
+@import "/irDecPreview/theme/base/typography.css";
+@import "/irDecPreview/theme/base/gridsystem.css";
+@import "/irDecPreview/theme/base/palette.css";
 html {
   text-size-adjust: 100%;
 }

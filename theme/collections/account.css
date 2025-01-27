@@ -1,10 +1,10 @@
-@import "/theme/base/main.css";
-@import "/theme/components/buttons.css";
-@import "/theme/components/form.css";
-@import "/theme/components/cards.css";
-@import "/theme/components/drawer.css";
-@import "/theme/components/pincode.css";
-@import "/theme/components/dropdown.css";
+@import "/irDecPreview/theme/base/main.css";
+@import "/irDecPreview/theme/components/buttons.css";
+@import "/irDecPreview/theme/components/form.css";
+@import "/irDecPreview/theme/components/cards.css";
+@import "/irDecPreview/theme/components/drawer.css";
+@import "/irDecPreview/theme/components/pincode.css";
+@import "/irDecPreview/theme/components/dropdown.css";
 
 .user-info__edit {
   color: #009dc3;
@@ -562,7 +562,7 @@
   opacity: 0.8;
 }
 .orders__searchbtn {
-  background: #fff url(/assets/icons/search.svg) no-repeat right center;
+  background: #fff url(/irDecPreview/assets/icons/search.svg) no-repeat right center;
   border: 0;
   cursor: pointer;
   height: 20px;

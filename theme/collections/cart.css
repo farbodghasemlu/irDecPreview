@@ -1,13 +1,13 @@
-@import "/theme/base/main.css";
-@import "/theme/components/buttons.css";
-@import "/theme/components/cards.css";
-@import "/theme/components/carousel.css";
-@import "/theme/components/accordion.css";
-/* @import "/theme/collections/filters.css"; */
-@import "/theme/components/form.css";
-@import "/theme/components/datepicker.css";
-@import "/theme/components/dropdown.css";
-@import "/theme/components/drawer.css";
+@import "/irDecPreview/theme/base/main.css";
+@import "/irDecPreview/theme/components/buttons.css";
+@import "/irDecPreview/theme/components/cards.css";
+@import "/irDecPreview/theme/components/carousel.css";
+@import "/irDecPreview/theme/components/accordion.css";
+/* @import "/irDecPreview/theme/collections/filters.css"; */
+@import "/irDecPreview/theme/components/form.css";
+@import "/irDecPreview/theme/components/datepicker.css";
+@import "/irDecPreview/theme/components/dropdown.css";
+@import "/irDecPreview/theme/components/drawer.css";
 .checkout__container{
   display: flex;
       flex-direction: column;
@@ -2379,7 +2379,7 @@ span.ng-tooltip {
   .dropdown-holder
   .dropdown-main
   input {
-  background-image: url(/assets/icons/search.svg);
+  background-image: url(/irDecPreview/assets/icons/search.svg);
   background-repeat: no-repeat;
   background-position-y: center;
   background-position-x: 8px;

@@ -1,8 +1,4 @@
-.btn__outline {
-  border: 1px solid #009dc3;
-  color: #009dc3;
-  width: 35%;
-}
+
 @media only screen and (max-width: 767px) {
   .btn__outline {
     width: 45%;

@@ -25,7 +25,7 @@ images/: Optimized images for products, banners, and other visuals.
 > Notes:
 All image paths in views are relative to the assets/ folder. For example:
 ```
-<img src="/assets/images/product.jpg" alt="Product Image">
+<img src="/irDecPreview/assets/images/product.jpg" alt="Product Image">
 ```
 If new images are added, they should be placed in the appropriate subfolder.
 ### 2. lib/
